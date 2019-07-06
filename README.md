@@ -1,7 +1,5 @@
 Big Shoulders for the City of Chicago
 
-included: SemiBold and ExtraBold in OTF, WOFF, and WOFF2
-
 updated as of 06/11/2019
 
 added instructions for CSS

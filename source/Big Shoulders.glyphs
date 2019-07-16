@@ -1,8 +1,5 @@
 {
 .appVersion = "1246";
-DisplayStrings = (
-"/ccedillaacute é/emacronacute í/idieresisacute/lacute/nacute ó/ohornacute/omacronacute/oslashacute/otildeacute/racute/sacute/sacutedotaccent ú/udieresisacute/uhornacute/utildeacute/wacute ý/zacute/aacute.ss01/oneeighth/threeeighths/brevecomb_tildecomb"
-);
 classes = (
 {
 automatic = 1;
@@ -22,6 +19,11 @@ value = (
 {
 Name = Weight;
 Tag = wght;
+},
+{
+Hidden = 1;
+Name = "Optical size";
+Tag = opsz;
 }
 );
 },
@@ -8786,19 +8788,91 @@ unicode = 0156;
 },
 {
 glyphname = Rdblgrave;
-lastChange = "2019-06-16 01:49:48 +0000";
+lastChange = "2019-07-16 16:03:01 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = R;
+name = bottom;
+position = "{147, 0}";
 },
 {
-name = dblgravecomb.case;
-transform = "{1, 0, 0, 1, -48, 200}";
+name = top;
+position = "{132, 878}";
 }
 );
 layerId = "3B122060-26E0-4730-9241-82784E6CB359";
+paths = (
+{
+closed = 1;
+nodes = (
+"141 325 LINE SMOOTH",
+"200 325 OFFCURVE",
+"225 352 OFFCURVE",
+"228 418 CURVE SMOOTH",
+"232 502 OFFCURVE",
+"232 599 OFFCURVE",
+"228 707 CURVE SMOOTH",
+"225 773 OFFCURVE",
+"200 800 OFFCURVE",
+"142 800 CURVE SMOOTH",
+"71 800 LINE",
+"71 780 LINE",
+"142 780 LINE SMOOTH",
+"188 780 OFFCURVE",
+"206 759 OFFCURVE",
+"208 707 CURVE SMOOTH",
+"211 611 OFFCURVE",
+"211 514 OFFCURVE",
+"208 418 CURVE SMOOTH",
+"206 366 OFFCURVE",
+"188 345 OFFCURVE",
+"141 345 CURVE SMOOTH",
+"75 345 LINE",
+"75 325 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"80 0 LINE",
+"80 800 LINE",
+"60 800 LINE",
+"60 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"224 0 LINE",
+"246 0 LINE",
+"171 338 LINE",
+"149 338 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"116 829 LINE",
+"116 830 LINE",
+"46 878 LINE",
+"22 878 LINE",
+"22 877 LINE",
+"92 829 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"176 829 LINE",
+"176 830 LINE",
+"106 878 LINE",
+"82 878 LINE",
+"82 877 LINE",
+"152 829 LINE"
+);
+}
+);
 width = 276;
 },
 {
@@ -63914,8 +63988,8 @@ fraction = 20;
 };
 };
 };
-manufacturer = "XO, Pretty";
-manufacturerURL = xo.houseofpretty.com;
+manufacturer = "XO Type Co";
+manufacturerURL = xotype.co;
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {

@@ -1,5 +1,11 @@
 Big Shoulders for the City of Chicago
 
+updated as of 08/07/2019
+
+added Optical Size axis, so the family is now 16 fonts: Big Shoulders Text (in 8 weights) and Big Shoulders Display (in 8 weights).
+
+the family name is Big Shoulders; styles appear in a style submenu with text and Display interleaved.
+
 updated as of 06/11/2019
 
 added instructions for CSS

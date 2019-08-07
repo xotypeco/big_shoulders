@@ -111746,7 +111746,6 @@ instanceInterpolations = {
 "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 0.83875;
 "3B122060-26E0-4730-9241-82784E6CB359" = 0.16125;
 };
-isBold = 1;
 name = "Text ExtraBold";
 weightClass = ExtraBold;
 },

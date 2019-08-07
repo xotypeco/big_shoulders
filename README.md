@@ -8,6 +8,8 @@ the Variable Font family name is Big Shoulders; styles appear in a style submenu
 
 the OTF and TTF family names are split into Big Shoulders Text and Big Shoulders Display; you’ll see both with an 8-weight submenu, from Thin to Black.
 
+use Big Shoulders Text for sizes up to 72 point. use Big Shoulders Display for anything larger.
+
 updated as of 06/11/2019
 
 added instructions for CSS

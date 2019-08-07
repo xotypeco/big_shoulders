@@ -4,7 +4,9 @@ updated as of 08/07/2019
 
 added Optical Size axis, so the family is now 16 fonts: Big Shoulders Text (in 8 weights) and Big Shoulders Display (in 8 weights).
 
-the family name is Big Shoulders; styles appear in a style submenu with text and Display interleaved.
+the Variable Font family name is Big Shoulders; styles appear in a style submenu with text and Display interleaved.
+
+the OTF and TTF family names are split into Big Shoulders Text and Big Shoulders Display; you’ll see both with an 8-weight submenu, from Thin to Black.
 
 updated as of 06/11/2019
 

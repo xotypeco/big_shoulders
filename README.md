@@ -1,4 +1,4 @@
-Big Shoulders for the City of Chicago
+Big Shoulders for the City of Chicago, from Patric King (pk@houseofpretty.com) for XO Type Co (xotype.co)
 
 updated as of 08/07/2019
 

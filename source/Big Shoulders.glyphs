@@ -111303,7 +111303,7 @@ instanceInterpolations = {
 "3B122060-26E0-4730-9241-82784E6CB359" = 1;
 };
 name = Thin;
-weightClass = UltraLight;
+weightClass = Thin;
 },
 {
 customParameters = (
@@ -111564,7 +111564,7 @@ instanceInterpolations = {
 "3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 1;
 };
 name = Thin;
-weightClass = UltraLight;
+weightClass = Thin;
 },
 {
 customParameters = (

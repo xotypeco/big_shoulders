@@ -1,5 +1,9 @@
 Big Shoulders for the City of Chicago, from Patric King (pk@houseofpretty.com) for XO Type Co (xotype.co)
 
+updated as of 08/14/2019
+
+changed keyboard combo to get a Chicago star. now you type CHISTAR (making sure discretionary ligatures are turned on). your application should automatically replace it with a six-pointed star.
+
 updated as of 08/07/2019
 
 added Optical Size axis, so the family is now 16 fonts: Big Shoulders Text (in 8 weights) and Big Shoulders Display (in 8 weights).

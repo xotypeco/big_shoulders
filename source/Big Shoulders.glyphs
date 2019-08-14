@@ -1,5 +1,5 @@
 {
-.appVersion = "1254";
+.appVersion = "1256";
 classes = (
 {
 automatic = 1;
@@ -38,19 +38,6 @@ Tag = opsz;
 {
 name = vendorID;
 value = HoP;
-},
-{
-name = "Virtual Master";
-value = (
-{
-Axis = Weight;
-Location = 300;
-},
-{
-Axis = "Optical size";
-Location = 10;
-}
-);
 }
 );
 date = "2019-08-07 16:19:27 +0000";

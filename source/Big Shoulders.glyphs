@@ -111520,13 +111520,17 @@ value = "Big Shoulders Text";
 {
 name = preferredSubfamilyName;
 value = Thin;
+},
+{
+name = familyName;
+value = "Big Shoulders Text";
 }
 );
 interpolationWidth = 10;
 instanceInterpolations = {
 "3B122060-26E0-4730-9241-82784E6CB359" = 1;
 };
-name = "Text Thin";
+name = Thin;
 weightClass = UltraLight;
 },
 {
@@ -111546,6 +111550,10 @@ value = "Big Shoulders Text";
 {
 name = preferredSubfamilyName;
 value = Light;
+},
+{
+name = familyName;
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 1;
@@ -111555,7 +111563,7 @@ instanceInterpolations = {
 "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 0.19625;
 "3B122060-26E0-4730-9241-82784E6CB359" = 0.80375;
 };
-name = "Text Light";
+name = Light;
 weightClass = Light;
 },
 {
@@ -111575,6 +111583,10 @@ value = "Big Shoulders Text";
 {
 name = preferredSubfamilyName;
 value = Regular;
+},
+{
+name = familyName;
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 4;
@@ -111584,7 +111596,7 @@ instanceInterpolations = {
 "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 0.35625;
 "3B122060-26E0-4730-9241-82784E6CB359" = 0.64375;
 };
-name = "Text Regular";
+name = Regular;
 },
 {
 customParameters = (
@@ -111603,6 +111615,10 @@ value = "Big Shoulders Text";
 {
 name = preferredSubfamilyName;
 value = Medium;
+},
+{
+name = familyName;
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 5;
@@ -111612,7 +111628,7 @@ instanceInterpolations = {
 "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 0.4375;
 "3B122060-26E0-4730-9241-82784E6CB359" = 0.5625;
 };
-name = "Text Medium";
+name = Medium;
 weightClass = Medium;
 },
 {
@@ -111632,6 +111648,10 @@ value = "Big Shoulders Text";
 {
 name = preferredSubfamilyName;
 value = SemiBold;
+},
+{
+name = familyName;
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 6;
@@ -111641,7 +111661,7 @@ instanceInterpolations = {
 "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 0.5175;
 "3B122060-26E0-4730-9241-82784E6CB359" = 0.4825;
 };
-name = "Text SemiBold";
+name = SemiBold;
 weightClass = SemiBold;
 },
 {
@@ -111661,6 +111681,10 @@ value = "Big Shoulders Text";
 {
 name = preferredSubfamilyName;
 value = Bold;
+},
+{
+name = familyName;
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 7;
@@ -111671,7 +111695,7 @@ instanceInterpolations = {
 "3B122060-26E0-4730-9241-82784E6CB359" = 0.3225;
 };
 isBold = 1;
-name = "Text Bold";
+name = Bold;
 weightClass = Bold;
 },
 {
@@ -111691,6 +111715,10 @@ value = "Big Shoulders Text";
 {
 name = preferredSubfamilyName;
 value = ExtraBold;
+},
+{
+name = familyName;
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 8;
@@ -111700,7 +111728,7 @@ instanceInterpolations = {
 "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 0.83875;
 "3B122060-26E0-4730-9241-82784E6CB359" = 0.16125;
 };
-name = "Text ExtraBold";
+name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
@@ -111720,6 +111748,10 @@ value = "Big Shoulders Text";
 {
 name = preferredSubfamilyName;
 value = Black;
+},
+{
+name = familyName;
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 9;
@@ -111728,7 +111760,7 @@ interpolationWidth = 10;
 instanceInterpolations = {
 "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 1;
 };
-name = "Text Black";
+name = Black;
 weightClass = Black;
 },
 {
@@ -111748,6 +111780,10 @@ value = "Big Shoulders Display";
 {
 name = preferredSubfamilyName;
 value = Thin;
+},
+{
+name = familyName;
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom1 = 200;
@@ -111755,7 +111791,7 @@ interpolationWidth = 72;
 instanceInterpolations = {
 "3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 1;
 };
-name = "Display Thin";
+name = Thin;
 weightClass = UltraLight;
 },
 {
@@ -111775,6 +111811,10 @@ value = "Big Shoulders Display";
 {
 name = preferredSubfamilyName;
 value = Light;
+},
+{
+name = familyName;
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 1;
@@ -111785,7 +111825,7 @@ instanceInterpolations = {
 "3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 0.80375;
 "5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.19625;
 };
-name = "Display Light";
+name = Light;
 weightClass = Light;
 },
 {
@@ -111805,6 +111845,10 @@ value = "Big Shoulders Display";
 {
 name = preferredSubfamilyName;
 value = Regular;
+},
+{
+name = familyName;
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 4;
@@ -111815,7 +111859,7 @@ instanceInterpolations = {
 "3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 0.64375;
 "5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.35625;
 };
-name = "Display Regular";
+name = Regular;
 },
 {
 customParameters = (
@@ -111834,6 +111878,10 @@ value = "Big Shoulders Display";
 {
 name = preferredSubfamilyName;
 value = Medium;
+},
+{
+name = familyName;
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 5;
@@ -111844,7 +111892,7 @@ instanceInterpolations = {
 "3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 0.5625;
 "5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.4375;
 };
-name = "Display Medium";
+name = Medium;
 weightClass = Medium;
 },
 {
@@ -111864,6 +111912,10 @@ value = "Big Shoulders Display";
 {
 name = preferredSubfamilyName;
 value = SemiBold;
+},
+{
+name = familyName;
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 6;
@@ -111874,7 +111926,7 @@ instanceInterpolations = {
 "3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 0.4825;
 "5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.5175;
 };
-name = "Display SemiBold";
+name = SemiBold;
 weightClass = SemiBold;
 },
 {
@@ -111894,6 +111946,10 @@ value = "Big Shoulders Display";
 {
 name = preferredSubfamilyName;
 value = Bold;
+},
+{
+name = familyName;
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 7;
@@ -111905,7 +111961,7 @@ instanceInterpolations = {
 "5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.6775;
 };
 isBold = 1;
-name = "Display Bold";
+name = Bold;
 weightClass = Bold;
 },
 {
@@ -111925,6 +111981,10 @@ value = "Big Shoulders Display";
 {
 name = preferredSubfamilyName;
 value = ExtraBold;
+},
+{
+name = familyName;
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 8;
@@ -111935,7 +111995,7 @@ instanceInterpolations = {
 "3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 0.16125;
 "5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.83875;
 };
-name = "Display ExtraBold";
+name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
@@ -111955,6 +112015,10 @@ value = "Big Shoulders Display";
 {
 name = preferredSubfamilyName;
 value = Black;
+},
+{
+name = familyName;
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 9;
@@ -111964,7 +112028,7 @@ interpolationWidth = 72;
 instanceInterpolations = {
 "5013C991-8699-46CB-BB1C-82E334DBD38B" = 1;
 };
-name = "Display Black";
+name = Black;
 weightClass = Black;
 }
 );

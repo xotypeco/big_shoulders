@@ -1,5 +1,8 @@
 {
 .appVersion = "1230";
+DisplayStrings = (
+"h/hbrevebelow"
+);
 classes = (
 {
 automatic = 1;
@@ -32663,7 +32666,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{187, 0}";
+position = "{157, 0}";
 },
 {
 name = center;
@@ -32768,7 +32771,7 @@ width = 514;
 anchors = (
 {
 name = bottom;
-position = "{247, 0}";
+position = "{250, 0}";
 },
 {
 name = center;
@@ -32975,7 +32978,7 @@ name = h;
 },
 {
 name = brevebelowcomb;
-transform = "{1, 0, 0, 1, 47, 0}";
+transform = "{1, 0, 0, 1, 17, 0}";
 }
 );
 layerId = "3B122060-26E0-4730-9241-82784E6CB359";
@@ -33001,7 +33004,7 @@ name = h;
 },
 {
 name = brevebelowcomb;
-transform = "{1, 0, 0, 1, 56, 0}";
+transform = "{1, 0, 0, 1, 59, 0}";
 }
 );
 layerId = "5013C991-8699-46CB-BB1C-82E334DBD38B";
@@ -33095,7 +33098,7 @@ name = h;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 79, 0}";
+transform = "{1, 0, 0, 1, 49, 0}";
 }
 );
 layerId = "3B122060-26E0-4730-9241-82784E6CB359";
@@ -33121,7 +33124,7 @@ name = h;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 152, 0}";
+transform = "{1, 0, 0, 1, 155, 0}";
 }
 );
 layerId = "5013C991-8699-46CB-BB1C-82E334DBD38B";

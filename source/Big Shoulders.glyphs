@@ -1,7 +1,7 @@
 {
 .appVersion = "1230";
 DisplayStrings = (
-"h/hbrevebelow"
+"/oe h/hbrevebelow"
 );
 classes = (
 {
@@ -111565,6 +111565,7 @@ instanceInterpolations = {
 "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 0.6775;
 "3B122060-26E0-4730-9241-82784E6CB359" = 0.3225;
 };
+isBold = 1;
 name = Bold;
 weightClass = Bold;
 },
@@ -111830,6 +111831,7 @@ instanceInterpolations = {
 "3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 0.3225;
 "5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.6775;
 };
+isBold = 1;
 name = Bold;
 weightClass = Bold;
 },

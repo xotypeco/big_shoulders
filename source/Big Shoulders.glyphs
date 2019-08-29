@@ -116102,7 +116102,7 @@ instances = (
 customParameters = (
 {
 name = WWSFamilyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 },
 {
 name = WWSSubfamilyName;
@@ -116110,7 +116110,7 @@ value = Thin;
 },
 {
 name = preferredFamilyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 },
 {
 name = preferredSubfamilyName;
@@ -116118,7 +116118,7 @@ value = Thin;
 },
 {
 name = familyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 }
 );
 interpolationWidth = 10;
@@ -116132,7 +116132,7 @@ weightClass = Thin;
 customParameters = (
 {
 name = WWSFamilyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 },
 {
 name = WWSSubfamilyName;
@@ -116140,7 +116140,7 @@ value = Light;
 },
 {
 name = preferredFamilyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 },
 {
 name = preferredSubfamilyName;
@@ -116148,7 +116148,7 @@ value = Light;
 },
 {
 name = familyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 }
 );
 interpolationCustom = 1;
@@ -116165,7 +116165,7 @@ weightClass = Light;
 customParameters = (
 {
 name = WWSFamilyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 },
 {
 name = WWSSubfamilyName;
@@ -116173,7 +116173,7 @@ value = Regular;
 },
 {
 name = preferredFamilyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 },
 {
 name = preferredSubfamilyName;
@@ -116181,7 +116181,7 @@ value = Regular;
 },
 {
 name = familyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 }
 );
 interpolationCustom = 4;
@@ -116197,7 +116197,7 @@ name = Regular;
 customParameters = (
 {
 name = WWSFamilyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 },
 {
 name = WWSSubfamilyName;
@@ -116205,7 +116205,7 @@ value = Medium;
 },
 {
 name = preferredFamilyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 },
 {
 name = preferredSubfamilyName;
@@ -116213,7 +116213,7 @@ value = Medium;
 },
 {
 name = familyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 }
 );
 interpolationCustom = 5;
@@ -116230,7 +116230,7 @@ weightClass = Medium;
 customParameters = (
 {
 name = WWSFamilyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 },
 {
 name = WWSSubfamilyName;
@@ -116238,7 +116238,7 @@ value = SemiBold;
 },
 {
 name = preferredFamilyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 },
 {
 name = preferredSubfamilyName;
@@ -116246,7 +116246,7 @@ value = SemiBold;
 },
 {
 name = familyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 }
 );
 interpolationCustom = 6;
@@ -116263,7 +116263,7 @@ weightClass = SemiBold;
 customParameters = (
 {
 name = WWSFamilyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 },
 {
 name = WWSSubfamilyName;
@@ -116271,7 +116271,7 @@ value = Bold;
 },
 {
 name = preferredFamilyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 },
 {
 name = preferredSubfamilyName;
@@ -116279,7 +116279,7 @@ value = Bold;
 },
 {
 name = familyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 }
 );
 interpolationCustom = 7;
@@ -116297,7 +116297,7 @@ weightClass = Bold;
 customParameters = (
 {
 name = WWSFamilyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 },
 {
 name = WWSSubfamilyName;
@@ -116305,7 +116305,7 @@ value = ExtraBold;
 },
 {
 name = preferredFamilyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 },
 {
 name = preferredSubfamilyName;
@@ -116313,7 +116313,7 @@ value = ExtraBold;
 },
 {
 name = familyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 }
 );
 interpolationCustom = 8;
@@ -116330,7 +116330,7 @@ weightClass = ExtraBold;
 customParameters = (
 {
 name = WWSFamilyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 },
 {
 name = WWSSubfamilyName;
@@ -116338,7 +116338,7 @@ value = Black;
 },
 {
 name = preferredFamilyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 },
 {
 name = preferredSubfamilyName;
@@ -116346,7 +116346,7 @@ value = Black;
 },
 {
 name = familyName;
-value = "Big Shoulders Text";
+value = "Big Shoulders 10pt";
 }
 );
 interpolationCustom = 9;
@@ -116362,7 +116362,7 @@ weightClass = Black;
 customParameters = (
 {
 name = WWSFamilyName;
-value = "Big Shoulders Display";
+value = "Big Shoulders 72pt";
 },
 {
 name = WWSSubfamilyName;
@@ -116370,7 +116370,7 @@ value = Thin;
 },
 {
 name = preferredFamilyName;
-value = "Big Shoulders Display";
+value = "Big Shoulders 72pt";
 },
 {
 name = preferredSubfamilyName;
@@ -116378,7 +116378,7 @@ value = Thin;
 },
 {
 name = familyName;
-value = "Big Shoulders Display";
+value = "Big Shoulders 72pt";
 }
 );
 interpolationCustom1 = 200;
@@ -116393,7 +116393,7 @@ weightClass = Thin;
 customParameters = (
 {
 name = WWSFamilyName;
-value = "Big Shoulders Display";
+value = "Big Shoulders 72pt";
 },
 {
 name = WWSSubfamilyName;
@@ -116401,7 +116401,7 @@ value = Light;
 },
 {
 name = preferredFamilyName;
-value = "Big Shoulders Display";
+value = "Big Shoulders 72pt";
 },
 {
 name = preferredSubfamilyName;

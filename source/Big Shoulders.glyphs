@@ -946,7 +946,7 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 800;
-custom = "Text Thin";
+custom = "10pt Thin";
 customValue1 = 200;
 customParameters = (
 {
@@ -1044,7 +1044,7 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 800;
-custom = "Text Black";
+custom = "10pt Black";
 customValue1 = 900;
 customParameters = (
 {
@@ -1156,7 +1156,7 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 800;
-custom = "Display Thin";
+custom = "72pt Thin";
 customValue1 = 200;
 customParameters = (
 {
@@ -1259,7 +1259,7 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 800;
-custom = "Display Black";
+custom = "72pt Black";
 customValue1 = 900;
 customParameters = (
 {

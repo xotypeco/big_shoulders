@@ -1,5 +1,19 @@
 Big Shoulders for the City of Chicago, from Patric King (pk@houseofpretty.com) for XO Type Co (xotype.co)
 
+## Build Instructions
+
+The main source is `Big Shoulders.glyphs`. Any changes made there need to also be reflected in `Big Shoulders Flat.glyphs`.
+
+`Big Shoulders Flat.glyphs` is a throwaway source needed to generate correct static instances using `fontmake`, as the current stable `fontmake` (as of August 2019) can’t deal with brace layers when generating instances. 
+
+To generate `Big Shoulders Flat.glyphs`, apply [this Glyphs script](https://github.com/yanone/Yanone-GlyphsApp-Scripts/blob/master/Interpolation/Create%20Missing%20Brace%20Layers%20in%20Components.py) to `Big Shoulders.glyphs` and save under new name. Repeat for any change to `Big Shoulders.glyphs`.
+
+Once `fontmake` version 2.0 is stable and out, which can deal with brace layers, the use of `Big Shoulders Flat.glyphs` can be discarded.
+
+Build fonts using `build.sh`.
+
+## Change log
+
 updated as of 08/14/2019
 
 changed keyboard combo to get a Chicago star. now you type CHISTAR (making sure discretionary ligatures are turned on). your application should automatically replace it with a six-pointed star.

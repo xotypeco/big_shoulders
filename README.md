@@ -6,7 +6,7 @@ The main source is `Big Shoulders.glyphs`. Any changes made there need to also b
 
 `Big Shoulders Flat.glyphs` is a throwaway source needed to generate correct static instances using `fontmake`, as the current stable `fontmake` (as of August 2019) can’t deal with brace layers when generating instances. 
 
-To generate `Big Shoulders Flat.glyphs`, apply [this Glyphs script](https://github.com/yanone/Yanone-GlyphsApp-Scripts/blob/master/Interpolation/Create%20Missing%20Brace%20Layers%20in%20Components.py) to `Big Shoulders.glyphs` and save under new name. Repeat for any change to `Big Shoulders.glyphs`.
+To generate `Big Shoulders Flat.glyphs`, apply [this Glyphs script](https://github.com/yanone/Yanone-GlyphsApp-Scripts/blob/master/Interpolation/Expand%20Intermediate%20Masters.py) to `Big Shoulders.glyphs` and save under new name. Repeat for any change to `Big Shoulders.glyphs`.
 
 Once `fontmake` version 2.0 is stable and out, which can deal with brace layers, the use of `Big Shoulders Flat.glyphs` can be discarded.
 

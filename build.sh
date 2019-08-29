@@ -17,7 +17,7 @@ gftools fix-dsig --autofix ./fonts/ttf/BigShoulders-VF.ttf
 ttfautohint ./fonts/ttf/BigShoulders-VF.ttf ./fonts/ttf/BigShoulders-VF-hinted.ttf
 rm ./fonts/ttf/BigShoulders-VF.ttf
 gftools fix-hinting ./fonts/ttf/BigShoulders-VF-hinted.ttf
-mv ./fonts/ttf/BigShoulders-VF-hinted.ttf.fix ./fonts/ttf/BigShouldersTextThin[opsz,wght].ttf
+mv ./fonts/ttf/BigShoulders-VF-hinted.ttf.fix ./fonts/ttf/BigShoulders10ptThin[opsz,wght].ttf
 rm ./fonts/ttf/BigShoulders-VF-hinted.ttf
 
 # Clean up

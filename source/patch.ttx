@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.0">
+
+  <name>
+    <namerecord nameID="256" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Weight
+    </namerecord>
+    <namerecord nameID="257" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Optical size
+    </namerecord>
+    <namerecord nameID="258" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      10pt Thin
+    </namerecord>
+    <namerecord nameID="259" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      10pt Light
+    </namerecord>
+    <namerecord nameID="260" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      10pt Regular
+    </namerecord>
+    <namerecord nameID="261" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      10pt Medium
+    </namerecord>
+    <namerecord nameID="262" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      10pt SemiBold
+    </namerecord>
+    <namerecord nameID="263" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      10pt Bold
+    </namerecord>
+    <namerecord nameID="264" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      10pt ExtraBold
+    </namerecord>
+    <namerecord nameID="265" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      10pt Black
+    </namerecord>
+    <namerecord nameID="266" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      72pt Thin
+    </namerecord>
+    <namerecord nameID="267" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      72pt Light
+    </namerecord>
+    <namerecord nameID="268" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      72pt Regular
+    </namerecord>
+    <namerecord nameID="269" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      72pt Medium
+    </namerecord>
+    <namerecord nameID="270" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      72pt SemiBold
+    </namerecord>
+    <namerecord nameID="271" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      72pt Bold
+    </namerecord>
+    <namerecord nameID="272" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      72pt ExtraBold
+    </namerecord>
+    <namerecord nameID="273" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      72pt Black
+    </namerecord>
+    <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
+      Copyright 2019 The Big Shoulders Project Authors (https://github.com/xotypeco/big_shoulders)
+    </namerecord>
+    <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+      Big Shoulders 10pt Thin
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
+      Regular
+    </namerecord>
+    <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+      1.000;HoP;BigShoulders-10ptThin
+    </namerecord>
+    <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+      Big Shoulders 10pt Thin
+    </namerecord>
+    <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
+      Version 1.000
+    </namerecord>
+    <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+      BigShoulders-10ptThin
+    </namerecord>
+    <namerecord nameID="8" platformID="3" platEncID="1" langID="0x409">
+      XO Type Co
+    </namerecord>
+    <namerecord nameID="9" platformID="3" platEncID="1" langID="0x409">
+      Patric King
+    </namerecord>
+    <namerecord nameID="11" platformID="3" platEncID="1" langID="0x409">
+      http://xotype.co
+    </namerecord>
+    <namerecord nameID="12" platformID="3" platEncID="1" langID="0x409">
+      http://houseofpretty.com
+    </namerecord>
+    <namerecord nameID="13" platformID="3" platEncID="1" langID="0x409">
+      This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+    </namerecord>
+    <namerecord nameID="14" platformID="3" platEncID="1" langID="0x409">
+      http://scripts.sil.org/OFL
+    </namerecord>
+    <namerecord nameID="16" platformID="3" platEncID="1" langID="0x409">
+      Big Shoulders
+    </namerecord>
+    <namerecord nameID="17" platformID="3" platEncID="1" langID="0x409">
+      10pt Thin
+    </namerecord>
+    <namerecord nameID="256" platformID="3" platEncID="1" langID="0x409">
+      Weight
+    </namerecord>
+    <namerecord nameID="257" platformID="3" platEncID="1" langID="0x409">
+      Optical size
+    </namerecord>
+    <namerecord nameID="258" platformID="3" platEncID="1" langID="0x409">
+      10pt Thin
+    </namerecord>
+    <namerecord nameID="259" platformID="3" platEncID="1" langID="0x409">
+      10pt Light
+    </namerecord>
+    <namerecord nameID="260" platformID="3" platEncID="1" langID="0x409">
+      10pt Regular
+    </namerecord>
+    <namerecord nameID="261" platformID="3" platEncID="1" langID="0x409">
+      10pt Medium
+    </namerecord>
+    <namerecord nameID="262" platformID="3" platEncID="1" langID="0x409">
+      10pt SemiBold
+    </namerecord>
+    <namerecord nameID="263" platformID="3" platEncID="1" langID="0x409">
+      10pt Bold
+    </namerecord>
+    <namerecord nameID="264" platformID="3" platEncID="1" langID="0x409">
+      10pt ExtraBold
+    </namerecord>
+    <namerecord nameID="265" platformID="3" platEncID="1" langID="0x409">
+      10pt Black
+    </namerecord>
+    <namerecord nameID="266" platformID="3" platEncID="1" langID="0x409">
+      72pt Thin
+    </namerecord>
+    <namerecord nameID="267" platformID="3" platEncID="1" langID="0x409">
+      72pt Light
+    </namerecord>
+    <namerecord nameID="268" platformID="3" platEncID="1" langID="0x409">
+      72pt Regular
+    </namerecord>
+    <namerecord nameID="269" platformID="3" platEncID="1" langID="0x409">
+      72pt Medium
+    </namerecord>
+    <namerecord nameID="270" platformID="3" platEncID="1" langID="0x409">
+      72pt SemiBold
+    </namerecord>
+    <namerecord nameID="271" platformID="3" platEncID="1" langID="0x409">
+      72pt Bold
+    </namerecord>
+    <namerecord nameID="272" platformID="3" platEncID="1" langID="0x409">
+      72pt ExtraBold
+    </namerecord>
+    <namerecord nameID="273" platformID="3" platEncID="1" langID="0x409">
+      72pt Black
+    </namerecord>
+  </name>
+
+
+  <fvar>
+
+    <!-- Weight -->
+    <Axis>
+      <AxisTag>wght</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>100.0</MinValue>
+      <DefaultValue>100.0</DefaultValue>
+      <MaxValue>900.0</MaxValue>
+      <AxisNameID>256</AxisNameID>
+    </Axis>
+
+    <!-- Optical size -->
+    <Axis>
+      <AxisTag>opsz</AxisTag>
+      <Flags>0x0</Flags>
+      <MinValue>10.0</MinValue>
+      <DefaultValue>10.0</DefaultValue>
+      <MaxValue>72.0</MaxValue>
+      <AxisNameID>257</AxisNameID>
+    </Axis>
+
+    <!-- 10pt Thin -->
+    <NamedInstance flags="0x0" subfamilyNameID="258">
+      <coord axis="wght" value="100.0"/>
+      <coord axis="opsz" value="10.0"/>
+    </NamedInstance>
+
+    <!-- 10pt Light -->
+    <NamedInstance flags="0x0" subfamilyNameID="259">
+      <coord axis="wght" value="300.0"/>
+      <coord axis="opsz" value="10.0"/>
+    </NamedInstance>
+
+    <!-- 10pt Regular -->
+    <NamedInstance flags="0x0" subfamilyNameID="260">
+      <coord axis="wght" value="400.0"/>
+      <coord axis="opsz" value="10.0"/>
+    </NamedInstance>
+
+    <!-- 10pt Medium -->
+    <NamedInstance flags="0x0" subfamilyNameID="261">
+      <coord axis="wght" value="500.0"/>
+      <coord axis="opsz" value="10.0"/>
+    </NamedInstance>
+
+    <!-- 10pt SemiBold -->
+    <NamedInstance flags="0x0" subfamilyNameID="262">
+      <coord axis="wght" value="600.0"/>
+      <coord axis="opsz" value="10.0"/>
+    </NamedInstance>
+
+    <!-- 10pt Bold -->
+    <NamedInstance flags="0x0" subfamilyNameID="263">
+      <coord axis="wght" value="700.0"/>
+      <coord axis="opsz" value="10.0"/>
+    </NamedInstance>
+
+    <!-- 10pt ExtraBold -->
+    <NamedInstance flags="0x0" subfamilyNameID="264">
+      <coord axis="wght" value="800.0"/>
+      <coord axis="opsz" value="10.0"/>
+    </NamedInstance>
+
+    <!-- 10pt Black -->
+    <NamedInstance flags="0x0" subfamilyNameID="265">
+      <coord axis="wght" value="900.0"/>
+      <coord axis="opsz" value="10.0"/>
+    </NamedInstance>
+
+    <!-- 72pt Thin -->
+    <NamedInstance flags="0x0" subfamilyNameID="266">
+      <coord axis="wght" value="100.0"/>
+      <coord axis="opsz" value="72.0"/>
+    </NamedInstance>
+
+    <!-- 72pt Light -->
+    <NamedInstance flags="0x0" subfamilyNameID="267">
+      <coord axis="wght" value="300.0"/>
+      <coord axis="opsz" value="72.0"/>
+    </NamedInstance>
+
+    <!-- 72pt Regular -->
+    <NamedInstance flags="0x0" subfamilyNameID="268">
+      <coord axis="wght" value="400.0"/>
+      <coord axis="opsz" value="72.0"/>
+    </NamedInstance>
+
+    <!-- 72pt Medium -->
+    <NamedInstance flags="0x0" subfamilyNameID="269">
+      <coord axis="wght" value="500.0"/>
+      <coord axis="opsz" value="72.0"/>
+    </NamedInstance>
+
+    <!-- 72pt SemiBold -->
+    <NamedInstance flags="0x0" subfamilyNameID="270">
+      <coord axis="wght" value="600.0"/>
+      <coord axis="opsz" value="72.0"/>
+    </NamedInstance>
+
+    <!-- 72pt Bold -->
+    <NamedInstance flags="0x0" subfamilyNameID="271">
+      <coord axis="wght" value="700.0"/>
+      <coord axis="opsz" value="72.0"/>
+    </NamedInstance>
+
+    <!-- 72pt ExtraBold -->
+    <NamedInstance flags="0x0" subfamilyNameID="272">
+      <coord axis="wght" value="800.0"/>
+      <coord axis="opsz" value="72.0"/>
+    </NamedInstance>
+
+    <!-- 72pt Black -->
+    <NamedInstance flags="0x0" subfamilyNameID="273">
+      <coord axis="wght" value="900.0"/>
+      <coord axis="opsz" value="72.0"/>
+    </NamedInstance>
+  </fvar>
+
+</ttFont>

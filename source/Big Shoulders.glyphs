@@ -1,8 +1,5 @@
 {
-.appVersion = "1264";
-DisplayStrings = (
-"/oe h/hbrevebelow"
-);
+.appVersion = "1230";
 classes = (
 {
 automatic = 1;
@@ -116101,22 +116098,6 @@ instances = (
 {
 customParameters = (
 {
-name = WWSFamilyName;
-value = "Big Shoulders 10pt";
-},
-{
-name = WWSSubfamilyName;
-value = Thin;
-},
-{
-name = preferredFamilyName;
-value = "Big Shoulders 10pt";
-},
-{
-name = preferredSubfamilyName;
-value = Thin;
-},
-{
 name = familyName;
 value = "Big Shoulders 10pt";
 }
@@ -116130,22 +116111,6 @@ weightClass = Thin;
 },
 {
 customParameters = (
-{
-name = WWSFamilyName;
-value = "Big Shoulders 10pt";
-},
-{
-name = WWSSubfamilyName;
-value = Light;
-},
-{
-name = preferredFamilyName;
-value = "Big Shoulders 10pt";
-},
-{
-name = preferredSubfamilyName;
-value = Light;
-},
 {
 name = familyName;
 value = "Big Shoulders 10pt";
@@ -116164,22 +116129,6 @@ weightClass = Light;
 {
 customParameters = (
 {
-name = WWSFamilyName;
-value = "Big Shoulders 10pt";
-},
-{
-name = WWSSubfamilyName;
-value = Regular;
-},
-{
-name = preferredFamilyName;
-value = "Big Shoulders 10pt";
-},
-{
-name = preferredSubfamilyName;
-value = Regular;
-},
-{
 name = familyName;
 value = "Big Shoulders 10pt";
 }
@@ -116195,22 +116144,6 @@ name = Regular;
 },
 {
 customParameters = (
-{
-name = WWSFamilyName;
-value = "Big Shoulders 10pt";
-},
-{
-name = WWSSubfamilyName;
-value = Medium;
-},
-{
-name = preferredFamilyName;
-value = "Big Shoulders 10pt";
-},
-{
-name = preferredSubfamilyName;
-value = Medium;
-},
 {
 name = familyName;
 value = "Big Shoulders 10pt";
@@ -116229,22 +116162,6 @@ weightClass = Medium;
 {
 customParameters = (
 {
-name = WWSFamilyName;
-value = "Big Shoulders 10pt";
-},
-{
-name = WWSSubfamilyName;
-value = SemiBold;
-},
-{
-name = preferredFamilyName;
-value = "Big Shoulders 10pt";
-},
-{
-name = preferredSubfamilyName;
-value = SemiBold;
-},
-{
 name = familyName;
 value = "Big Shoulders 10pt";
 }
@@ -116261,22 +116178,6 @@ weightClass = SemiBold;
 },
 {
 customParameters = (
-{
-name = WWSFamilyName;
-value = "Big Shoulders 10pt";
-},
-{
-name = WWSSubfamilyName;
-value = Bold;
-},
-{
-name = preferredFamilyName;
-value = "Big Shoulders 10pt";
-},
-{
-name = preferredSubfamilyName;
-value = Bold;
-},
 {
 name = familyName;
 value = "Big Shoulders 10pt";
@@ -116296,22 +116197,6 @@ weightClass = Bold;
 {
 customParameters = (
 {
-name = WWSFamilyName;
-value = "Big Shoulders 10pt";
-},
-{
-name = WWSSubfamilyName;
-value = ExtraBold;
-},
-{
-name = preferredFamilyName;
-value = "Big Shoulders 10pt";
-},
-{
-name = preferredSubfamilyName;
-value = ExtraBold;
-},
-{
 name = familyName;
 value = "Big Shoulders 10pt";
 }
@@ -116329,22 +116214,6 @@ weightClass = ExtraBold;
 {
 customParameters = (
 {
-name = WWSFamilyName;
-value = "Big Shoulders 10pt";
-},
-{
-name = WWSSubfamilyName;
-value = Black;
-},
-{
-name = preferredFamilyName;
-value = "Big Shoulders 10pt";
-},
-{
-name = preferredSubfamilyName;
-value = Black;
-},
-{
 name = familyName;
 value = "Big Shoulders 10pt";
 }
@@ -116361,22 +116230,6 @@ weightClass = Black;
 {
 customParameters = (
 {
-name = WWSFamilyName;
-value = "Big Shoulders 72pt";
-},
-{
-name = WWSSubfamilyName;
-value = Thin;
-},
-{
-name = preferredFamilyName;
-value = "Big Shoulders 72pt";
-},
-{
-name = preferredSubfamilyName;
-value = Thin;
-},
-{
 name = familyName;
 value = "Big Shoulders 72pt";
 }
@@ -116391,22 +116244,6 @@ weightClass = Thin;
 },
 {
 customParameters = (
-{
-name = WWSFamilyName;
-value = "Big Shoulders 72pt";
-},
-{
-name = WWSSubfamilyName;
-value = Light;
-},
-{
-name = preferredFamilyName;
-value = "Big Shoulders 72pt";
-},
-{
-name = preferredSubfamilyName;
-value = Light;
-},
 {
 name = familyName;
 value = "Big Shoulders 72pt";
@@ -116426,22 +116263,6 @@ weightClass = Light;
 {
 customParameters = (
 {
-name = WWSFamilyName;
-value = "Big Shoulders 72pt";
-},
-{
-name = WWSSubfamilyName;
-value = Regular;
-},
-{
-name = preferredFamilyName;
-value = "Big Shoulders 72pt";
-},
-{
-name = preferredSubfamilyName;
-value = Regular;
-},
-{
 name = familyName;
 value = "Big Shoulders 72pt";
 }
@@ -116458,22 +116279,6 @@ name = Regular;
 },
 {
 customParameters = (
-{
-name = WWSFamilyName;
-value = "Big Shoulders 72pt";
-},
-{
-name = WWSSubfamilyName;
-value = Medium;
-},
-{
-name = preferredFamilyName;
-value = "Big Shoulders 72pt";
-},
-{
-name = preferredSubfamilyName;
-value = Medium;
-},
 {
 name = familyName;
 value = "Big Shoulders 72pt";
@@ -116493,22 +116298,6 @@ weightClass = Medium;
 {
 customParameters = (
 {
-name = WWSFamilyName;
-value = "Big Shoulders 72pt";
-},
-{
-name = WWSSubfamilyName;
-value = SemiBold;
-},
-{
-name = preferredFamilyName;
-value = "Big Shoulders 72pt";
-},
-{
-name = preferredSubfamilyName;
-value = SemiBold;
-},
-{
 name = familyName;
 value = "Big Shoulders 72pt";
 }
@@ -116526,22 +116315,6 @@ weightClass = SemiBold;
 },
 {
 customParameters = (
-{
-name = WWSFamilyName;
-value = "Big Shoulders 72pt";
-},
-{
-name = WWSSubfamilyName;
-value = Bold;
-},
-{
-name = preferredFamilyName;
-value = "Big Shoulders 72pt";
-},
-{
-name = preferredSubfamilyName;
-value = Bold;
-},
 {
 name = familyName;
 value = "Big Shoulders 72pt";
@@ -116562,22 +116335,6 @@ weightClass = Bold;
 {
 customParameters = (
 {
-name = WWSFamilyName;
-value = "Big Shoulders 72pt";
-},
-{
-name = WWSSubfamilyName;
-value = ExtraBold;
-},
-{
-name = preferredFamilyName;
-value = "Big Shoulders 72pt";
-},
-{
-name = preferredSubfamilyName;
-value = ExtraBold;
-},
-{
 name = familyName;
 value = "Big Shoulders 72pt";
 }
@@ -116595,22 +116352,6 @@ weightClass = ExtraBold;
 },
 {
 customParameters = (
-{
-name = WWSFamilyName;
-value = "Big Shoulders 72pt";
-},
-{
-name = WWSSubfamilyName;
-value = Black;
-},
-{
-name = preferredFamilyName;
-value = "Big Shoulders 72pt";
-},
-{
-name = preferredSubfamilyName;
-value = Black;
-},
 {
 name = familyName;
 value = "Big Shoulders 72pt";

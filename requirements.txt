@@ -1,0 +1,3 @@
+fontmake==2.0.1
+git+https://www.github.com/googlefonts/tools
+fs

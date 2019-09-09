@@ -10,3 +10,4 @@
 # Name <email address> 
 
 Patric King <patricking@gmail.com>
+Yanone <post@yanone.de>

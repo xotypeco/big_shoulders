@@ -116099,7 +116099,7 @@ instances = (
 customParameters = (
 {
 name = familyName;
-value = "Big Shoulders 10pt";
+value = "Big Shoulders Text";
 }
 );
 interpolationWidth = 10;
@@ -116113,7 +116113,7 @@ weightClass = Thin;
 customParameters = (
 {
 name = familyName;
-value = "Big Shoulders 10pt";
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 1;
@@ -116130,7 +116130,7 @@ weightClass = Light;
 customParameters = (
 {
 name = familyName;
-value = "Big Shoulders 10pt";
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 4;
@@ -116146,7 +116146,7 @@ name = Regular;
 customParameters = (
 {
 name = familyName;
-value = "Big Shoulders 10pt";
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 5;
@@ -116163,7 +116163,7 @@ weightClass = Medium;
 customParameters = (
 {
 name = familyName;
-value = "Big Shoulders 10pt";
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 6;
@@ -116180,7 +116180,7 @@ weightClass = SemiBold;
 customParameters = (
 {
 name = familyName;
-value = "Big Shoulders 10pt";
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 7;
@@ -116198,7 +116198,7 @@ weightClass = Bold;
 customParameters = (
 {
 name = familyName;
-value = "Big Shoulders 10pt";
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 8;
@@ -116215,7 +116215,7 @@ weightClass = ExtraBold;
 customParameters = (
 {
 name = familyName;
-value = "Big Shoulders 10pt";
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 9;
@@ -116231,7 +116231,7 @@ weightClass = Black;
 customParameters = (
 {
 name = familyName;
-value = "Big Shoulders 72pt";
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom1 = 200;
@@ -116246,7 +116246,7 @@ weightClass = Thin;
 customParameters = (
 {
 name = familyName;
-value = "Big Shoulders 72pt";
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 1;
@@ -116264,7 +116264,7 @@ weightClass = Light;
 customParameters = (
 {
 name = familyName;
-value = "Big Shoulders 72pt";
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 4;
@@ -116281,7 +116281,7 @@ name = Regular;
 customParameters = (
 {
 name = familyName;
-value = "Big Shoulders 72pt";
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 5;
@@ -116299,7 +116299,7 @@ weightClass = Medium;
 customParameters = (
 {
 name = familyName;
-value = "Big Shoulders 72pt";
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 6;
@@ -116317,7 +116317,7 @@ weightClass = SemiBold;
 customParameters = (
 {
 name = familyName;
-value = "Big Shoulders 72pt";
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 7;
@@ -116336,7 +116336,7 @@ weightClass = Bold;
 customParameters = (
 {
 name = familyName;
-value = "Big Shoulders 72pt";
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 8;
@@ -116354,7 +116354,7 @@ weightClass = ExtraBold;
 customParameters = (
 {
 name = familyName;
-value = "Big Shoulders 72pt";
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 9;

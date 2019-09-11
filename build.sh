@@ -1,7 +1,5 @@
-# Clean up
-rm ./fonts/ttf/BigShoulders*.ttf
-
-# # Build static instances
+mkdir -p ./fonts/ ./fonts/ttf/ ./fonts/vf
+ # Build static instances
 fontmake -g ./source/Big\ Shoulders.glyphs -o ttf -i --output-dir ./fonts/ttf -a
 for f in ./fonts/ttf/*.ttf
 do
@@ -10,18 +8,18 @@ do
 	gftools fix-hinting $f
 	mv $f.fix $f
 done
-
+set -e
 # Build variable font
-fontmake -g ./source/Big\ Shoulders.glyphs -o variable --output-dir ./fonts/ttf
-gftools fix-dsig --autofix ./fonts/ttf/BigShoulders-VF.ttf
-ttfautohint ./fonts/ttf/BigShoulders-VF.ttf ./fonts/ttf/BigShoulders-VF-hinted.ttf
-rm ./fonts/ttf/BigShoulders-VF.ttf
-gftools fix-hinting ./fonts/ttf/BigShoulders-VF-hinted.ttf
-mv ./fonts/ttf/BigShoulders-VF-hinted.ttf.fix ./fonts/ttf/BigShoulders[opsz,wght].ttf
-rm ./fonts/ttf/BigShoulders-VF-hinted.ttf
+VF_FILENAME="./fonts/vf/BigShoulder[opsz,wght].ttf"
+fontmake -g ./source/Big\ Shoulders.glyphs -o variable --output-path $VF_FILENAME
+gftools fix-dsig --autofix $VF_FILENAME
+ttfautohint $VF_FILENAME $VF_FILENAME.fix
+mv $VF_FILENAME.fix $VF_FILENAME
+gftools fix-hinting $VF_FILENAME
+mv $VF_FILENAME.fix $VF_FILENAME
 # patch in name, fvar and STAT tables
-ttx -m './fonts/ttf/BigShoulders[opsz,wght].ttf' ./source/patch.ttx
-mv ./source/patch.ttf "./fonts/ttf/BigShoulders[opsz,wght].ttf"
+ttx -m $VF_FILENAME ./source/patch.ttx
+mv ./source/patch.ttf $VF_FILENAME
 
 # Clean up
 rm -r instance_ufo

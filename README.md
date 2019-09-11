@@ -1,4 +1,4 @@
-Big Shoulders for the City of Chicago, from Patric King (pk@houseofpretty.com) for XO Type Co (xotype.co)
+Big Shoulders is a family of condensed American Gothic typefaces, created for the City of Chicago’s Brand Standards. The family’s tall, sans-serif forms are based in Chicago’s multiple histories in railway transport, journalism, advertising, and public political action.
 
 ## Build Instructions
 

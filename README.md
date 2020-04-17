@@ -14,6 +14,34 @@ Build fonts using `build.sh`.
 
 ## Change log
 
+updated as of 04/17/2020
+
+added Big Shoulders Stencil version 1.0
+
+added Big Shoulders Inline version 1.0
+
+Updated Big Shoulders to version 1.1
+
+note that v1.0 of Big Shoulders Stencil & Inline contain the same changes introduced in Big Shoulders v1.1
+
+corrected Polish diacritics (many thanks to Cathy Kwiatkowski)
+
+removed case-sensitive combining marks
+
+corrected positioning of all combining marks
+
+corrected lowercase d, l and t with caron
+
+added tf ligature
+
+added rectangle for Chicago Design System logotypes, can be invoked with discretionary ligatures turned on and typing CHIRECT
+
+added six pointed star glyph as an alternate method of invoking the Chicago star
+
+added filled rectangle glyph to invoke Chicago rectangle
+
+updated bar glyph to better work in context of Chicago departmental acronyms
+
 updated as of 08/14/2019
 
 changed keyboard combo to get a Chicago star. now you type CHISTAR (making sure discretionary ligatures are turned on). your application should automatically replace it with a six-pointed star.

@@ -1,5 +1,5 @@
 {
-.appVersion = "1313";
+.appVersion = "1325";
 classes = (
 {
 automatic = 1;
@@ -946,6 +946,19 @@ value = -852;
 {
 name = typoLineGap;
 value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = "Optical size";
+Location = 10;
+}
+);
 }
 );
 descender = -800;
@@ -1037,6 +1050,19 @@ value = -852;
 {
 name = typoLineGap;
 value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = "Optical size";
+Location = 10;
+}
+);
 }
 );
 descender = -800;
@@ -1126,6 +1152,19 @@ value = -852;
 {
 name = typoLineGap;
 value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+},
+{
+Axis = "Optical size";
+Location = 72;
+}
+);
 }
 );
 descender = -800;
@@ -1219,6 +1258,19 @@ value = -852;
 {
 name = typoLineGap;
 value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = "Optical size";
+Location = 72;
+}
+);
 }
 );
 descender = -800;
@@ -14958,7 +15010,7 @@ nodes = (
 );
 };
 layerId = "DFAE000E-F9FD-4526-A5E4-24F5166B6C05";
-name = "{300,10}";
+name = "{300, 10}";
 paths = (
 {
 closed = 1;
@@ -15070,7 +15122,7 @@ nodes = (
 );
 };
 layerId = "CC5AC257-B262-4467-807C-FDE83CE12B07";
-name = "{300,72}";
+name = "{300, 72}";
 paths = (
 {
 closed = 1;
@@ -57029,7 +57081,7 @@ nodes = (
 );
 };
 layerId = "F27D8C06-2079-42DA-A4F0-F67C233150F1";
-name = "{300,10}";
+name = "{300, 10}";
 paths = (
 {
 closed = 1;
@@ -57510,7 +57562,7 @@ nodes = (
 );
 };
 layerId = "5AEEEAC9-9901-4AF0-94AF-CEC57D080B9F";
-name = "{300,72}";
+name = "{300, 72}";
 paths = (
 {
 closed = 1;
@@ -58913,7 +58965,7 @@ nodes = (
 );
 }
 );
-width = 1383;
+width = 1380;
 },
 {
 anchors = (
@@ -62198,7 +62250,7 @@ nodes = (
 );
 };
 layerId = "ED2FE275-355C-4F91-A53D-0A3A20A3627A";
-name = "{300,72}";
+name = "{300, 72}";
 paths = (
 {
 closed = 1;
@@ -62818,7 +62870,7 @@ nodes = (
 );
 };
 layerId = "C8B4C23F-962E-41B8-9577-547E611B4A01";
-name = "{300,10}";
+name = "{300, 10}";
 paths = (
 {
 closed = 1;
@@ -62930,7 +62982,7 @@ nodes = (
 );
 };
 layerId = "CC891BF3-6E5C-43C7-8A1B-AE824B46E4B2";
-name = "{300,72}";
+name = "{300, 72}";
 paths = (
 {
 closed = 1;
@@ -202721,7 +202773,7 @@ nodes = (
 );
 };
 layerId = "9F03EC1F-9961-4AD3-9BA0-DDB88D49F317";
-name = "{300,72}";
+name = "{300, 72}";
 paths = (
 {
 closed = 1;
@@ -203069,7 +203121,7 @@ nodes = (
 );
 };
 layerId = "78807117-7E80-473C-A629-10AAAF6F27BD";
-name = "{300,10}";
+name = "{300, 10}";
 paths = (
 {
 closed = 1;
@@ -214831,7 +214883,7 @@ width = 1325.83436;
 {
 associatedMasterId = "3B122060-26E0-4730-9241-82784E6CB359";
 layerId = "8045DD30-A8C0-47F7-B083-9511BE20CCBB";
-name = "{300,10}";
+name = "{300, 10}";
 paths = (
 {
 closed = 1;
@@ -215098,7 +215150,7 @@ width = 1714.29272;
 {
 associatedMasterId = "3D06B89B-468F-44E0-A3D7-A5BC6911123E";
 layerId = "2E9D6856-2815-4A80-B148-94ABAF3046CD";
-name = "{300,72}";
+name = "{300, 72}";
 paths = (
 {
 closed = 1;
@@ -224405,6 +224457,10 @@ customParameters = (
 {
 name = familyName;
 value = "Big Shoulders Inline Text";
+},
+{
+name = weightClass;
+value = 100;
 }
 );
 interpolationWidth = 10;
@@ -224412,13 +224468,17 @@ instanceInterpolations = {
 "3B122060-26E0-4730-9241-82784E6CB359" = 1;
 };
 name = Thin;
-weightClass = UltraLight;
+weightClass = Thin;
 },
 {
 customParameters = (
 {
 name = familyName;
 value = "Big Shoulders Inline Text";
+},
+{
+name = weightClass;
+value = 300;
 }
 );
 interpolationCustom = 1;
@@ -224436,6 +224496,10 @@ customParameters = (
 {
 name = familyName;
 value = "Big Shoulders Inline Text";
+},
+{
+name = weightClass;
+value = 400;
 }
 );
 interpolationCustom = 4;
@@ -224452,6 +224516,10 @@ customParameters = (
 {
 name = familyName;
 value = "Big Shoulders Inline Text";
+},
+{
+name = weightClass;
+value = 500;
 }
 );
 interpolationCustom = 5;
@@ -224469,6 +224537,10 @@ customParameters = (
 {
 name = familyName;
 value = "Big Shoulders Inline Text";
+},
+{
+name = weightClass;
+value = 600;
 }
 );
 interpolationCustom = 6;
@@ -224486,6 +224558,10 @@ customParameters = (
 {
 name = familyName;
 value = "Big Shoulders Inline Text";
+},
+{
+name = weightClass;
+value = 700;
 }
 );
 interpolationCustom = 7;
@@ -224504,6 +224580,10 @@ customParameters = (
 {
 name = familyName;
 value = "Big Shoulders Inline Text";
+},
+{
+name = weightClass;
+value = 800;
 }
 );
 interpolationCustom = 8;
@@ -224521,6 +224601,10 @@ customParameters = (
 {
 name = familyName;
 value = "Big Shoulders Inline Text";
+},
+{
+name = weightClass;
+value = 900;
 }
 );
 interpolationCustom = 9;
@@ -224537,6 +224621,10 @@ customParameters = (
 {
 name = familyName;
 value = "Big Shoulders Inline Display";
+},
+{
+name = weightClass;
+value = 100;
 }
 );
 interpolationCustom1 = 200;
@@ -224545,13 +224633,17 @@ instanceInterpolations = {
 "3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 1;
 };
 name = Thin;
-weightClass = UltraLight;
+weightClass = Thin;
 },
 {
 customParameters = (
 {
 name = familyName;
 value = "Big Shoulders Inline Display";
+},
+{
+name = weightClass;
+value = 300;
 }
 );
 interpolationCustom = 1;
@@ -224570,6 +224662,10 @@ customParameters = (
 {
 name = familyName;
 value = "Big Shoulders Inline Display";
+},
+{
+name = weightClass;
+value = 400;
 }
 );
 interpolationCustom = 4;
@@ -224587,6 +224683,10 @@ customParameters = (
 {
 name = familyName;
 value = "Big Shoulders Inline Display";
+},
+{
+name = weightClass;
+value = 500;
 }
 );
 interpolationCustom = 5;
@@ -224605,6 +224705,10 @@ customParameters = (
 {
 name = familyName;
 value = "Big Shoulders Inline Display";
+},
+{
+name = weightClass;
+value = 600;
 }
 );
 interpolationCustom = 6;
@@ -224623,6 +224727,10 @@ customParameters = (
 {
 name = familyName;
 value = "Big Shoulders Inline Display";
+},
+{
+name = weightClass;
+value = 700;
 }
 );
 interpolationCustom = 7;
@@ -224642,6 +224750,10 @@ customParameters = (
 {
 name = familyName;
 value = "Big Shoulders Inline Display";
+},
+{
+name = weightClass;
+value = 800;
 }
 );
 interpolationCustom = 8;
@@ -224660,6 +224772,10 @@ customParameters = (
 {
 name = familyName;
 value = "Big Shoulders Inline Display";
+},
+{
+name = weightClass;
+value = 900;
 }
 );
 interpolationCustom = 9;

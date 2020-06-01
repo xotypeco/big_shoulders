@@ -45,7 +45,7 @@ done
 # VF_FILE=../fonts/variable/Big_Shoulders\[opsz,wght]\.ttf
 # fontmake -g Big_Shoulders.glyphs -o variable --output-path $VF_FILE
 
-# rm -rf master_ufo/ instance_ufo/
+rm -rf master_ufo/ instance_ufo/
 
 # echo "POST PROCESSING VFs"
 # ttfautohint $VF_FILE $VF_FILE.fix

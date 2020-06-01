@@ -153367,6 +153367,10 @@ value = 400;
 {
 name = familyName;
 value = "Big Shoulders Text";
+},
+{
+name = "Elidable STAT Axis Value Name";
+value = wght;
 }
 );
 interpolationCustom1 = 445;
@@ -153459,7 +153463,6 @@ instanceInterpolations = {
 "1DA29D10-D233-4984-AB49-9A6EAD79FE60" = 0.258;
 "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 0.742;
 };
-isBold = 1;
 name = ExtraBold;
 weightClass = ExtraBold;
 },

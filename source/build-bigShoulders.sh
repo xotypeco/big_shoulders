@@ -27,7 +27,7 @@ done
 
 woff2s=$(ls ../fonts/ttf/Big-Shoulders/*.woff2)
 for woff2 in $woff2s; do
-    mv $woff2 ../fonts/woff2/Big-Shoulders$(basename $woff2)
+    mv $woff2 ../fonts/woff2/Big-Shoulders/$(basename $woff2)
 done
 
 
@@ -58,4 +58,4 @@ gftools fix-dsig -f $VF_FILE
 
 gftools fix-unwanted-tables $VF_FILE -t MVAR
 
-python3 varta-stat-table2.py $VF_FILE
+# python3 varta-stat-table2.py $VF_FILE

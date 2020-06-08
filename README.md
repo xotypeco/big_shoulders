@@ -1,5 +1,7 @@
 Big Shoulders is a family of condensed American Gothic typefaces, created for the city and citizens of Chicago. The family’s tall, sans-serif forms honor Chicago’s multiple histories as railway transport hub, public political action center, and the birthplace of House music.
 
+![Big Shoulders sample slide](big-shoulders-sample-slide.png)
+
 ## Build Instructions
 
 The main source is `Big Shoulders.glyphs`. Any changes made there need to also be reflected in `Big Shoulders Flat.glyphs`.

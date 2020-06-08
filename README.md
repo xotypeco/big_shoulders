@@ -2,6 +2,8 @@ Big Shoulders is a family of condensed American Gothic typefaces, created for th
 
 ![Big Shoulders sample slide](big-shoulders-sample-slide.png)
 
+Big Shoulders [Display](https://fonts.google.com/specimen/Big+Shoulders+Display) and [Text](https://fonts.google.com/specimen/Big+Shoulders+Text) is hosted on Google Fonts.
+
 ## Build Instructions
 
 The main source is `Big Shoulders.glyphs`. Any changes made there need to also be reflected in `Big Shoulders Flat.glyphs`.

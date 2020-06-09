@@ -1,8 +1,5 @@
 {
-.appVersion = "1338";
-DisplayStrings = (
-"/Aogonek/Eogonek/Iogonek/Oogonek/Uogonek/aogonek/eogonek i/iogonek/oogonek/uogonek/aogonek.ss01/aogonek.sc/eogonek.sc/iogonek.sc/oogonek.sc/uogonek.sc"
-);
+.appVersion = "1339";
 classes = (
 {
 automatic = 1;

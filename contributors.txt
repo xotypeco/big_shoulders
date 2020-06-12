@@ -9,5 +9,6 @@
 # Names should be added to this file as:
 # Name <email address> 
 
-Patric King <patricking@gmail.com>
+Patric King <patric.king@gmail.com>
+Viviana Monsalve <viviana.monsalve.a@gmail.com>
 Yanone <post@yanone.de>

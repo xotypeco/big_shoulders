@@ -158590,7 +158590,6 @@ instanceInterpolations = {
 "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 0.785;
 "EB6D3A46-95FC-4F29-8169-EF2A3FEDBD5C" = 0.215;
 };
-isBold = 1;
 name = "10pt ExtraBold";
 weightClass = ExtraBold;
 },

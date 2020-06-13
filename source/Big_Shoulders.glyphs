@@ -1,7 +1,7 @@
 {
 .appVersion = "1339";
 DisplayStrings = (
-"Doubtts/space over/space insect-bite/space treatment"
+"Doubtts/space over/space insect-bite/space t/space reatment"
 );
 classes = (
 {
@@ -154371,6 +154371,7 @@ Y = -20;
 "@MMK_R_V" = 0;
 "@MMK_R_hyphen" = -40;
 "@MMK_R_o" = -10;
+"@MMK_R_t" = -40;
 "@MMK_R_w" = 0;
 "@MMK_R_x" = -20;
 "@MMK_R_y" = 0;
@@ -155407,6 +155408,7 @@ Y = -30;
 "@MMK_R_V" = -6;
 "@MMK_R_hyphen" = -40;
 "@MMK_R_o" = -6;
+"@MMK_R_t" = -40;
 "@MMK_R_w" = -6;
 "@MMK_R_x" = -20;
 "@MMK_R_y" = -20;
@@ -156443,6 +156445,7 @@ Y = -40;
 "@MMK_R_V" = -20;
 "@MMK_R_hyphen" = -40;
 "@MMK_R_o" = -20;
+"@MMK_R_t" = -40;
 "@MMK_R_w" = -20;
 "@MMK_R_x" = -20;
 "@MMK_R_y" = -80;
@@ -157479,6 +157482,7 @@ Y = -20;
 "@MMK_R_V" = 0;
 "@MMK_R_hyphen" = -40;
 "@MMK_R_o" = -10;
+"@MMK_R_t" = -40;
 "@MMK_R_w" = 0;
 "@MMK_R_x" = -20;
 "@MMK_R_y" = 0;
@@ -158515,6 +158519,7 @@ Y = -36;
 "@MMK_R_V" = -6;
 "@MMK_R_hyphen" = -40;
 "@MMK_R_o" = -6;
+"@MMK_R_t" = -40;
 "@MMK_R_w" = -6;
 "@MMK_R_x" = -20;
 "@MMK_R_y" = -20;
@@ -159551,6 +159556,7 @@ Y = -40;
 "@MMK_R_V" = -20;
 "@MMK_R_hyphen" = -40;
 "@MMK_R_o" = -20;
+"@MMK_R_t" = -40;
 "@MMK_R_w" = -20;
 "@MMK_R_x" = -20;
 "@MMK_R_y" = -80;

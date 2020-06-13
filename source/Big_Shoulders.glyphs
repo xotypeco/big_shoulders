@@ -1,7 +1,7 @@
 {
 .appVersion = "1339";
 DisplayStrings = (
-"Doubts/space over/space insect-bite/space treatment"
+"Doubtts/space over/space insect-bite/space treatment"
 );
 classes = (
 {
@@ -154231,7 +154231,7 @@ Y = -20;
 "@MMK_R_degree" = -90;
 "@MMK_R_f" = -20;
 "@MMK_R_g" = -10;
-"@MMK_R_o" = -12;
+"@MMK_R_o" = -20;
 "@MMK_R_parenright" = -60;
 "@MMK_R_question" = 0;
 "@MMK_R_quotedbl" = 0;
@@ -155267,7 +155267,7 @@ Y = -30;
 "@MMK_R_degree" = -126;
 "@MMK_R_f" = -20;
 "@MMK_R_g" = -18;
-"@MMK_R_o" = -12;
+"@MMK_R_o" = -20;
 "@MMK_R_parenright" = -46;
 "@MMK_R_question" = -10;
 "@MMK_R_quotedbl" = -16;
@@ -157339,7 +157339,7 @@ Y = -20;
 "@MMK_R_degree" = -90;
 "@MMK_R_f" = -20;
 "@MMK_R_g" = -10;
-"@MMK_R_o" = 0;
+"@MMK_R_o" = -10;
 "@MMK_R_parenright" = -60;
 "@MMK_R_question" = 0;
 "@MMK_R_quotedbl" = 0;
@@ -158375,7 +158375,7 @@ Y = -36;
 "@MMK_R_degree" = -126;
 "@MMK_R_f" = -26;
 "@MMK_R_g" = -18;
-"@MMK_R_o" = -12;
+"@MMK_R_o" = -10;
 "@MMK_R_parenright" = -46;
 "@MMK_R_question" = -10;
 "@MMK_R_quotedbl" = -16;

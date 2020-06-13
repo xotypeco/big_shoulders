@@ -1,7 +1,7 @@
 {
 .appVersion = "1339";
 DisplayStrings = (
-Letters
+"Biologv/space Letters"
 );
 classes = (
 {
@@ -154415,6 +154415,7 @@ Y = -20;
 "@MMK_R_i" = 20;
 "@MMK_R_o" = -40;
 "@MMK_R_period" = -80;
+"@MMK_R_space" = -40;
 "@MMK_R_u" = 0;
 };
 "@MMK_L_v.sc" = {
@@ -154483,6 +154484,7 @@ Y = -20;
 "@MMK_R_period" = -80;
 "@MMK_R_quotedblleft" = -40;
 "@MMK_R_s" = -14;
+"@MMK_R_space" = -40;
 "@MMK_R_t" = 0;
 "@MMK_R_w" = 0;
 "@MMK_R_x" = 0;
@@ -155452,6 +155454,7 @@ Y = -30;
 "@MMK_R_i" = 16;
 "@MMK_R_o" = -40;
 "@MMK_R_period" = -80;
+"@MMK_R_space" = -40;
 "@MMK_R_u" = -10;
 };
 "@MMK_L_v.sc" = {
@@ -155520,6 +155523,7 @@ Y = -30;
 "@MMK_R_period" = -80;
 "@MMK_R_quotedblleft" = -40;
 "@MMK_R_s" = -20;
+"@MMK_R_space" = -40;
 "@MMK_R_t" = 0;
 "@MMK_R_w" = -6;
 "@MMK_R_x" = -10;
@@ -156489,6 +156493,7 @@ Y = -40;
 "@MMK_R_i" = 0;
 "@MMK_R_o" = -40;
 "@MMK_R_period" = -80;
+"@MMK_R_space" = -40;
 "@MMK_R_u" = -40;
 };
 "@MMK_L_v.sc" = {
@@ -156557,6 +156562,7 @@ Y = -40;
 "@MMK_R_period" = -80;
 "@MMK_R_quotedblleft" = -40;
 "@MMK_R_s" = -40;
+"@MMK_R_space" = -40;
 "@MMK_R_t" = 0;
 "@MMK_R_w" = -20;
 "@MMK_R_x" = -40;
@@ -157526,6 +157532,7 @@ Y = -20;
 "@MMK_R_i" = 20;
 "@MMK_R_o" = -40;
 "@MMK_R_period" = -80;
+"@MMK_R_space" = -40;
 "@MMK_R_u" = 0;
 };
 "@MMK_L_v.sc" = {
@@ -157594,6 +157601,7 @@ Y = -20;
 "@MMK_R_period" = -80;
 "@MMK_R_quotedblleft" = -40;
 "@MMK_R_s" = -14;
+"@MMK_R_space" = -40;
 "@MMK_R_t" = 0;
 "@MMK_R_w" = 0;
 "@MMK_R_x" = 0;
@@ -158563,6 +158571,7 @@ Y = -36;
 "@MMK_R_i" = 16;
 "@MMK_R_o" = -40;
 "@MMK_R_period" = -80;
+"@MMK_R_space" = -40;
 "@MMK_R_u" = -10;
 };
 "@MMK_L_v.sc" = {
@@ -158631,6 +158640,7 @@ Y = -36;
 "@MMK_R_period" = -80;
 "@MMK_R_quotedblleft" = -40;
 "@MMK_R_s" = -20;
+"@MMK_R_space" = -40;
 "@MMK_R_t" = -10;
 "@MMK_R_w" = -6;
 "@MMK_R_x" = -10;
@@ -159600,6 +159610,7 @@ Y = -40;
 "@MMK_R_i" = 0;
 "@MMK_R_o" = -40;
 "@MMK_R_period" = -80;
+"@MMK_R_space" = -40;
 "@MMK_R_u" = -40;
 };
 "@MMK_L_v.sc" = {
@@ -159668,6 +159679,7 @@ Y = -40;
 "@MMK_R_period" = -80;
 "@MMK_R_quotedblleft" = -40;
 "@MMK_R_s" = -40;
+"@MMK_R_space" = -40;
 "@MMK_R_t" = -40;
 "@MMK_R_w" = -20;
 "@MMK_R_x" = -40;

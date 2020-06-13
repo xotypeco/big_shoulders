@@ -1,7 +1,7 @@
 {
 .appVersion = "1339";
 DisplayStrings = (
-"Doubtts/space over/space insect-bite/space t/space reatment"
+Letters
 );
 classes = (
 {
@@ -155766,7 +155766,7 @@ t = {
 "@MMK_R_o" = -30;
 "@MMK_R_s" = -40;
 "@MMK_R_space" = -80;
-"@MMK_R_t" = -30;
+"@MMK_R_t" = -40;
 a = -16;
 c = -26;
 o = -40;
@@ -158877,7 +158877,7 @@ t = {
 "@MMK_R_o" = -30;
 "@MMK_R_s" = -30;
 "@MMK_R_space" = -80;
-"@MMK_R_t" = -30;
+"@MMK_R_t" = -40;
 a = -16;
 c = -16;
 o = -46;

@@ -1,7 +1,7 @@
 {
 .appVersion = "1339";
 DisplayStrings = (
-"Biologv/space Letters"
+Abbygail
 );
 classes = (
 {
@@ -154479,7 +154479,7 @@ Y = -20;
 "@MMK_R_a" = 0;
 "@MMK_R_asterisk" = 0;
 "@MMK_R_comma" = 0;
-"@MMK_R_g" = 0;
+"@MMK_R_g" = -20;
 "@MMK_R_o" = -20;
 "@MMK_R_period" = -80;
 "@MMK_R_quotedblleft" = -40;
@@ -155518,7 +155518,7 @@ Y = -30;
 "@MMK_R_a" = -16;
 "@MMK_R_asterisk" = -10;
 "@MMK_R_comma" = -10;
-"@MMK_R_g" = -10;
+"@MMK_R_g" = -20;
 "@MMK_R_o" = -26;
 "@MMK_R_period" = -80;
 "@MMK_R_quotedblleft" = -40;

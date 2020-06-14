@@ -1,7 +1,7 @@
 {
 .appVersion = "1339";
 DisplayStrings = (
-Vanilla
+Wheat
 );
 classes = (
 {
@@ -156170,7 +156170,7 @@ Y = -40;
 "@MMK_R_z" = 0;
 };
 "@MMK_L_e" = {
-"@MMK_R_a" = -40;
+"@MMK_R_a" = -20;
 "@MMK_R_asterisk" = -100;
 "@MMK_R_f" = -40;
 "@MMK_R_g" = -30;
@@ -159287,7 +159287,7 @@ Y = -40;
 "@MMK_R_z" = 0;
 };
 "@MMK_L_e" = {
-"@MMK_R_a" = -40;
+"@MMK_R_a" = -20;
 "@MMK_R_asterisk" = -100;
 "@MMK_R_f" = -40;
 "@MMK_R_g" = -20;

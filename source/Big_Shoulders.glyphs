@@ -1,7 +1,7 @@
 {
 .appVersion = "1339";
 DisplayStrings = (
-Wheat
+"WheatP;"
 );
 classes = (
 {
@@ -153932,7 +153932,7 @@ Y = -20;
 "@MMK_R_comma" = -210;
 "@MMK_R_j.sc" = -60;
 "@MMK_R_o" = 0;
-"@MMK_R_period" = -220;
+"@MMK_R_period" = -80;
 };
 "@MMK_L_R" = {
 "@MMK_R_J" = 0;
@@ -154971,7 +154971,7 @@ Y = -30;
 "@MMK_R_comma" = -210;
 "@MMK_R_j.sc" = -60;
 "@MMK_R_o" = -6;
-"@MMK_R_period" = -210;
+"@MMK_R_period" = -80;
 };
 "@MMK_L_R" = {
 "@MMK_R_J" = -10;
@@ -156010,7 +156010,7 @@ Y = -40;
 "@MMK_R_comma" = -210;
 "@MMK_R_j.sc" = -60;
 "@MMK_R_o" = -20;
-"@MMK_R_period" = -180;
+"@MMK_R_period" = -60;
 };
 "@MMK_L_R" = {
 "@MMK_R_J" = -40;
@@ -157049,7 +157049,7 @@ Y = -20;
 "@MMK_R_comma" = -210;
 "@MMK_R_j.sc" = -60;
 "@MMK_R_o" = 0;
-"@MMK_R_period" = -220;
+"@MMK_R_period" = -80;
 };
 "@MMK_L_R" = {
 "@MMK_R_J" = 0;
@@ -158088,7 +158088,7 @@ Y = -36;
 "@MMK_R_comma" = -210;
 "@MMK_R_j.sc" = -60;
 "@MMK_R_o" = -6;
-"@MMK_R_period" = -210;
+"@MMK_R_period" = -80;
 };
 "@MMK_L_R" = {
 "@MMK_R_J" = -20;
@@ -159127,7 +159127,7 @@ Y = -40;
 "@MMK_R_comma" = -210;
 "@MMK_R_j.sc" = -60;
 "@MMK_R_o" = -20;
-"@MMK_R_period" = -180;
+"@MMK_R_period" = -60;
 };
 "@MMK_L_R" = {
 "@MMK_R_J" = -80;

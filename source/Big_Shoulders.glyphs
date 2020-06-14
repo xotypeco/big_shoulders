@@ -1,7 +1,7 @@
 {
 .appVersion = "1339";
 DisplayStrings = (
-ZYGOTE
+Vanilla
 );
 classes = (
 {
@@ -154995,7 +154995,7 @@ Y = -30;
 "@MMK_R_O" = -46;
 "@MMK_R_V" = -110;
 "@MMK_R_Z" = -20;
-"@MMK_R_a" = -100;
+"@MMK_R_a" = -80;
 "@MMK_R_a.sc" = -106;
 "@MMK_R_comma" = -90;
 "@MMK_R_d" = -36;
@@ -156034,7 +156034,7 @@ Y = -40;
 "@MMK_R_O" = -60;
 "@MMK_R_V" = -100;
 "@MMK_R_Z" = -20;
-"@MMK_R_a" = -160;
+"@MMK_R_a" = -100;
 "@MMK_R_a.sc" = -180;
 "@MMK_R_comma" = -90;
 "@MMK_R_d" = -140;
@@ -158112,7 +158112,7 @@ Y = -36;
 "@MMK_R_O" = -46;
 "@MMK_R_V" = -90;
 "@MMK_R_Z" = -20;
-"@MMK_R_a" = -56;
+"@MMK_R_a" = -60;
 "@MMK_R_a.sc" = -80;
 "@MMK_R_comma" = -90;
 "@MMK_R_d" = -80;
@@ -159151,7 +159151,7 @@ Y = -40;
 "@MMK_R_O" = -60;
 "@MMK_R_V" = -100;
 "@MMK_R_Z" = -20;
-"@MMK_R_a" = -160;
+"@MMK_R_a" = -100;
 "@MMK_R_a.sc" = -200;
 "@MMK_R_comma" = -90;
 "@MMK_R_d" = -200;

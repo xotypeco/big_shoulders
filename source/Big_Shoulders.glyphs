@@ -1,7 +1,7 @@
 {
 .appVersion = "1339";
 DisplayStrings = (
-EJECT
+ZYGOTE
 );
 classes = (
 {
@@ -153736,7 +153736,7 @@ kerning = {
 "3B122060-26E0-4730-9241-82784E6CB359" = {
 "@MMK_L_A" = {
 "@MMK_R_H" = -20;
-"@MMK_R_V" = -63;
+"@MMK_R_V" = -60;
 "@MMK_R_W" = -20;
 "@MMK_R_asterisk" = -100;
 "@MMK_R_d" = -6;
@@ -153951,7 +153951,7 @@ Y = -20;
 };
 "@MMK_L_V" = {
 "@MMK_R_A" = -40;
-"@MMK_R_H" = -40;
+"@MMK_R_H" = -20;
 "@MMK_R_J" = -100;
 "@MMK_R_O" = -42;
 "@MMK_R_V" = -220;
@@ -154775,7 +154775,7 @@ fraction = 0;
 "6F82CFD7-79D5-473B-9D61-BE5DF154BBF2" = {
 "@MMK_L_A" = {
 "@MMK_R_H" = -10;
-"@MMK_R_V" = -66;
+"@MMK_R_V" = -50;
 "@MMK_R_W" = -36;
 "@MMK_R_asterisk" = -100;
 "@MMK_R_d" = -20;
@@ -154990,7 +154990,7 @@ Y = -30;
 };
 "@MMK_L_V" = {
 "@MMK_R_A" = -60;
-"@MMK_R_H" = -30;
+"@MMK_R_H" = -20;
 "@MMK_R_J" = -120;
 "@MMK_R_O" = -46;
 "@MMK_R_V" = -110;
@@ -155814,7 +155814,7 @@ fraction = 10;
 "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = {
 "@MMK_L_A" = {
 "@MMK_R_H" = 0;
-"@MMK_R_V" = -140;
+"@MMK_R_V" = -120;
 "@MMK_R_W" = -80;
 "@MMK_R_asterisk" = -100;
 "@MMK_R_d" = -15;
@@ -155842,7 +155842,7 @@ fraction = 10;
 "@MMK_R_X" = -60;
 };
 "@MMK_L_E" = {
-"@MMK_R_H" = -20;
+"@MMK_R_H" = 0;
 "@MMK_R_O" = -17;
 "@MMK_R_asterisk" = 0;
 "@MMK_R_g" = 0;
@@ -157892,7 +157892,7 @@ fraction = 0;
 "C9EB94EC-C68D-4931-B320-068DCAB9FADA" = {
 "@MMK_L_A" = {
 "@MMK_R_H" = -10;
-"@MMK_R_V" = -66;
+"@MMK_R_V" = -50;
 "@MMK_R_W" = -36;
 "@MMK_R_asterisk" = -100;
 "@MMK_R_d" = -20;
@@ -158107,7 +158107,7 @@ Y = -36;
 };
 "@MMK_L_V" = {
 "@MMK_R_A" = -60;
-"@MMK_R_H" = -26;
+"@MMK_R_H" = -20;
 "@MMK_R_J" = -116;
 "@MMK_R_O" = -46;
 "@MMK_R_V" = -90;
@@ -158931,7 +158931,7 @@ fraction = 10;
 "5013C991-8699-46CB-BB1C-82E334DBD38B" = {
 "@MMK_L_A" = {
 "@MMK_R_H" = 0;
-"@MMK_R_V" = -140;
+"@MMK_R_V" = -120;
 "@MMK_R_W" = -80;
 "@MMK_R_asterisk" = -100;
 "@MMK_R_d" = -15;
@@ -158959,7 +158959,7 @@ fraction = 10;
 "@MMK_R_X" = -61;
 };
 "@MMK_L_E" = {
-"@MMK_R_H" = -20;
+"@MMK_R_H" = 0;
 "@MMK_R_O" = -17;
 "@MMK_R_asterisk" = 0;
 "@MMK_R_g" = 0;
@@ -159146,7 +159146,7 @@ Y = -40;
 };
 "@MMK_L_V" = {
 "@MMK_R_A" = -120;
-"@MMK_R_H" = -40;
+"@MMK_R_H" = 0;
 "@MMK_R_J" = -160;
 "@MMK_R_O" = -60;
 "@MMK_R_V" = -100;

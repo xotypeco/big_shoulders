@@ -1,7 +1,7 @@
 {
 .appVersion = "1339";
 DisplayStrings = (
-"arches/space t/space f/space NOY/space A/space YYPO/space"
+"wsw/space t/space f/space NOY/space A/space YYPO/space"
 );
 classes = (
 {
@@ -156528,7 +156528,7 @@ Y = -40;
 "@MMK_R_period" = -80;
 "@MMK_R_question" = -20;
 "@MMK_R_quotedblleft" = -40;
-"@MMK_R_s" = -80;
+"@MMK_R_s" = -20;
 "@MMK_R_slash" = -80;
 "@MMK_R_x" = -40;
 };
@@ -159654,7 +159654,7 @@ Y = -40;
 "@MMK_R_period" = -80;
 "@MMK_R_question" = -20;
 "@MMK_R_quotedblleft" = -40;
-"@MMK_R_s" = -80;
+"@MMK_R_s" = -20;
 "@MMK_R_slash" = -80;
 "@MMK_R_x" = -40;
 };

@@ -1,7 +1,7 @@
 {
 .appVersion = "1339";
 DisplayStrings = (
-"WheatP;"
+"WheatF;"
 );
 classes = (
 {
@@ -153793,7 +153793,7 @@ kerning = {
 "@MMK_R_n" = -40;
 "@MMK_R_o" = -38;
 "@MMK_R_o.sc" = -40;
-"@MMK_R_period" = -220;
+"@MMK_R_period" = -80;
 "@MMK_R_s" = -60;
 "@MMK_R_t" = -80;
 "@MMK_R_u" = -40;
@@ -154832,7 +154832,7 @@ fraction = 0;
 "@MMK_R_n" = -30;
 "@MMK_R_o" = -40;
 "@MMK_R_o.sc" = -30;
-"@MMK_R_period" = -210;
+"@MMK_R_period" = -80;
 "@MMK_R_s" = -56;
 "@MMK_R_t" = -80;
 "@MMK_R_u" = -30;
@@ -155871,7 +155871,7 @@ fraction = 10;
 "@MMK_R_n" = 0;
 "@MMK_R_o" = -40;
 "@MMK_R_o.sc" = 0;
-"@MMK_R_period" = -180;
+"@MMK_R_period" = -60;
 "@MMK_R_s" = -40;
 "@MMK_R_t" = -80;
 "@MMK_R_u" = -17;
@@ -156910,7 +156910,7 @@ fraction = 40;
 "@MMK_R_n" = -40;
 "@MMK_R_o" = -40;
 "@MMK_R_o.sc" = -60;
-"@MMK_R_period" = -204;
+"@MMK_R_period" = -80;
 "@MMK_R_s" = -61;
 "@MMK_R_t" = -81;
 "@MMK_R_u" = -40;
@@ -157949,7 +157949,7 @@ fraction = 0;
 "@MMK_R_n" = -30;
 "@MMK_R_o" = -40;
 "@MMK_R_o.sc" = -56;
-"@MMK_R_period" = -210;
+"@MMK_R_period" = -80;
 "@MMK_R_s" = -50;
 "@MMK_R_t" = -81;
 "@MMK_R_u" = -27;
@@ -158988,7 +158988,7 @@ fraction = 10;
 "@MMK_R_n" = 0;
 "@MMK_R_o" = -40;
 "@MMK_R_o.sc" = 0;
-"@MMK_R_period" = -177;
+"@MMK_R_period" = -60;
 "@MMK_R_s" = -43;
 "@MMK_R_t" = -80;
 "@MMK_R_u" = -19;

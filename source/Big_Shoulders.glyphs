@@ -916,12 +916,16 @@ custom = "Text Thin";
 customValue1 = 200;
 customParameters = (
 {
-name = underlineThickness;
-value = 40;
+name = typoAscender;
+value = 1968;
 },
 {
-name = underlinePosition;
-value = -80;
+name = typoDescender;
+value = -426;
+},
+{
+name = typoLineGap;
+value = 0;
 },
 {
 name = hheaAscender;
@@ -936,24 +940,20 @@ name = hheaLineGap;
 value = 0;
 },
 {
-name = typoAscender;
-value = 1968;
-},
-{
-name = typoDescender;
-value = -426;
-},
-{
-name = typoLineGap;
-value = 0;
+name = winAscent;
+value = 2614;
 },
 {
 name = winDescent;
 value = 730;
 },
 {
-name = winAscent;
-value = 2614;
+name = underlinePosition;
+value = -80;
+},
+{
+name = underlineThickness;
+value = 40;
 }
 );
 descender = -400;
@@ -1015,12 +1015,16 @@ custom = Text;
 customValue1 = 375;
 customParameters = (
 {
-name = underlineThickness;
-value = 40;
+name = typoAscender;
+value = 1968;
 },
 {
-name = underlinePosition;
-value = -80;
+name = typoDescender;
+value = -426;
+},
+{
+name = typoLineGap;
+value = 0;
 },
 {
 name = hheaAscender;
@@ -1035,24 +1039,20 @@ name = hheaLineGap;
 value = 0;
 },
 {
-name = typoAscender;
-value = 1968;
-},
-{
-name = typoDescender;
-value = -426;
-},
-{
-name = typoLineGap;
-value = 0;
+name = winAscent;
+value = 2614;
 },
 {
 name = winDescent;
 value = 730;
 },
 {
-name = winAscent;
-value = 2614;
+name = underlinePosition;
+value = -80;
+},
+{
+name = underlineThickness;
+value = 40;
 }
 );
 descender = -400;
@@ -1109,12 +1109,16 @@ custom = "Text Black";
 customValue1 = 900;
 customParameters = (
 {
-name = underlineThickness;
-value = 40;
+name = typoAscender;
+value = 1968;
 },
 {
-name = underlinePosition;
-value = -80;
+name = typoDescender;
+value = -426;
+},
+{
+name = typoLineGap;
+value = 0;
 },
 {
 name = hheaAscender;
@@ -1129,24 +1133,20 @@ name = hheaLineGap;
 value = 0;
 },
 {
-name = typoAscender;
-value = 1968;
-},
-{
-name = typoDescender;
-value = -426;
-},
-{
-name = typoLineGap;
-value = 0;
+name = winAscent;
+value = 2614;
 },
 {
 name = winDescent;
 value = 730;
 },
 {
-name = winAscent;
-value = 2614;
+name = underlinePosition;
+value = -80;
+},
+{
+name = underlineThickness;
+value = 40;
 }
 );
 descender = -400;
@@ -1221,12 +1221,16 @@ custom = "Display Thin";
 customValue1 = 200;
 customParameters = (
 {
-name = underlineThickness;
-value = 40;
+name = typoAscender;
+value = 1968;
 },
 {
-name = underlinePosition;
-value = -80;
+name = typoDescender;
+value = -426;
+},
+{
+name = typoLineGap;
+value = 0;
 },
 {
 name = hheaAscender;
@@ -1241,24 +1245,20 @@ name = hheaLineGap;
 value = 0;
 },
 {
-name = typoAscender;
-value = 1968;
-},
-{
-name = typoDescender;
-value = -426;
-},
-{
-name = typoLineGap;
-value = 0;
+name = winAscent;
+value = 2614;
 },
 {
 name = winDescent;
 value = 730;
 },
 {
-name = winAscent;
-value = 2614;
+name = underlinePosition;
+value = -80;
+},
+{
+name = underlineThickness;
+value = 40;
 }
 );
 descender = -400;
@@ -1324,12 +1324,16 @@ custom = Display;
 customValue1 = 375;
 customParameters = (
 {
-name = underlineThickness;
-value = 40;
+name = typoAscender;
+value = 1968;
 },
 {
-name = underlinePosition;
-value = -80;
+name = typoDescender;
+value = -426;
+},
+{
+name = typoLineGap;
+value = 0;
 },
 {
 name = hheaAscender;
@@ -1344,24 +1348,20 @@ name = hheaLineGap;
 value = 0;
 },
 {
-name = typoAscender;
-value = 1968;
-},
-{
-name = typoDescender;
-value = -426;
-},
-{
-name = typoLineGap;
-value = 0;
+name = winAscent;
+value = 2614;
 },
 {
 name = winDescent;
 value = 730;
 },
 {
-name = winAscent;
-value = 2614;
+name = underlinePosition;
+value = -80;
+},
+{
+name = underlineThickness;
+value = 40;
 }
 );
 descender = -400;
@@ -1423,12 +1423,16 @@ custom = "Display Black";
 customValue1 = 900;
 customParameters = (
 {
-name = underlineThickness;
-value = 40;
+name = typoAscender;
+value = 1968;
 },
 {
-name = underlinePosition;
-value = -80;
+name = typoDescender;
+value = -426;
+},
+{
+name = typoLineGap;
+value = 0;
 },
 {
 name = hheaAscender;
@@ -1443,24 +1447,20 @@ name = hheaLineGap;
 value = 0;
 },
 {
-name = typoAscender;
-value = 1968;
-},
-{
-name = typoDescender;
-value = -426;
-},
-{
-name = typoLineGap;
-value = 0;
+name = winAscent;
+value = 2614;
 },
 {
 name = winDescent;
 value = 730;
 },
 {
-name = winAscent;
-value = 2614;
+name = underlinePosition;
+value = -80;
+},
+{
+name = underlineThickness;
+value = 40;
 }
 );
 descender = -400;
@@ -153481,13 +153481,17 @@ customParameters = (
 {
 name = weightClass;
 value = 100;
+},
+{
+name = familyName;
+value = "Big Shoulders Text";
 }
 );
 interpolationWidth = 10;
 instanceInterpolations = {
 "3B122060-26E0-4730-9241-82784E6CB359" = 1;
 };
-name = "Text Thin";
+name = Thin;
 weightClass = Thin;
 },
 {
@@ -153495,6 +153499,10 @@ customParameters = (
 {
 name = weightClass;
 value = 300;
+},
+{
+name = familyName;
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 1;
@@ -153504,7 +153512,7 @@ instanceInterpolations = {
 "3B122060-26E0-4730-9241-82784E6CB359" = 0.215;
 "6F82CFD7-79D5-473B-9D61-BE5DF154BBF2" = 0.785;
 };
-name = "Text Light";
+name = Light;
 weightClass = Light;
 },
 {
@@ -153512,6 +153520,10 @@ customParameters = (
 {
 name = weightClass;
 value = 400;
+},
+{
+name = familyName;
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 4;
@@ -153521,13 +153533,17 @@ instanceInterpolations = {
 "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 0.14167;
 "6F82CFD7-79D5-473B-9D61-BE5DF154BBF2" = 0.85833;
 };
-name = "Text Regular";
+name = Regular;
 },
 {
 customParameters = (
 {
 name = weightClass;
 value = 500;
+},
+{
+name = familyName;
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 5;
@@ -153537,7 +153553,7 @@ instanceInterpolations = {
 "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 0.25;
 "6F82CFD7-79D5-473B-9D61-BE5DF154BBF2" = 0.75;
 };
-name = "Text Medium";
+name = Medium;
 weightClass = Medium;
 },
 {
@@ -153545,6 +153561,10 @@ customParameters = (
 {
 name = weightClass;
 value = 600;
+},
+{
+name = familyName;
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 6;
@@ -153554,7 +153574,7 @@ instanceInterpolations = {
 "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 0.35667;
 "6F82CFD7-79D5-473B-9D61-BE5DF154BBF2" = 0.64333;
 };
-name = "Text SemiBold";
+name = SemiBold;
 weightClass = SemiBold;
 },
 {
@@ -153562,6 +153582,10 @@ customParameters = (
 {
 name = weightClass;
 value = 700;
+},
+{
+name = familyName;
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 7;
@@ -153572,7 +153596,7 @@ instanceInterpolations = {
 "6F82CFD7-79D5-473B-9D61-BE5DF154BBF2" = 0.43;
 };
 isBold = 1;
-name = "Text Bold";
+name = Bold;
 weightClass = Bold;
 },
 {
@@ -153580,6 +153604,10 @@ customParameters = (
 {
 name = weightClass;
 value = 800;
+},
+{
+name = familyName;
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 8;
@@ -153589,8 +153617,7 @@ instanceInterpolations = {
 "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 0.785;
 "6F82CFD7-79D5-473B-9D61-BE5DF154BBF2" = 0.215;
 };
-isBold = 1;
-name = "Text ExtraBold";
+name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
@@ -153598,6 +153625,10 @@ customParameters = (
 {
 name = weightClass;
 value = 900;
+},
+{
+name = familyName;
+value = "Big Shoulders Text";
 }
 );
 interpolationCustom = 9;
@@ -153606,7 +153637,7 @@ interpolationWidth = 10;
 instanceInterpolations = {
 "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 1;
 };
-name = "Text Black";
+name = Black;
 weightClass = Black;
 },
 {
@@ -153614,6 +153645,10 @@ customParameters = (
 {
 name = weightClass;
 value = 100;
+},
+{
+name = familyName;
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom1 = 200;
@@ -153621,7 +153656,7 @@ interpolationWidth = 72;
 instanceInterpolations = {
 "3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 1;
 };
-name = "Display Thin";
+name = Thin;
 weightClass = Thin;
 },
 {
@@ -153629,6 +153664,10 @@ customParameters = (
 {
 name = weightClass;
 value = 300;
+},
+{
+name = familyName;
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 1;
@@ -153639,7 +153678,7 @@ instanceInterpolations = {
 "3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 0.215;
 "C9EB94EC-C68D-4931-B320-068DCAB9FADA" = 0.785;
 };
-name = "Display Light";
+name = Light;
 weightClass = Light;
 },
 {
@@ -153647,6 +153686,10 @@ customParameters = (
 {
 name = weightClass;
 value = 400;
+},
+{
+name = familyName;
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 4;
@@ -153657,13 +153700,17 @@ instanceInterpolations = {
 "5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.14167;
 "C9EB94EC-C68D-4931-B320-068DCAB9FADA" = 0.85833;
 };
-name = "Display Regular";
+name = Regular;
 },
 {
 customParameters = (
 {
 name = weightClass;
 value = 500;
+},
+{
+name = familyName;
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 5;
@@ -153674,7 +153721,7 @@ instanceInterpolations = {
 "5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.25;
 "C9EB94EC-C68D-4931-B320-068DCAB9FADA" = 0.75;
 };
-name = "Display Medium";
+name = Medium;
 weightClass = Medium;
 },
 {
@@ -153682,6 +153729,10 @@ customParameters = (
 {
 name = weightClass;
 value = 600;
+},
+{
+name = familyName;
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 6;
@@ -153692,7 +153743,7 @@ instanceInterpolations = {
 "5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.35667;
 "C9EB94EC-C68D-4931-B320-068DCAB9FADA" = 0.64333;
 };
-name = "Display SemiBold";
+name = SemiBold;
 weightClass = SemiBold;
 },
 {
@@ -153700,6 +153751,10 @@ customParameters = (
 {
 name = weightClass;
 value = 700;
+},
+{
+name = familyName;
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 7;
@@ -153711,7 +153766,7 @@ instanceInterpolations = {
 "C9EB94EC-C68D-4931-B320-068DCAB9FADA" = 0.43;
 };
 isBold = 1;
-name = "Display Bold";
+name = Bold;
 weightClass = Bold;
 },
 {
@@ -153719,6 +153774,10 @@ customParameters = (
 {
 name = weightClass;
 value = 800;
+},
+{
+name = familyName;
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 8;
@@ -153729,7 +153788,7 @@ instanceInterpolations = {
 "5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.785;
 "C9EB94EC-C68D-4931-B320-068DCAB9FADA" = 0.215;
 };
-name = "Display ExtraBold";
+name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
@@ -153737,6 +153796,10 @@ customParameters = (
 {
 name = weightClass;
 value = 900;
+},
+{
+name = familyName;
+value = "Big Shoulders Display";
 }
 );
 interpolationCustom = 9;
@@ -153746,7 +153809,7 @@ interpolationWidth = 72;
 instanceInterpolations = {
 "5013C991-8699-46CB-BB1C-82E334DBD38B" = 1;
 };
-name = "Display Black";
+name = Black;
 weightClass = Black;
 }
 );

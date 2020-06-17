@@ -48,14 +48,15 @@ fontmake -g Big_Shoulders.glyphs -o variable --output-path $VF_FILE
 rm -rf master_ufo/ instance_ufo/
 
 echo "POST PROCESSING VFs"
-ttfautohint $VF_FILE $VF_FILE.fix
+
+python fixName.py $VF_FILE
+
+gftools fix-nonhinting $VF_FILE $VF_FILE.fix
 mv $VF_FILE.fix $VF_FILE
 
-gftools fix-hinting $VF_FILE
-mv $VF_FILE.fix $VF_FILE
+rm ../fonts/variable/*gasp.ttf
 
 gftools fix-dsig -f $VF_FILE
 
 gftools fix-unwanted-tables $VF_FILE -t MVAR
 
-# python3 varta-stat-table2.py $VF_FILE

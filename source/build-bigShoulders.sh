@@ -60,3 +60,5 @@ gftools fix-dsig -f $VF_FILE
 
 gftools fix-unwanted-tables $VF_FILE -t MVAR
 
+python3 Big-Shoulders-Stat-Table.py $VF_FILE
+

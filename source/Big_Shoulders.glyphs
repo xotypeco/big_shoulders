@@ -153499,6 +153499,14 @@ value = "Big Shoulders Text";
 {
 name = WWSSubfamilyName;
 value = Thin;
+},
+{
+name = "Name Table Entry";
+value = "3 3 1 1033; BigShouldersText-Thin";
+},
+{
+name = "Name Table Entry";
+value = "3 1 0 0; BigShouldersText-Thin";
 }
 );
 interpolationWidth = 10;
@@ -153525,6 +153533,14 @@ value = "Big Shoulders Text";
 {
 name = WWSSubfamilyName;
 value = Light;
+},
+{
+name = "Name Table Entry";
+value = "3 3 1 1033; BigShouldersText-Light";
+},
+{
+name = "Name Table Entry";
+value = "3 1 0 0; BigShouldersText-Light";
 }
 );
 interpolationCustom = 1;
@@ -153554,6 +153570,14 @@ value = "Big Shoulders Text";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Name Table Entry";
+value = "3 3 1 1033; BigShouldersText-Regular";
+},
+{
+name = "Name Table Entry";
+value = "3 1 0 0; BigShouldersText-Regular";
 }
 );
 interpolationCustom = 4;
@@ -153582,6 +153606,14 @@ value = "Big Shoulders Text";
 {
 name = WWSSubfamilyName;
 value = Medium;
+},
+{
+name = "Name Table Entry";
+value = "3 3 1 1033; BigShouldersText-Medium";
+},
+{
+name = "Name Table Entry";
+value = "3 1 0 0; BigShouldersText-Medium";
 }
 );
 interpolationCustom = 5;
@@ -153611,6 +153643,14 @@ value = "Big Shoulders Text";
 {
 name = WWSSubfamilyName;
 value = SemiBold;
+},
+{
+name = "Name Table Entry";
+value = "3 3 1 1033; BigShouldersText-SemiBold";
+},
+{
+name = "Name Table Entry";
+value = "3 1 0 0; BigShouldersText-SemiBold";
 }
 );
 interpolationCustom = 6;
@@ -153640,6 +153680,14 @@ value = "Big Shoulders Text";
 {
 name = WWSSubfamilyName;
 value = Bold;
+},
+{
+name = "Name Table Entry";
+value = "3 3 1 1033; BigShouldersText-Bold";
+},
+{
+name = "Name Table Entry";
+value = "3 1 0 0; BigShouldersText-Bold";
 }
 );
 interpolationCustom = 7;
@@ -153670,6 +153718,14 @@ value = "Big Shoulders Text";
 {
 name = WWSSubfamilyName;
 value = ExtraBold;
+},
+{
+name = "Name Table Entry";
+value = "3 3 1 1033; BigShouldersText-ExtraBold";
+},
+{
+name = "Name Table Entry";
+value = "3 1 0 0; BigShouldersText-ExtraBold";
 }
 );
 interpolationCustom = 8;
@@ -153699,6 +153755,14 @@ value = "Big Shoulders Text";
 {
 name = WWSSubfamilyName;
 value = Black;
+},
+{
+name = "Name Table Entry";
+value = "3 3 1 1033; BigShouldersText-Black";
+},
+{
+name = "Name Table Entry";
+value = "3 1 0 0; BigShouldersText-Black";
 }
 );
 interpolationCustom = 9;
@@ -153727,6 +153791,14 @@ value = "Big Shoulders Display";
 {
 name = WWSSubfamilyName;
 value = Thin;
+},
+{
+name = "Name Table Entry";
+value = "3 3 1 1033; BigShouldersDisplay-Thin";
+},
+{
+name = "Name Table Entry";
+value = "3 1 0 0; BigShouldersDisplay-Thin";
 }
 );
 interpolationCustom1 = 200;
@@ -153754,6 +153826,14 @@ value = "Big Shoulders Display";
 {
 name = WWSSubfamilyName;
 value = Light;
+},
+{
+name = "Name Table Entry";
+value = "3 3 1 1033; BigShouldersDisplay-Light";
+},
+{
+name = "Name Table Entry";
+value = "3 1 0 0; BigShouldersDisplay-Light";
 }
 );
 interpolationCustom = 1;
@@ -153784,6 +153864,14 @@ value = "Big Shoulders Display";
 {
 name = WWSSubfamilyName;
 value = Regular;
+},
+{
+name = "Name Table Entry";
+value = "3 3 1 1033; BigShouldersDisplay-Regular";
+},
+{
+name = "Name Table Entry";
+value = "3 1 0 0; BigShouldersDisplay-Regular";
 }
 );
 interpolationCustom = 4;
@@ -153813,6 +153901,14 @@ value = "Big Shoulders Display";
 {
 name = WWSSubfamilyName;
 value = Medium;
+},
+{
+name = "Name Table Entry";
+value = "3 3 1 1033; BigShouldersDisplay-Medium";
+},
+{
+name = "Name Table Entry";
+value = "3 1 0 0; BigShouldersDisplay-Medium";
 }
 );
 interpolationCustom = 5;
@@ -153843,6 +153939,14 @@ value = "Big Shoulders Display";
 {
 name = WWSSubfamilyName;
 value = SemiBold;
+},
+{
+name = "Name Table Entry";
+value = "3 3 1 1033; BigShouldersDisplay-SemiBold";
+},
+{
+name = "Name Table Entry";
+value = "3 1 0 0; BigShouldersDisplay-SemiBold";
 }
 );
 interpolationCustom = 6;
@@ -153873,6 +153977,14 @@ value = "Big Shoulders Display";
 {
 name = WWSSubfamilyName;
 value = Bold;
+},
+{
+name = "Name Table Entry";
+value = "3 3 1 1033; BigShouldersDisplay-Bold";
+},
+{
+name = "Name Table Entry";
+value = "3 1 0 0; BigShouldersDisplay-Bold";
 }
 );
 interpolationCustom = 7;
@@ -153904,6 +154016,14 @@ value = "Big Shoulders Display";
 {
 name = WWSSubfamilyName;
 value = ExtraBold;
+},
+{
+name = "Name Table Entry";
+value = "3 3 1 1033; BigShouldersDisplay-ExtraBold";
+},
+{
+name = "Name Table Entry";
+value = "3 1 0 0; BigShouldersDisplay-ExtraBold";
 }
 );
 interpolationCustom = 8;
@@ -153934,6 +154054,14 @@ value = "Big Shoulders Display";
 {
 name = WWSSubfamilyName;
 value = Black;
+},
+{
+name = "Name Table Entry";
+value = "3 3 1 1033; BigShouldersDisplay-Black";
+},
+{
+name = "Name Table Entry";
+value = "3 1 0 0; BigShouldersDisplay-Black";
 }
 );
 interpolationCustom = 9;

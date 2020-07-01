@@ -153491,6 +153491,14 @@ value = "Big Shoulders Text";
 {
 name = weightClass;
 value = 100;
+},
+{
+name = WWSFamilyName;
+value = "Big Shoulders Text";
+},
+{
+name = WWSSubfamilyName;
+value = Thin;
 }
 );
 interpolationWidth = 10;
@@ -153509,6 +153517,14 @@ value = 300;
 {
 name = familyName;
 value = "Big Shoulders Text";
+},
+{
+name = WWSFamilyName;
+value = "Big Shoulders Text";
+},
+{
+name = WWSSubfamilyName;
+value = Light;
 }
 );
 interpolationCustom = 1;
@@ -153530,6 +153546,14 @@ value = 400;
 {
 name = familyName;
 value = "Big Shoulders Text";
+},
+{
+name = WWSFamilyName;
+value = "Big Shoulders Text";
+},
+{
+name = WWSSubfamilyName;
+value = Regular;
 }
 );
 interpolationCustom = 4;
@@ -153550,6 +153574,14 @@ value = 500;
 {
 name = familyName;
 value = "Big Shoulders Text";
+},
+{
+name = WWSFamilyName;
+value = "Big Shoulders Text";
+},
+{
+name = WWSSubfamilyName;
+value = Medium;
 }
 );
 interpolationCustom = 5;
@@ -153571,6 +153603,14 @@ value = 600;
 {
 name = familyName;
 value = "Big Shoulders Text";
+},
+{
+name = WWSFamilyName;
+value = "Big Shoulders Text";
+},
+{
+name = WWSSubfamilyName;
+value = SemiBold;
 }
 );
 interpolationCustom = 6;
@@ -153592,6 +153632,14 @@ value = 700;
 {
 name = familyName;
 value = "Big Shoulders Text";
+},
+{
+name = WWSFamilyName;
+value = "Big Shoulders Text";
+},
+{
+name = WWSSubfamilyName;
+value = Bold;
 }
 );
 interpolationCustom = 7;
@@ -153614,6 +153662,14 @@ value = 800;
 {
 name = familyName;
 value = "Big Shoulders Text";
+},
+{
+name = WWSFamilyName;
+value = "Big Shoulders Text";
+},
+{
+name = WWSSubfamilyName;
+value = ExtraBold;
 }
 );
 interpolationCustom = 8;
@@ -153635,6 +153691,14 @@ value = 900;
 {
 name = familyName;
 value = "Big Shoulders Text";
+},
+{
+name = WWSFamilyName;
+value = "Big Shoulders Text";
+},
+{
+name = WWSSubfamilyName;
+value = Black;
 }
 );
 interpolationCustom = 9;
@@ -153655,6 +153719,14 @@ value = 100;
 {
 name = familyName;
 value = "Big Shoulders Display";
+},
+{
+name = WWSFamilyName;
+value = "Big Shoulders Display";
+},
+{
+name = WWSSubfamilyName;
+value = Thin;
 }
 );
 interpolationCustom1 = 200;
@@ -153674,6 +153746,14 @@ value = 300;
 {
 name = familyName;
 value = "Big Shoulders Display";
+},
+{
+name = WWSFamilyName;
+value = "Big Shoulders Display";
+},
+{
+name = WWSSubfamilyName;
+value = Light;
 }
 );
 interpolationCustom = 1;
@@ -153696,6 +153776,14 @@ value = 400;
 {
 name = familyName;
 value = "Big Shoulders Display";
+},
+{
+name = WWSFamilyName;
+value = "Big Shoulders Display";
+},
+{
+name = WWSSubfamilyName;
+value = Regular;
 }
 );
 interpolationCustom = 4;
@@ -153717,6 +153805,14 @@ value = 500;
 {
 name = familyName;
 value = "Big Shoulders Display";
+},
+{
+name = WWSFamilyName;
+value = "Big Shoulders Display";
+},
+{
+name = WWSSubfamilyName;
+value = Medium;
 }
 );
 interpolationCustom = 5;
@@ -153739,6 +153835,14 @@ value = 600;
 {
 name = familyName;
 value = "Big Shoulders Display";
+},
+{
+name = WWSFamilyName;
+value = "Big Shoulders Display";
+},
+{
+name = WWSSubfamilyName;
+value = SemiBold;
 }
 );
 interpolationCustom = 6;
@@ -153761,6 +153865,14 @@ value = 700;
 {
 name = familyName;
 value = "Big Shoulders Display";
+},
+{
+name = WWSFamilyName;
+value = "Big Shoulders Display";
+},
+{
+name = WWSSubfamilyName;
+value = Bold;
 }
 );
 interpolationCustom = 7;
@@ -153784,6 +153896,14 @@ value = 800;
 {
 name = familyName;
 value = "Big Shoulders Display";
+},
+{
+name = WWSFamilyName;
+value = "Big Shoulders Display";
+},
+{
+name = WWSSubfamilyName;
+value = ExtraBold;
 }
 );
 interpolationCustom = 8;
@@ -153806,6 +153926,14 @@ value = 900;
 {
 name = familyName;
 value = "Big Shoulders Display";
+},
+{
+name = WWSFamilyName;
+value = "Big Shoulders Display";
+},
+{
+name = WWSSubfamilyName;
+value = Black;
 }
 );
 interpolationCustom = 9;

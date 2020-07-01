@@ -41,24 +41,24 @@ do
     gftools fix-dsig -f $otf;
 done
 
-echo "GENERATING VFs"
-VF_FILE=../fonts/variable/BigShoulders\[opsz,wght]\.ttf
-fontmake -g Big_Shoulders.glyphs -o variable --output-path $VF_FILE
+# echo "GENERATING VFs"
+# VF_FILE=../fonts/variable/BigShoulders\[opsz,wght]\.ttf
+# fontmake -g Big_Shoulders.glyphs -o variable --output-path $VF_FILE
 
-rm -rf master_ufo/ instance_ufo/
+# rm -rf master_ufo/ instance_ufo/
 
-echo "POST PROCESSING VFs"
+# echo "POST PROCESSING VFs"
 
-python fixName.py $VF_FILE
+# python fixName.py $VF_FILE
 
-gftools fix-nonhinting $VF_FILE $VF_FILE.fix
-mv $VF_FILE.fix $VF_FILE
+# gftools fix-nonhinting $VF_FILE $VF_FILE.fix
+# mv $VF_FILE.fix $VF_FILE
 
-rm ../fonts/variable/*gasp.ttf
+# rm ../fonts/variable/*gasp.ttf
 
-gftools fix-dsig -f $VF_FILE
+# gftools fix-dsig -f $VF_FILE
 
-gftools fix-unwanted-tables $VF_FILE -t MVAR
+# gftools fix-unwanted-tables $VF_FILE -t MVAR
 
-python3 Big-Shoulders-Stat-Table.py $VF_FILE
+# python3 Big-Shoulders-Stat-Table.py $VF_FILE
 

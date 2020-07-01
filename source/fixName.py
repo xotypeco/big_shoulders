@@ -16,7 +16,7 @@ for record in nametable.names:
     current_string = record.toUnicode()
     print(current_string)
     #new_string = current_string.replace('Big Shoulders Text', 'Big Shoulders').replace('BigShoulders-Text', 'BigShoulders-')
-    new_string = current_string.replace('Text Thin', 'Thin').replace('Text', '')
+    new_string = current_string.replace('Text Thin', 'Thin')#.replace('Text', '')
     print(new_string)
     nametable.setName(new_string, record.nameID, record.platformID, record.platEncID, record.langID)
 

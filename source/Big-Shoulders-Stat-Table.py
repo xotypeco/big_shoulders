@@ -23,7 +23,7 @@ UPRIGHT_AXES = [
         ordering=0,
         values=[
             dict(rangeMinValue=18, nominalValue=18, name="Display"),  # Display
-            dict(rangeMinValue=6, nominalValue=14, rangeMaxValue=17, name="Text"),  # Text
+            dict(rangeMinValue=10, nominalValue=14, rangeMaxValue=17, name="Text"),  # Text
         ],
     ),
     dict(
@@ -44,7 +44,7 @@ UPRIGHT_AXES = [
 ]
 
 
-VARIABLE_DIR = "../fonts/variable"
+VARIABLE_DIR = "../fonts/variable/"
 BS_UPRIGHT = f"{VARIABLE_DIR}/BigShoulders[opsz,wght].ttf"
 
 

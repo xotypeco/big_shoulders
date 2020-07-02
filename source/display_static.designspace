@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="100">
+      <map input="100" output="100"/>
+      <map input="300" output="257"/>
+      <map input="400" output="385"/>
+      <map input="500" output="450"/>
+      <map input="600" output="514"/>
+      <map input="700" output="642"/>
+      <map input="800" output="771"/>
+      <map input="900" output="900"/>
+    </axis>
+    <axis tag="opsz" name="Optical size" minimum="72" maximum="72" default="72"/>
+  </axes>
+  <sources>
+    <source filename="BigShoulders-Thin72.ufo" name="Big Shoulders Thin" familyname="Big Shoulders" stylename="Thin">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+    </source>
+    <source filename="BigShoulders-Light72.ufo" name="Big Shoulders Light" familyname="Big Shoulders" stylename="Light">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+    </source>
+    <source filename="BigShoulders-Black72.ufo" name="Big Shoulders Black" familyname="Big Shoulders" stylename="Black">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Big Shoulders Display Thin" familyname="Big Shoulders Display" stylename="Thin" filename="instance_ufo/BigShouldersDisplay-Thin.ufo" stylemapfamilyname="Big Shoulders Display Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Big Shoulders Display Light" familyname="Big Shoulders Display" stylename="Light" filename="instance_ufo/BigShouldersDisplay-Light.ufo" stylemapfamilyname="Big Shoulders Display Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="257"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Big Shoulders Display Regular" familyname="Big Shoulders Display" stylename="Regular" filename="instance_ufo/BigShouldersDisplay-Regular.ufo" stylemapfamilyname="Big Shoulders Display" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="385"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Big Shoulders Display Medium" familyname="Big Shoulders Display" stylename="Medium" filename="instance_ufo/BigShouldersDisplay-Medium.ufo" stylemapfamilyname="Big Shoulders Display Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="450"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Big Shoulders Display SemiBold" familyname="Big Shoulders Display" stylename="SemiBold" filename="instance_ufo/BigShouldersDisplay-SemiBold.ufo" stylemapfamilyname="Big Shoulders Display SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="514"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Big Shoulders Display Bold" familyname="Big Shoulders Display" stylename="Bold" filename="instance_ufo/BigShouldersDisplay-Bold.ufo" stylemapfamilyname="Big Shoulders Display" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="642"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Big Shoulders Display ExtraBold" familyname="Big Shoulders Display" stylename="ExtraBold" filename="instance_ufo/BigShouldersDisplay-ExtraBold.ufo" stylemapfamilyname="Big Shoulders Display ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="771"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Big Shoulders Display Black" familyname="Big Shoulders Display" stylename="Black" filename="instance_ufo/BigShouldersDisplay-Black.ufo" stylemapfamilyname="Big Shoulders Display Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Optical size" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>1DFA7D5B-2E97-4B89-827F-FB43F8066DC1</key>
+        <dict>
+          <key>HH</key>
+          <string>132</string>
+          <key>HV</key>
+          <string>150</string>
+          <key>OH</key>
+          <string>122</string>
+          <key>OV</key>
+          <string>150</string>
+          <key>nV</key>
+          <string>150</string>
+          <key>nd</key>
+          <string>88</string>
+          <key>oH</key>
+          <string>112</string>
+          <key>oV</key>
+          <string>150</string>
+          <key>tH</key>
+          <string>113</string>
+        </dict>
+        <key>3B122060-26E0-4730-9241-82784E6CB359</key>
+        <dict>
+          <key>HH</key>
+          <string>38</string>
+          <key>HV</key>
+          <string>40</string>
+          <key>OH</key>
+          <string>38</string>
+          <key>OV</key>
+          <string>40</string>
+          <key>nV</key>
+          <string>20</string>
+          <key>nd</key>
+          <string>17</string>
+          <key>oH</key>
+          <string>20</string>
+          <key>oV</key>
+          <string>20</string>
+          <key>tH</key>
+          <string>20</string>
+        </dict>
+        <key>3D06B89B-468F-44E0-A3D7-A5BC6911123E</key>
+        <dict>
+          <key>HH</key>
+          <string>20</string>
+          <key>HV</key>
+          <string>20</string>
+          <key>OH</key>
+          <string>20</string>
+          <key>OV</key>
+          <string>20</string>
+          <key>nV</key>
+          <string>20</string>
+          <key>nd</key>
+          <string>17</string>
+          <key>oH</key>
+          <string>20</string>
+          <key>oV</key>
+          <string>20</string>
+          <key>tH</key>
+          <string>20</string>
+        </dict>
+        <key>5013C991-8699-46CB-BB1C-82E334DBD38B</key>
+        <dict>
+          <key>HH</key>
+          <string>132</string>
+          <key>HV</key>
+          <string>150</string>
+          <key>OH</key>
+          <string>122</string>
+          <key>OV</key>
+          <string>150</string>
+          <key>nV</key>
+          <string>150</string>
+          <key>nd</key>
+          <string>88</string>
+          <key>oH</key>
+          <string>112</string>
+          <key>oV</key>
+          <string>150</string>
+          <key>tH</key>
+          <string>113</string>
+        </dict>
+        <key>A30F4556-B8AE-4A07-BCD9-198DA793AEE3</key>
+        <dict>
+          <key>HH</key>
+          <string>38</string>
+          <key>HV</key>
+          <string>40</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</designspace>

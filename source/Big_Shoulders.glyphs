@@ -1,8 +1,5 @@
 {
 .appVersion = "1286";
-DisplayStrings = (
-"zaji/scaron/tcaron ujících\012zaji/scaron/dcaron ujících\012zaji/scaron/lcaron ujících"
-);
 classes = (
 {
 automatic = 1;
@@ -61,11 +58,14 @@ Name = Weight;
 Tag = wght;
 },
 {
-Hidden = 1;
 Name = "Optical size";
 Tag = opsz;
 }
 );
+},
+{
+name = "Axis Mappings";
+value = "New Value";
 }
 );
 date = "2020-04-16 17:21:00 +0000";
@@ -916,7 +916,7 @@ alignmentZones = (
 );
 ascender = 1600;
 capHeight = 1600;
-custom = "Text Thin";
+custom = Thin;
 customValue1 = 200;
 customParameters = (
 {
@@ -1015,7 +1015,6 @@ alignmentZones = (
 );
 ascender = 1600;
 capHeight = 1600;
-custom = Text;
 customValue1 = 375;
 customParameters = (
 {
@@ -1090,7 +1089,6 @@ horizontalStems = (
 );
 iconName = SemiLight_Extended;
 id = "6F82CFD7-79D5-473B-9D61-BE5DF154BBF2";
-name = "Text Light";
 verticalStems = (
 136
 );
@@ -1110,7 +1108,7 @@ alignmentZones = (
 );
 ascender = 1600;
 capHeight = 1600;
-custom = "Text Black";
+custom = Black;
 customValue1 = 900;
 customParameters = (
 {
@@ -1222,7 +1220,7 @@ alignmentZones = (
 );
 ascender = 1600;
 capHeight = 1600;
-custom = "Display Thin";
+custom = "Thin 72";
 customValue1 = 200;
 customParameters = (
 {
@@ -1325,7 +1323,7 @@ alignmentZones = (
 );
 ascender = 1600;
 capHeight = 1600;
-custom = Display;
+custom = "72";
 customValue1 = 375;
 customParameters = (
 {
@@ -1405,7 +1403,6 @@ horizontalStems = (
 );
 iconName = SemiLight;
 id = "C9EB94EC-C68D-4931-B320-068DCAB9FADA";
-name = "Display Light";
 verticalStems = (
 106
 );
@@ -1425,7 +1422,7 @@ alignmentZones = (
 );
 ascender = 1600;
 capHeight = 1600;
-custom = "Display Black";
+custom = "Black 72";
 customValue1 = 900;
 customParameters = (
 {
@@ -153483,32 +153480,6 @@ rightKerningGroup = circumflexcomb;
 );
 instances = (
 {
-customParameters = (
-{
-name = familyName;
-value = "Big Shoulders Text";
-},
-{
-name = weightClass;
-value = 100;
-},
-{
-name = WWSFamilyName;
-value = "Big Shoulders Text";
-},
-{
-name = WWSSubfamilyName;
-value = Thin;
-},
-{
-name = "Name Table Entry";
-value = "3 3 1 1033; BigShouldersText-Thin";
-},
-{
-name = "Name Table Entry";
-value = "3 1 0 0; BigShouldersText-Thin";
-}
-);
 interpolationWidth = 10;
 instanceInterpolations = {
 "3B122060-26E0-4730-9241-82784E6CB359" = 1;
@@ -153517,32 +153488,6 @@ name = Thin;
 weightClass = Thin;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 300;
-},
-{
-name = familyName;
-value = "Big Shoulders Text";
-},
-{
-name = WWSFamilyName;
-value = "Big Shoulders Text";
-},
-{
-name = WWSSubfamilyName;
-value = Light;
-},
-{
-name = "Name Table Entry";
-value = "3 3 1 1033; BigShouldersText-Light";
-},
-{
-name = "Name Table Entry";
-value = "3 1 0 0; BigShouldersText-Light";
-}
-);
 interpolationCustom = 1;
 interpolationWeight = 257;
 interpolationWidth = 10;
@@ -153554,32 +153499,6 @@ name = Light;
 weightClass = Light;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 400;
-},
-{
-name = familyName;
-value = "Big Shoulders Text";
-},
-{
-name = WWSFamilyName;
-value = "Big Shoulders Text";
-},
-{
-name = WWSSubfamilyName;
-value = Regular;
-},
-{
-name = "Name Table Entry";
-value = "3 3 1 1033; BigShouldersText-Regular";
-},
-{
-name = "Name Table Entry";
-value = "3 1 0 0; BigShouldersText-Regular";
-}
-);
 interpolationCustom = 4;
 interpolationWeight = 385;
 interpolationWidth = 10;
@@ -153590,32 +153509,6 @@ instanceInterpolations = {
 name = Regular;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 500;
-},
-{
-name = familyName;
-value = "Big Shoulders Text";
-},
-{
-name = WWSFamilyName;
-value = "Big Shoulders Text";
-},
-{
-name = WWSSubfamilyName;
-value = Medium;
-},
-{
-name = "Name Table Entry";
-value = "3 3 1 1033; BigShouldersText-Medium";
-},
-{
-name = "Name Table Entry";
-value = "3 1 0 0; BigShouldersText-Medium";
-}
-);
 interpolationCustom = 5;
 interpolationWeight = 450;
 interpolationWidth = 10;
@@ -153627,32 +153520,6 @@ name = Medium;
 weightClass = Medium;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 600;
-},
-{
-name = familyName;
-value = "Big Shoulders Text";
-},
-{
-name = WWSFamilyName;
-value = "Big Shoulders Text";
-},
-{
-name = WWSSubfamilyName;
-value = SemiBold;
-},
-{
-name = "Name Table Entry";
-value = "3 3 1 1033; BigShouldersText-SemiBold";
-},
-{
-name = "Name Table Entry";
-value = "3 1 0 0; BigShouldersText-SemiBold";
-}
-);
 interpolationCustom = 6;
 interpolationWeight = 514;
 interpolationWidth = 10;
@@ -153664,32 +153531,6 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 700;
-},
-{
-name = familyName;
-value = "Big Shoulders Text";
-},
-{
-name = WWSFamilyName;
-value = "Big Shoulders Text";
-},
-{
-name = WWSSubfamilyName;
-value = Bold;
-},
-{
-name = "Name Table Entry";
-value = "3 3 1 1033; BigShouldersText-Bold";
-},
-{
-name = "Name Table Entry";
-value = "3 1 0 0; BigShouldersText-Bold";
-}
-);
 interpolationCustom = 7;
 interpolationWeight = 642;
 interpolationWidth = 10;
@@ -153702,32 +153543,6 @@ name = Bold;
 weightClass = Bold;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 800;
-},
-{
-name = familyName;
-value = "Big Shoulders Text";
-},
-{
-name = WWSFamilyName;
-value = "Big Shoulders Text";
-},
-{
-name = WWSSubfamilyName;
-value = ExtraBold;
-},
-{
-name = "Name Table Entry";
-value = "3 3 1 1033; BigShouldersText-ExtraBold";
-},
-{
-name = "Name Table Entry";
-value = "3 1 0 0; BigShouldersText-ExtraBold";
-}
-);
 interpolationCustom = 8;
 interpolationWeight = 771;
 interpolationWidth = 10;
@@ -153739,337 +153554,11 @@ name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 900;
-},
-{
-name = familyName;
-value = "Big Shoulders Text";
-},
-{
-name = WWSFamilyName;
-value = "Big Shoulders Text";
-},
-{
-name = WWSSubfamilyName;
-value = Black;
-},
-{
-name = "Name Table Entry";
-value = "3 3 1 1033; BigShouldersText-Black";
-},
-{
-name = "Name Table Entry";
-value = "3 1 0 0; BigShouldersText-Black";
-}
-);
 interpolationCustom = 9;
 interpolationWeight = 900;
 interpolationWidth = 10;
 instanceInterpolations = {
 "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 1;
-};
-name = Black;
-weightClass = Black;
-},
-{
-customParameters = (
-{
-name = weightClass;
-value = 100;
-},
-{
-name = familyName;
-value = "Big Shoulders Display";
-},
-{
-name = WWSFamilyName;
-value = "Big Shoulders Display";
-},
-{
-name = WWSSubfamilyName;
-value = Thin;
-},
-{
-name = "Name Table Entry";
-value = "3 3 1 1033; BigShouldersDisplay-Thin";
-},
-{
-name = "Name Table Entry";
-value = "3 1 0 0; BigShouldersDisplay-Thin";
-}
-);
-interpolationCustom1 = 200;
-interpolationWidth = 72;
-instanceInterpolations = {
-"3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 1;
-};
-name = Thin;
-weightClass = Thin;
-},
-{
-customParameters = (
-{
-name = weightClass;
-value = 300;
-},
-{
-name = familyName;
-value = "Big Shoulders Display";
-},
-{
-name = WWSFamilyName;
-value = "Big Shoulders Display";
-},
-{
-name = WWSSubfamilyName;
-value = Light;
-},
-{
-name = "Name Table Entry";
-value = "3 3 1 1033; BigShouldersDisplay-Light";
-},
-{
-name = "Name Table Entry";
-value = "3 1 0 0; BigShouldersDisplay-Light";
-}
-);
-interpolationCustom = 1;
-interpolationCustom1 = 300;
-interpolationWeight = 257;
-interpolationWidth = 72;
-instanceInterpolations = {
-"3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 0.215;
-"C9EB94EC-C68D-4931-B320-068DCAB9FADA" = 0.785;
-};
-name = Light;
-weightClass = Light;
-},
-{
-customParameters = (
-{
-name = weightClass;
-value = 400;
-},
-{
-name = familyName;
-value = "Big Shoulders Display";
-},
-{
-name = WWSFamilyName;
-value = "Big Shoulders Display";
-},
-{
-name = WWSSubfamilyName;
-value = Regular;
-},
-{
-name = "Name Table Entry";
-value = "3 3 1 1033; BigShouldersDisplay-Regular";
-},
-{
-name = "Name Table Entry";
-value = "3 1 0 0; BigShouldersDisplay-Regular";
-}
-);
-interpolationCustom = 4;
-interpolationCustom1 = 400;
-interpolationWeight = 385;
-interpolationWidth = 72;
-instanceInterpolations = {
-"5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.14167;
-"C9EB94EC-C68D-4931-B320-068DCAB9FADA" = 0.85833;
-};
-name = Regular;
-},
-{
-customParameters = (
-{
-name = weightClass;
-value = 500;
-},
-{
-name = familyName;
-value = "Big Shoulders Display";
-},
-{
-name = WWSFamilyName;
-value = "Big Shoulders Display";
-},
-{
-name = WWSSubfamilyName;
-value = Medium;
-},
-{
-name = "Name Table Entry";
-value = "3 3 1 1033; BigShouldersDisplay-Medium";
-},
-{
-name = "Name Table Entry";
-value = "3 1 0 0; BigShouldersDisplay-Medium";
-}
-);
-interpolationCustom = 5;
-interpolationCustom1 = 500;
-interpolationWeight = 450;
-interpolationWidth = 72;
-instanceInterpolations = {
-"5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.25;
-"C9EB94EC-C68D-4931-B320-068DCAB9FADA" = 0.75;
-};
-name = Medium;
-weightClass = Medium;
-},
-{
-customParameters = (
-{
-name = weightClass;
-value = 600;
-},
-{
-name = familyName;
-value = "Big Shoulders Display";
-},
-{
-name = WWSFamilyName;
-value = "Big Shoulders Display";
-},
-{
-name = WWSSubfamilyName;
-value = SemiBold;
-},
-{
-name = "Name Table Entry";
-value = "3 3 1 1033; BigShouldersDisplay-SemiBold";
-},
-{
-name = "Name Table Entry";
-value = "3 1 0 0; BigShouldersDisplay-SemiBold";
-}
-);
-interpolationCustom = 6;
-interpolationCustom1 = 600;
-interpolationWeight = 514;
-interpolationWidth = 72;
-instanceInterpolations = {
-"5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.35667;
-"C9EB94EC-C68D-4931-B320-068DCAB9FADA" = 0.64333;
-};
-name = SemiBold;
-weightClass = SemiBold;
-},
-{
-customParameters = (
-{
-name = weightClass;
-value = 700;
-},
-{
-name = familyName;
-value = "Big Shoulders Display";
-},
-{
-name = WWSFamilyName;
-value = "Big Shoulders Display";
-},
-{
-name = WWSSubfamilyName;
-value = Bold;
-},
-{
-name = "Name Table Entry";
-value = "3 3 1 1033; BigShouldersDisplay-Bold";
-},
-{
-name = "Name Table Entry";
-value = "3 1 0 0; BigShouldersDisplay-Bold";
-}
-);
-interpolationCustom = 7;
-interpolationCustom1 = 700;
-interpolationWeight = 642;
-interpolationWidth = 72;
-instanceInterpolations = {
-"5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.57;
-"C9EB94EC-C68D-4931-B320-068DCAB9FADA" = 0.43;
-};
-isBold = 1;
-name = Bold;
-weightClass = Bold;
-},
-{
-customParameters = (
-{
-name = weightClass;
-value = 800;
-},
-{
-name = familyName;
-value = "Big Shoulders Display";
-},
-{
-name = WWSFamilyName;
-value = "Big Shoulders Display";
-},
-{
-name = WWSSubfamilyName;
-value = ExtraBold;
-},
-{
-name = "Name Table Entry";
-value = "3 3 1 1033; BigShouldersDisplay-ExtraBold";
-},
-{
-name = "Name Table Entry";
-value = "3 1 0 0; BigShouldersDisplay-ExtraBold";
-}
-);
-interpolationCustom = 8;
-interpolationCustom1 = 800;
-interpolationWeight = 771;
-interpolationWidth = 72;
-instanceInterpolations = {
-"5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.785;
-"C9EB94EC-C68D-4931-B320-068DCAB9FADA" = 0.215;
-};
-name = ExtraBold;
-weightClass = ExtraBold;
-},
-{
-customParameters = (
-{
-name = weightClass;
-value = 900;
-},
-{
-name = familyName;
-value = "Big Shoulders Display";
-},
-{
-name = WWSFamilyName;
-value = "Big Shoulders Display";
-},
-{
-name = WWSSubfamilyName;
-value = Black;
-},
-{
-name = "Name Table Entry";
-value = "3 3 1 1033; BigShouldersDisplay-Black";
-},
-{
-name = "Name Table Entry";
-value = "3 1 0 0; BigShouldersDisplay-Black";
-}
-);
-interpolationCustom = 9;
-interpolationCustom1 = 900;
-interpolationWeight = 900;
-interpolationWidth = 72;
-instanceInterpolations = {
-"5013C991-8699-46CB-BB1C-82E334DBD38B" = 1;
 };
 name = Black;
 weightClass = Black;

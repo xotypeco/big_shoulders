@@ -32,8 +32,8 @@ fontTools varLib.instancer ../fonts/variable/BigShouldersDisplay\[wght\].ttf ops
 
 
 echo "GENERATING STATIC FONTS"
-fontmake -m text_static.designspace -i -o ttf --output-dir ../fonts/ttf
-fontmake -m display_static.designspace -i -o ttf --output-dir ../fonts/ttf
+fontmake -m text_static.designspace -i -o ttf --output-dir ../fonts/ttf/Big-Shoulders
+fontmake -m display_static.designspace -i -o ttf --output-dir ../fonts/ttf/Big-Shoulders
 
 
 echo "POST PROCESSING STATIC FONTS"
@@ -44,4 +44,4 @@ do
 done
 
 # cleanup
-rm -rf ../fonts/ttf/*gasp*.ttf ../fonts/variable/*gasp*.ttf instance_ufo *.ufo Big_Shoulders.designspace
+rm -rf ../fonts/ttf/Big-Shoulders/*gasp*.ttf ../fonts/variable/*gasp*.ttf instance_ufo *.ufo Big_Shoulders.designspace

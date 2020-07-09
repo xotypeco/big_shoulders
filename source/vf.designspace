@@ -36,19 +36,19 @@
         <dimension name="Optical size" xvalue="10"/>
       </location>
     </source>
-    <source filename="BigShoulders-Thin72.ufo" name="Big Shoulders Thin" familyname="Big Shoulders" stylename="Thin">
+    <source filename="BigShoulders-Thin#1.ufo" name="Big Shoulders Thin" familyname="Big Shoulders" stylename="Thin">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Optical size" xvalue="72"/>
       </location>
     </source>
-    <source filename="BigShoulders-Light72.ufo" name="Big Shoulders Light" familyname="Big Shoulders" stylename="Light">
+    <source filename="BigShoulders-Light#1.ufo" name="Big Shoulders Light" familyname="Big Shoulders" stylename="Light">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Optical size" xvalue="72"/>
       </location>
     </source>
-    <source filename="BigShoulders-Black72.ufo" name="Big Shoulders Black" familyname="Big Shoulders" stylename="Black">
+    <source filename="BigShoulders-Black#1.ufo" name="Big Shoulders Black" familyname="Big Shoulders" stylename="Black">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Optical size" xvalue="72"/>

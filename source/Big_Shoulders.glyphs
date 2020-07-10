@@ -65,7 +65,7 @@ Tag = opsz;
 },
 {
 name = "Axis Mappings";
-value = "New Value";
+value = "";
 }
 );
 date = "2020-04-16 17:21:00 +0000";
@@ -1220,7 +1220,7 @@ alignmentZones = (
 );
 ascender = 1600;
 capHeight = 1600;
-custom = "Thin 72";
+custom = Thin;
 customValue1 = 200;
 customParameters = (
 {
@@ -1323,7 +1323,6 @@ alignmentZones = (
 );
 ascender = 1600;
 capHeight = 1600;
-custom = "72";
 customValue1 = 375;
 customParameters = (
 {
@@ -1422,7 +1421,7 @@ alignmentZones = (
 );
 ascender = 1600;
 capHeight = 1600;
-custom = "Black 72";
+custom = Black;
 customValue1 = 900;
 customParameters = (
 {

@@ -24,13 +24,13 @@ echo "SPLITTING VF"
 # Big Shoulders Display
 gftools rename-font $VF_FILE "Big Shoulders Display"
 mv ../fonts/variable/BigShouldersDisplay\[opsz\,wght\].ttf ../fonts/variable/BigShouldersDisplay\[wght\].ttf
-fontTools varLib.instancer ../fonts/variable/BigShouldersDisplay\[wght\].ttf opsz=72 -o ../fonts/variable/BigShouldersDisplay\[wght\].ttf
+fonttools varLib.instancer ../fonts/variable/BigShouldersDisplay\[wght\].ttf opsz=72 -o ../fonts/variable/BigShouldersDisplay\[wght\].ttf
 
 # Big Shoulders Text
 gftools rename-font $VF_FILE "Big Shoulders Text"
 mv ../fonts/variable/BigShouldersText\[opsz\,wght\].ttf ../fonts/variable/BigShouldersText\[wght\].ttf
 python update_fvar.py ../fonts/variable/BigShouldersText\[wght\].ttf
-fontTools varLib.instancer ../fonts/variable/BigShouldersText\[wght\].ttf opsz=10 -o ../fonts/variable/BigShouldersText\[wght\].ttf
+fonttools varLib.instancer ../fonts/variable/BigShouldersText\[wght\].ttf opsz=10 -o ../fonts/variable/BigShouldersText\[wght\].ttf
 
 
 echo "GENERATING STATIC FONTS"

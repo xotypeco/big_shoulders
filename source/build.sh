@@ -8,7 +8,7 @@ function postprocess_ttf {
     gftools fix-unwanted-tables $1 -t MVAR
 }
 
-mkdir -p ../fonts ../fonts/ttf ../fonts/variable
+mkdir -p ../fonts ../fonts/ttf/Big-Shoulders ../fonts/variable
 
 echo "GENERATING VF"
 VF_FILE=../fonts/variable/BigShoulders\[opsz,wght]\.ttf
@@ -39,11 +39,11 @@ fontmake -m display_static.designspace -i -o ttf --output-dir ../fonts/ttf/Big-S
 
 
 echo "POST PROCESSING STATIC FONTS"
-ttfs=$(ls ../fonts/ttf/*.ttf)
+ttfs=$(ls ../fonts/ttf/Big-Shoulders/*.ttf)
 for ttf in $ttfs
 do
     postprocess_ttf $ttf;
 done
 
 # cleanup
-rm -rf ../fonts/ttf/Big-Shoulders/*gasp*.ttf ../fonts/variable/*gasp*.ttf instance_ufo *.ufo Big_Shoulders.designspace
+rm -rf ../fonts/ttf/Big-Shoulders/*gasp*.ttf ../fonts/ttf/*gasp*.ttf ../fonts/variable/*gasp*.ttf instance_ufo *.ufo Big_Shoulders.designspace

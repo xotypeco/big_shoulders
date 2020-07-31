@@ -8,7 +8,7 @@ function postprocess_ttf {
     gftools fix-unwanted-tables $1 -t MVAR
 }
 
-mkdir -p ../fonts ../fonts/ttf/Big-Shoulders ../fonts/variable ../fonts/otf/Big-Shoulders ../fonts/woff2/Big-Shoulders/static
+mkdir -p ../fonts ../fonts/ttf/Big-Shoulders ../fonts/variable ../fonts/otf/Big-Shoulders ../fonts/woff2/Big-Shoulders/
 
 echo "GENERATING VF"
 VF_FILE=../fonts/variable/BigShoulders\[opsz,wght]\.ttf
@@ -62,7 +62,7 @@ do
 done
 
 
-mv ../fonts/ttf/Big-Shoulders/*.woff2 ../fonts/woff2/Big-Shoulders/static
+mv ../fonts/ttf/Big-Shoulders/*.woff2 ../fonts/woff2/Big-Shoulders/
 mv ../fonts/variable/*.woff2 ../fonts/woff2/Big-Shoulders/
 
 # cleanup

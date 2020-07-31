@@ -2,3 +2,4 @@ fontmake
 git+https://www.github.com/googlefonts/tools
 fs
 statmake
+git+https://www.github.com/google/woff2

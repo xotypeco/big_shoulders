@@ -1,4 +1,4 @@
-git+https://www.github.com/googlefonts/tools
+gftools
 fontmake
 statmake
 fs

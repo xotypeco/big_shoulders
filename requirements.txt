@@ -2,3 +2,4 @@ fontmake
 git+https://www.github.com/googlefonts/tools
 fs
 statmake
+woff2 https://github.com/bramstein/homebrew-webfonttools

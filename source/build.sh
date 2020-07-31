@@ -19,7 +19,7 @@ fontmake -m vf.designspace -o variable --output-path $VF_FILE
 echo "POST PROCESSING VF"
 postprocess_ttf $VF_FILE
 python3 Big-Shoulders-Stat-Table.py $VF_FILE
-woff2_compress $VF_FILE
+fontTools ttLib.woff2 compress $VF_FILE
 
 echo "SPLITTING VF"
 # Big Shoulders Display
@@ -44,7 +44,7 @@ ttfs=$(ls ../fonts/ttf/Big-Shoulders/*.ttf)
 for ttf in $ttfs
 do
     postprocess_ttf $ttf;
-    fontTools ttLib.woff2 $ttf;
+    fontTools ttLib.woff2 compress $ttf;
 done
 
 echo "GENERATING OTFs"

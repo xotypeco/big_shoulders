@@ -1,5 +1,5 @@
-fontmake
 git+https://www.github.com/googlefonts/tools
-fs
+fontmake
 statmake
-git+https://www.github.com/google/woff2
+fs
+brotli

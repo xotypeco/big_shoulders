@@ -44,7 +44,7 @@ ttfs=$(ls ../fonts/ttf/Big-Shoulders/*.ttf)
 for ttf in $ttfs
 do
     postprocess_ttf $ttf;
-    woff2_compress $ttf;
+    fontTools ttLib.woff2 $ttf;
 done
 
 echo "GENERATING OTFs"

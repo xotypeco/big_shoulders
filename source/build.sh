@@ -48,7 +48,7 @@ do
 done
 
 echo "GENERATING OTFs"
-fontmake -m text_otf.designspace -i -o otf --output-dir ../fonts/otf/Big-Shoulders -a
+fontmake -m text_static.designspace -i -o otf --output-dir ../fonts/otf/Big-Shoulders -a
 fontmake -m display_static.designspace -i -o otf --output-dir ../fonts/otf/Big-Shoulders -a
 
 echo "POST PROCESSING OTFs"

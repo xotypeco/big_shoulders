@@ -66,4 +66,4 @@ mv ../fonts/ttf/Big-Shoulders/*.woff2 ../fonts/woff2/Big-Shoulders/
 mv ../fonts/variable/*.woff2 ../fonts/woff2/Big-Shoulders/
 
 # cleanup
-rm -rf ../fonts/ttf/Big-Shoulders/*gasp*.ttf ../fonts/ttf/*gasp*.ttf ../fonts/variable/*gasp*.ttf ../fonts/woff2/Big-Shoulders/static/*gasp*.woff2 instance_ufo *.ufo Big_Shoulders.designspace
+rm -rf ../fonts/ttf/Big-Shoulders/*gasp*.ttf ../fonts/ttf/*gasp*.ttf ../fonts/variable/*gasp*.ttf ../fonts/woff2/Big-Shoulders/*gasp*.woff2 instance_ufo *.ufo Big_Shoulders.designspace

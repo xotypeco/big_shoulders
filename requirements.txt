@@ -1,4 +1,5 @@
 gftools
+fontbakery
 fontmake
 statmake
 fs

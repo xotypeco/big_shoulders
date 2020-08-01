@@ -42,4 +42,4 @@ jobs:
           version: "latest"
           subcmd: "check-googlefonts"
           args: "-C --loglevel WARN"
-          path: "fonts/otf/Big-Shoulders/*.ttf"
+          path: "fonts/otf/Big-Shoulders/*.otf"

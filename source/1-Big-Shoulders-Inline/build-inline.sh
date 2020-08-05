@@ -35,7 +35,7 @@ fonttools varLib.instancer ../../fonts/variable/Big-Shoulders-Inline/BigShoulder
 
 
 echo "GENERATING STATIC FONTS"
-#fontmake -m text_static.designspace -i -o ttf --output-dir ../../fonts/ttf/Big-Shoulders-Inline
+fontmake -m text_inline_static.designspace -i -o ttf --output-dir ../../fonts/ttf/Big-Shoulders-Inline
 fontmake -m display_inline_static.designspace -i -o ttf --output-dir ../../fonts/ttf/Big-Shoulders-Inline
 
 

@@ -47,18 +47,18 @@ do
     fonttools ttLib.woff2 compress $ttf;
 done
 
-# # echo "GENERATING OTFs"
-# # fontmake -m text_static.designspace -i -o otf --output-dir ../../fonts/otf/Big-Shoulders-Inline -a
-# # fontmake -m display_static.designspace -i -o otf --output-dir ../../fonts/otf/Big-Shoulders-Inline -a
+echo "GENERATING OTFs"
+fontmake -m text_inline_static.designspace -i -o otf --output-dir ../../fonts/otf/Big-Shoulders-Inline -a
+fontmake -m display_inline_static.designspace -i -o otf --output-dir ../../fonts/otf/Big-Shoulders-Inline -a
 
-# # echo "POST PROCESSING OTFs"
-# # otfs=$(ls ../../fonts/otf/Big-Shoulders-Inline/*.otf)
-# # for otf in $otfs
-# # do
-# #     gftools fix-weightclass $otf
-# # 	[ -f $otf.fix ] && mv $otf.fix $otf;
-# #     gftools fix-dsig --autofix $otf;
-# # done
+echo "POST PROCESSING OTFs"
+otfs=$(ls ../../fonts/otf/Big-Shoulders-Inline/*.otf)
+for otf in $otfs
+do
+    gftools fix-weightclass $otf
+	[ -f $otf.fix ] && mv $otf.fix $otf;
+    gftools fix-dsig --autofix $otf;
+done
 
 
 mv ../../fonts/ttf/Big-Shoulders-Inline/*.woff2 ../../fonts/woff2/Big-Shoulders-Inline/

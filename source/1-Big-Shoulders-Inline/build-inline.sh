@@ -65,5 +65,4 @@ mv ../../fonts/ttf/Big-Shoulders-Inline/*.woff2 ../../fonts/woff2/Big-Shoulders-
 mv ../../fonts/variable/Big-Shoulders-Inline/*.woff2 ../../fonts/woff2/Big-Shoulders-Inline/
 
 # cleanup
-rm -rf ../../fonts/variable/Big-Shoulders-Inline/*gasp*.ttf ../../fonts/ttf/Big-Shoulders-Inline/*gasp*.ttf 
-#../../fonts/ttf/*gasp*.ttf ../../fonts/woff2/Big-Shoulders-Inline/*gasp*.woff2 instance_ufo *.ufo Big_Shoulders.designspace
+rm -rf ../../fonts/variable/Big-Shoulders-Inline/*gasp*.ttf ../../fonts/ttf/Big-Shoulders-Inline/*gasp*.ttf ../../fonts/ttf/*gasp*.ttf ../../fonts/woff2/Big-Shoulders-Inline/*gasp*.woff2 instance_ufo *.ufo Big_Shoulders_Inline.designspace

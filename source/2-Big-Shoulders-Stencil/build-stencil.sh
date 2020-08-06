@@ -27,11 +27,11 @@ gftools rename-font $VF_FILE "Big Shoulders Stencil Display"
 mv ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilDisplay\[opsz\,wght\].ttf ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilDisplay\[wght\].ttf
 fonttools varLib.instancer ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilDisplay\[wght\].ttf opsz=72 -o ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilDisplay\[wght\].ttf
 
-# # Big Shoulders Text
-# gftools rename-font $VF_FILE "Big Shoulders Text"
-# mv ../../fonts/variable/BigShouldersText\[opsz\,wght\].ttf ../../fonts/variable/BigShouldersText\[wght\].ttf
-# python update_fvar.py ../../fonts/variable/BigShouldersText\[wght\].ttf
-# fonttools varLib.instancer ../../fonts/variable/BigShouldersText\[wght\].ttf opsz=10 -o ../../fonts/variable/BigShouldersText\[wght\].ttf
+# # Big Shoulders Display Text
+gftools rename-font $VF_FILE "Big Shoulders Stencil Text"
+mv ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilText\[opsz\,wght\].ttf ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilText\[wght\].ttf
+python update_fvar.py ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilText\[wght\].ttf
+fonttools varLib.instancer ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilText\[wght\].ttf opsz=10 -o ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilText\[wght\].ttf
 
 
 # echo "GENERATING STATIC FONTS"
@@ -62,8 +62,8 @@ fonttools varLib.instancer ../../fonts/variable/Big-Shoulders-Stencil/BigShoulde
 # done
 
 
-# mv ../../fonts/ttf/Big-Shoulders/*.woff2 ../../fonts/woff2/Big-Shoulders/
-# mv ../../fonts/variable/*.woff2 ../../fonts/woff2/Big-Shoulders/
+# mv ../../fonts/ttf/Big-Shoulders-Stencil/*.woff2 ../../fonts/woff2/Big-Shoulders-Stencil/
+mv ../../fonts/variable/Big-Shoulders-Stencil/*.woff2 ../../fonts/woff2/Big-Shoulders-Stencil/
 
 # # cleanup
 rm -rf ../../fonts/variable/Big-Shoulders-Stencil/*gasp*.ttf ../../fonts/ttf/Big-Shoulders-Stencil/*gasp*.ttf  

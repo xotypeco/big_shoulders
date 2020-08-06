@@ -22149,6 +22149,7 @@ rightKerningGroup = P;
 unicode = 00DE;
 },
 {
+color = 1;
 glyphname = Q;
 layers = (
 {
@@ -40766,7 +40767,7 @@ nodes = (
 width = 685;
 }
 );
-leftKerningGroup = d;
+leftKerningGroup = o;
 leftMetricsKey = o;
 rightKerningGroup = d;
 unicode = 00F0;

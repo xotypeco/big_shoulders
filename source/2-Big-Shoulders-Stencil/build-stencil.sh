@@ -15,17 +15,17 @@ VF_FILE=../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencil\[opsz,wgh
 glyphs2ufo Big_Shoulders_Stencil.glyphs --generate-GDEF
 fontmake -m vf_stencil.designspace -o variable --output-path $VF_FILE
 
-    
+
 echo "POST PROCESSING VF"
 postprocess_ttf $VF_FILE
 python3 Big-S-Stencil-Stat-Table.py $VF_FILE
 fonttools ttLib.woff2 compress $VF_FILE
 
-# echo "SPLITTING VF"
-# # Big Shoulders Display
-# gftools rename-font $VF_FILE "Big Shoulders Display"
-# mv ../../fonts/variable/BigShouldersDisplay\[opsz\,wght\].ttf ../../fonts/variable/BigShouldersDisplay\[wght\].ttf
-# fonttools varLib.instancer ../../fonts/variable/BigShouldersDisplay\[wght\].ttf opsz=72 -o ../../fonts/variable/BigShouldersDisplay\[wght\].ttf
+echo "SPLITTING VF"
+# Big Shoulders Stencil Display
+gftools rename-font $VF_FILE "Big Shoulders Stencil Display"
+mv ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilDisplay\[opsz\,wght\].ttf ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilDisplay\[wght\].ttf
+fonttools varLib.instancer ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilDisplay\[wght\].ttf opsz=72 -o ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilDisplay\[wght\].ttf
 
 # # Big Shoulders Text
 # gftools rename-font $VF_FILE "Big Shoulders Text"
@@ -66,4 +66,5 @@ fonttools ttLib.woff2 compress $VF_FILE
 # mv ../../fonts/variable/*.woff2 ../../fonts/woff2/Big-Shoulders/
 
 # # cleanup
-# rm -rf ../../fonts/ttf/Big-Shoulders/*gasp*.ttf ../../fonts/ttf/*gasp*.ttf ../../fonts/variable/*gasp*.ttf ../../fonts/woff2/Big-Shoulders/*gasp*.woff2 instance_ufo *.ufo Big_Shoulders.designspace
+rm -rf ../../fonts/variable/Big-Shoulders-Stencil/*gasp*.ttf ../../fonts/ttf/Big-Shoulders-Stencil/*gasp*.ttf  
+#instance_ufo *.ufo Big_Shoulders.designspace

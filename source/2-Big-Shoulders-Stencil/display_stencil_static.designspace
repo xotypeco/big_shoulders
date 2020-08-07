@@ -11,7 +11,7 @@
       <map input="800" output="771"/>
       <map input="900" output="900"/>
     </axis>
-    <axis tag="opsz" name="Optical size" minimum="10" maximum="10" default="10"/>
+    <axis tag="opsz" name="Optical size" minimum="72" maximum="72" default="72"/>
   </axes>
   <sources>
     <source filename="BigShouldersStencil-Thin#1.ufo" name="Big Shoulders Stencil Thin" familyname="Big Shoulders Stencil" stylename="Thin">

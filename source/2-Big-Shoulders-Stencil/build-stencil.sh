@@ -27,7 +27,7 @@ gftools rename-font $VF_FILE "Big Shoulders Stencil Display"
 mv ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilDisplay\[opsz\,wght\].ttf ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilDisplay\[wght\].ttf
 fonttools varLib.instancer ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilDisplay\[wght\].ttf opsz=72 -o ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilDisplay\[wght\].ttf
 
-# # Big Shoulders Display Text
+# # Big Shoulders Stencil Text
 gftools rename-font $VF_FILE "Big Shoulders Stencil Text"
 mv ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilText\[opsz\,wght\].ttf ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilText\[wght\].ttf
 python update_fvar.py ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilText\[wght\].ttf

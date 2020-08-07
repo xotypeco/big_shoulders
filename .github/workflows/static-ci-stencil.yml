@@ -1,4 +1,4 @@
-name: Static CI Inline
+name: Static CI Stencil
 
 on: [push, pull_request]
 
@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         python-version: [3.8]
-    name: Big Shoulders Inline static *.ttf font build CI
+    name: Big Shoulders Stencil static *.ttf font build CI
     steps:
       - name: Check out source repository
         uses: actions/checkout@v2
@@ -35,11 +35,11 @@ jobs:
           version: "latest"
           subcmd: "check-googlefonts"
           args: "-C --loglevel WARN"
-          path: "fonts/ttf/Big-Shoulders-Inline/*.ttf"
+          path: "fonts/ttf/Big-Shoulders-Stencil/*.ttf"
       - name: Font Bakery OTF test
         uses: f-actions/font-bakery@v1
         with:
           version: "latest"
           subcmd: "check-googlefonts"
           args: "-C --loglevel WARN"
-          path: "fonts/otf/Big-Shoulders-Inline/*.otf"
+          path: "fonts/otf/Big-Shoulders-Stencil/*.otf"

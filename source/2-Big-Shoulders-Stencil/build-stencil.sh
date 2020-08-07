@@ -10,42 +10,42 @@ function postprocess_ttf {
 
 mkdir -p ../../fonts ../../fonts/ttf/Big-Shoulders-Stencil ../../fonts/variable/Big-Shoulders-Stencil ../../fonts/otf/Big-Shoulders-Stencil ../../fonts/woff2/Big-Shoulders-Stencil/
 
-echo "GENERATING VF"
-VF_FILE=../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencil\[opsz,wght]\.ttf
-glyphs2ufo Big_Shoulders_Stencil.glyphs --generate-GDEF
-fontmake -m vf_stencil.designspace -o variable --output-path $VF_FILE
+# echo "GENERATING VF"
+# VF_FILE=../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencil\[opsz,wght]\.ttf
+# glyphs2ufo Big_Shoulders_Stencil.glyphs --generate-GDEF
+# fontmake -m vf_stencil.designspace -o variable --output-path $VF_FILE
 
 
-echo "POST PROCESSING VF"
-postprocess_ttf $VF_FILE
-python3 Big-S-Stencil-Stat-Table.py $VF_FILE
-fonttools ttLib.woff2 compress $VF_FILE
+# echo "POST PROCESSING VF"
+# postprocess_ttf $VF_FILE
+# python3 Big-S-Stencil-Stat-Table.py $VF_FILE
+# fonttools ttLib.woff2 compress $VF_FILE
 
-echo "SPLITTING VF"
-# Big Shoulders Stencil Display
-gftools rename-font $VF_FILE "Big Shoulders Stencil Display"
-mv ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilDisplay\[opsz\,wght\].ttf ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilDisplay\[wght\].ttf
-fonttools varLib.instancer ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilDisplay\[wght\].ttf opsz=72 -o ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilDisplay\[wght\].ttf
+# echo "SPLITTING VF"
+# # Big Shoulders Stencil Display
+# gftools rename-font $VF_FILE "Big Shoulders Stencil Display"
+# mv ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilDisplay\[opsz\,wght\].ttf ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilDisplay\[wght\].ttf
+# fonttools varLib.instancer ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilDisplay\[wght\].ttf opsz=72 -o ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilDisplay\[wght\].ttf
 
-# # Big Shoulders Display Text
-gftools rename-font $VF_FILE "Big Shoulders Stencil Text"
-mv ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilText\[opsz\,wght\].ttf ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilText\[wght\].ttf
-python update_fvar.py ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilText\[wght\].ttf
-fonttools varLib.instancer ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilText\[wght\].ttf opsz=10 -o ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilText\[wght\].ttf
-
-
-# echo "GENERATING STATIC FONTS"
-# fontmake -m text_static.designspace -i -o ttf --output-dir ../../fonts/ttf/Big-Shoulders
-# fontmake -m display_static.designspace -i -o ttf --output-dir ../../fonts/ttf/Big-Shoulders
+# # # Big Shoulders Display Text
+# gftools rename-font $VF_FILE "Big Shoulders Stencil Text"
+# mv ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilText\[opsz\,wght\].ttf ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilText\[wght\].ttf
+# python update_fvar.py ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilText\[wght\].ttf
+# fonttools varLib.instancer ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilText\[wght\].ttf opsz=10 -o ../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencilText\[wght\].ttf
 
 
-# echo "POST PROCESSING STATIC FONTS"
-# ttfs=$(ls ../../fonts/ttf/Big-Shoulders/*.ttf)
-# for ttf in $ttfs
-# do
-#     postprocess_ttf $ttf;
-#     fonttools ttLib.woff2 compress $ttf;
-# done
+echo "GENERATING STATIC FONTS"
+fontmake -m text_stencil_static.designspace -i -o ttf --output-dir ../../fonts/ttf/Big-Shoulders-Stencil
+# fontmake -m display_stencil_static.designspace -i -o ttf --output-dir ../../fonts/ttf/Big-Shoulders-Stencil
+
+
+echo "POST PROCESSING STATIC FONTS"
+ttfs=$(ls ../../fonts/ttf/Big-Shoulders-Stencil/*.ttf)
+for ttf in $ttfs
+do
+    postprocess_ttf $ttf;
+    fonttools ttLib.woff2 compress $ttf;
+done
 
 # echo "GENERATING OTFs"
 # fontmake -m text_static.designspace -i -o otf --output-dir ../../fonts/otf/Big-Shoulders -a
@@ -62,8 +62,8 @@ fonttools varLib.instancer ../../fonts/variable/Big-Shoulders-Stencil/BigShoulde
 # done
 
 
-# mv ../../fonts/ttf/Big-Shoulders-Stencil/*.woff2 ../../fonts/woff2/Big-Shoulders-Stencil/
-mv ../../fonts/variable/Big-Shoulders-Stencil/*.woff2 ../../fonts/woff2/Big-Shoulders-Stencil/
+mv ../../fonts/ttf/Big-Shoulders-Stencil/*.woff2 ../../fonts/woff2/Big-Shoulders-Stencil/
+# mv ../../fonts/variable/Big-Shoulders-Stencil/*.woff2 ../../fonts/woff2/Big-Shoulders-Stencil/
 
 # # cleanup
 rm -rf ../../fonts/variable/Big-Shoulders-Stencil/*gasp*.ttf ../../fonts/ttf/Big-Shoulders-Stencil/*gasp*.ttf  

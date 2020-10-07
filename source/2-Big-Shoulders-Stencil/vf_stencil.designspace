@@ -13,6 +13,8 @@
     </axis>
     <axis tag="opsz" name="Optical size" minimum="10" maximum="72" default="72"/>
   </axes>
+  
+  
   <sources>
     <source filename="BigShouldersStencil-Thin.ufo" name="Big Shoulders Stencil Thin" familyname="Big Shoulders Stencil" stylename="Thin">
       <lib copy="1"/>
@@ -24,30 +26,35 @@
         <dimension name="Optical size" xvalue="10"/>
       </location>
     </source>
+    
     <source filename="BigShouldersStencil-Light.ufo" name="Big Shoulders Stencil Light" familyname="Big Shoulders Stencil" stylename="Light">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Optical size" xvalue="10"/>
       </location>
     </source>
+    
     <source filename="BigShouldersStencil-Black.ufo" name="Big Shoulders Stencil Black" familyname="Big Shoulders Stencil" stylename="Black">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Optical size" xvalue="10"/>
       </location>
     </source>
+    
     <source filename="BigShouldersStencil-Thin#1.ufo" name="Big Shoulders Stencil Thin" familyname="Big Shoulders Stencil" stylename="Thin">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Optical size" xvalue="72"/>
       </location>
     </source>
+    
     <source filename="BigShouldersStencil-Light#1.ufo" name="Big Shoulders Stencil Light" familyname="Big Shoulders Stencil" stylename="Light">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Optical size" xvalue="72"/>
       </location>
     </source>
+    
     <source filename="BigShouldersStencil-Black#1.ufo" name="Big Shoulders Stencil Black" familyname="Big Shoulders Stencil" stylename="Black">
       <location>
         <dimension name="Weight" xvalue="900"/>
@@ -55,70 +62,63 @@
       </location>
     </source>
   </sources>
+  
+  
   <instances>
     <instance name="Big Shoulders Stencil Thin" familyname="Big Shoulders Stencil" stylename="Thin" filename="instance_ufo/BigShouldersStencil-Thin.ufo" stylemapfamilyname="Big Shoulders Stencil Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Optical size" xvalue="72"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
+    
     <instance name="Big Shoulders Stencil Light" familyname="Big Shoulders Stencil" stylename="Light" filename="instance_ufo/BigShouldersStencil-Light.ufo" stylemapfamilyname="Big Shoulders Stencil Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="257"/>
         <dimension name="Optical size" xvalue="72"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
+    
     <instance name="Big Shoulders Stencil Regular" familyname="Big Shoulders Stencil" stylename="Regular" filename="instance_ufo/BigShouldersStencil-Regular.ufo" stylemapfamilyname="Big Shoulders Stencil" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="385"/>
         <dimension name="Optical size" xvalue="72"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
+    
     <instance name="Big Shoulders Stencil Medium" familyname="Big Shoulders Stencil" stylename="Medium" filename="instance_ufo/BigShouldersStencil-Medium.ufo" stylemapfamilyname="Big Shoulders Stencil Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="450"/>
         <dimension name="Optical size" xvalue="72"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
+    
     <instance name="Big Shoulders Stencil SemiBold" familyname="Big Shoulders Stencil" stylename="SemiBold" filename="instance_ufo/BigShouldersStencil-SemiBold.ufo" stylemapfamilyname="Big Shoulders Stencil SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="514"/>
         <dimension name="Optical size" xvalue="72"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
+    
     <instance name="Big Shoulders Stencil Bold" familyname="Big Shoulders Stencil" stylename="Bold" filename="instance_ufo/BigShouldersStencil-Bold.ufo" stylemapfamilyname="Big Shoulders Stencil" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="642"/>
         <dimension name="Optical size" xvalue="72"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
+    
     <instance name="Big Shoulders Stencil ExtraBold" familyname="Big Shoulders Stencil" stylename="ExtraBold" filename="instance_ufo/BigShouldersStencil-ExtraBold.ufo" stylemapfamilyname="Big Shoulders Stencil ExtraBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="771"/>
         <dimension name="Optical size" xvalue="72"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
+    
     <instance name="Big Shoulders Stencil Black" familyname="Big Shoulders Stencil" stylename="Black" filename="instance_ufo/BigShouldersStencil-Black.ufo" stylemapfamilyname="Big Shoulders Stencil Black" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Optical size" xvalue="72"/>
       </location>
-      <kerning/>
-      <info/>
     </instance>
   </instances>
   <lib>

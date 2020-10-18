@@ -20,7 +20,7 @@ Big Shoulders Inline formalizes a local typographic vernacular for celebration, 
 Big Shoulders language support includes full covers of Vietnamese, additional to all Western, Central, and South-Eastern European languages.
 
 More specifically, this release supports the following 
-Unicode ranges: Latin-1, Latin-1 Supplement, Latin-Extended A
+Unicode ranges: Latin-1, Latin-1 Supplement, Latin Extended-A, some of Latin Extended-B
 
 For each style there is 1 Source file:
 

@@ -26,15 +26,17 @@ For each style there is 1 Source file:
 
 1. font_name_style.glyphs Original Source Files in glyphs format including masters for both Text and Display optical sizes
 
-2. fontname_weight.otf OTF binary (16 fint files per style, 8 each for Text and Display)
+for each style there are 51 font files:
 
-3. fontname_weight.ttf TrueType binary, unhinted (16 fint files per style, 8 each for Text and Display)
+1. fontname_weight.otf OTF binary (16 fint files per style, 8 each for Text and Display)
+
+2. fontname_weight.ttf TrueType binary, unhinted (16 fint files per style, 8 each for Text and Display)
 
 3. fontname[wght].ttf Variable font binary, unhinted (1 each for Text and Display)
 
 4. fontname[opsz,wght].ttf Variable font binary, unhinted (this combines optical size and weight into a single variable font file)
 
-4. fontname_weight.woff2 webfont binary, unhinted (16 fint files per style, 8 each for Text and Display)
+5. fontname_weight.woff2 webfont binary, unhinted (16 fint files per style, 8 each for Text and Display)
 
 To contribute to the project contact Patric King
 at info@xotype.co

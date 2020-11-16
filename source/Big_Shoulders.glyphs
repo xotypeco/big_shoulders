@@ -1,5 +1,5 @@
 {
-.appVersion = "1342";
+.appVersion = "1348";
 DisplayStrings = (
 "/nbspace/nbspace zaji/scaron t/tcaron ujících\012zaji/scaron/dcaron ujících\012zaji/scaron l/lcaron ujnjících/space \012nn/Placeholder no/Placeholder oo/l.sc/v.sc F;/space H;/space FAnAnHnnHHAtrFAtivonnnHH\012HH/Placeholder HHA/Placeholder B/Placeholder C/Placeholder D/Placeholder E/Placeholder F/Placeholder G/Placeholder H/Placeholder J/Placeholder K/Placeholder L/Placeholder O/Placeholder R/Placeholder S/Placeholder \012T/Placeholder U/Placeholder V/Placeholder W/Placeholder X/Placeholder Y/Placeholder Z/Placeholder HHH/space HHHHTRUJANOHH\012O.J.O/space W.,;:'/quotedblleft/quotedblright/quoteleft/quoteright ¿?HH/space MAL/Placeholder/space A/space OAHUMO/Placeholder/space AF/Placeholder/space HV/Placeholder \012AMAN/Placeholder/space AWA/Placeholder/space AMAR/Placeholder/space MAMAS/Placeholder/space VAV/Placeholder/space VAYAN",
 "HH/Placeholder HO/Placeholder OO/space FÓSFORO/space VIVIANA/space KILO/space TOTORO\012HOAOSOBCDEFGHIJKOLOHMNOPRHOTOYOTAHALTANERANARSOHOHTROASUNOTOARHHOWOHHLYHHL/Lcaron YHH/Lcaron WHHquick/space AFTER/space after/space a/f_t er/space \012/Lcaron THH/Lcaron XHHGXHH/space/space/space \012RSOTOVOWOXOHOYOHOZONOAZARHOLLWYWOOD/space HALAVAROHANTENAHHATAMEHZARAGOZA\012OXOHOYOHOHZHAVATARHAWARD/space MATADORHOYO/space AWESOME/space ALLANAMIENTOHHH\012HMARJORAMHAVAROHALAYAHAYALA/space/space HHATAMEHHALTOHHOYOHYingHYaconHYolanda\012LYON/space LÝ/space L/Ydotaccent ON/space LYME/space V/g.ss01 on/space Volcano/space Velocidad/space Vacuna/space Vyl/space \012\012HH/Placeholder HO/Placeholder OO/space OVOIDE/space HOYO\012ARROWROOTO/space FLOW/space BAOARLEY/space CHERVIL/space DUMPLING/space ENDIVE/space FLAGXSEED/space GARBANZO/space HIJIKI/space ISHTU/space JICAMA/space KALEHOYOHOXOHLYCHEE/space HOYO/space MARJORAM/space SXS/space NECTARINE/space OXATAIL/space PIZZA/space QUINOA/space ROQUEFORT/space SQUASH/space TOFU/space UPPUMA/space VANILLA/space WHEAT/space XERGIS/space/space OXO/space YOGURT/space ZWEIBACK/space 0/space 1/space 2/space 3/space 4/space 5/space 6/space 7/space 8/space 9/space !/space L/space/periodcentered.case/Ldot L/periodcentered.loclCAT \012HH/Placeholder HO/Placeholder OO\012LTLVLYTAH,HHP,T.T,P.F,V.VaHH.F.HHATTeVoLWY.YeY,FAV,VeTAEYuWATERHHAWARDWaToev.y.w.W.TwTaeVAEWoPAEr.v,HHALTARHHALVINOHHHHLYONHHPAPAYAHHLoL/o.sc AMOFAVORHHAVAROHHHAWARDHHAYALAHHAMAYAHAVYoYaPAP0AHHAHAHHKylonnTomateTamañoVoVAHHH/quoteleft HUEMUL/quoteright L/quotedblright HHH-T-HH-HHV-HHP-HH/space Lvino/space Lwdig/space L/v.sc/i.sc/n.sc/o.sc/space Lorena/space Lyon/space H.L.¿HH?¿HUEMUL?/space H.L./space ¿LL./quotesinglbase L,/space L/o.sc/v.sc/e.sc/space Ogros/space O/o.sc/h.sc P/a.sc omelo/space tHHWHOWAAHO/z.sc/o.sc/n.sc/o.sc/space Oyente/space OVOIDEHRomeroHH/space P:/space H:/space Pamela/space P/j.sc/e.sc/m.sc/e.sc/l.sc/a.sc/space/nj.sc/space/quotedblbase H/quotedblbase JUMEO/space Tamarindo/space Tgnimun/space H./space T./space Tsunami/space Tumulto/space Tvenium/space Twain/space AWARTxinum/space Tylenol/space Tzinum/space VJUMIVð:/space H:/space VolcanWgner/h.sc/u.sc/m.sc/a.sc WWJV:/space/space Vfuman/space Volcano/space Vynil/space Wniunum/space Wsunum/space Wzum/space XguruYOYGAtrumion/space H.Y../space Yzus/space Ysnum/space Yucu/space Yvim/space Ywij/space Yxuru/space Yyimi/space Yzuni/space Yuca/space Yvar/space Z/space HHH/space HHZ/space Vsnn/space Vgnomo/space Warner/space WYWLLOW/space Ygeminu/space Ynamiun/space Yo/space Zgume/space Zomosa/space Z/o.sc/m.sc/b.sc/i.sc/e.sc/space Zsilas/space Zumbido/space Zviro/space Zwis/space Zxor/space Zyrin/space/a.sc/j.sc/u.sc/s.sc/t.sc/e.sc",
@@ -9,7 +9,8 @@ DisplayStrings = (
 "/h.sc/h.sc/Placeholder/h.sc/o.sc/Placeholder/o.sc/o.sc \012/a.sc/Placeholder/b.sc/Placeholder/c.sc/Placeholder/d.sc/Placeholder/e.sc/Placeholder/schwa.sc/Placeholder \012/f.sc/Placeholder/g.sc/Placeholder/h.sc/Placeholder/i.sc/Placeholder/j.sc/Placeholder/l.sc/Placeholder/lcaron.sc/Placeholder/m.sc/Placeholder \012/n.sc/Placeholder/o.sc/Placeholder/p.sc/Placeholder/q.sc/Placeholder/r.sc/Placeholder/s.sc/Placeholder/t.sc/Placeholder/u.sc/Placeholder \012/v.sc/Placeholder/w.sc/Placeholder/g.sc/x.sc/Placeholder/y.sc/Placeholder/z.sc/Placeholder/r.sc.ss01/Placeholder/caroncomb.alt \012/h.sc/l.sc/y.sc/h.sc/lcaron.sc/c.sc/h.sc/h.sc/l.sc/lcaron.sc/y.sc/h.sc/h.sc/lcaron.sc/w.sc/h.sc/h.sc/lcaron.sc/t.sc/h.sc/h.sc/lcaron.sc/x.sc/h.sc \012/h.sc/h.sc/lcaron.sc/o.sc/h.sc/h.sc/l.sc/o.sc/h.sc/h.sc \012LY/space L/Lcaron LHY/space/space/space/space/space/space",
 "/space/strokeshortcomb/hbar/strokeshortcomb t/strokeshortcomb/strokeshortcomb/tbar/dcroat eLL/Ldot l/ldot/l.sc/ldot.sc r/rdotbelow",
 "Dzisiaj/space zostanie/space oficjalnie/space wys/lslash ane/space zaproszenie/space do/space przedstawicieli/space wszystkich/space klubów/space parlamentarnych,/space do/space wszystkich/space formacji/space politycznych/space z/space KPRM,/space zaproszenie/space premiera/space Morawieckiego/space na/space spotkanie/space w/space najbli/zdotaccent sz/aogonek/space/sacute rod/eogonek ,/space którego/space tematem/space b/eogonek dzie/space sytuacja/space na/space Bia/lslash orusi/space/endash/space o/sacute wiadczy/lslash/space w/space poniedzia/lslash ek/space rano/space w/space TVN/space 24/space szef/space KPRM/space Micha/lslash/space Dworczyk./space Jego/space s/lslash owa/space szybko/space potwierdzi/lslash/space premier/space Morawiecki:/space/endash/space Teraz/space przed/space nami/space ponad/space trzy/space lata/space na/space wspó/lslash prac/eogonek ./space Wspó/lslash prac/eogonek/space mi/eogonek dzy/space rz/aogonek dz/aogonek cymi/space i/space opozycj/aogonek ./space Dlatego/space zaprosi/lslash em/space równie/zdotaccent/space przedstawicieli/space wszystkich/space obecnych/space w/space parlamencie/space partii/space opozycyjnych/space do/space dyskusji/space na/space temat/space Bia/lslash orusi./space Bo/space to/space dzisiejsze/space ognisko/space zapalne./space Tu/space musimy/space dzia/lslash a/cacute/space wspólnie/space/endash/space powiedzia/lslash/space szef/space rz/aogonek du/space w/space Gdyni.",
-"/eng.sc/space"
+i,
+j
 );
 classes = (
 {
@@ -72478,7 +72479,7 @@ width = 488;
 components = (
 {
 name = idotless;
-transform = "{1, 0, 0, 1, 2, 0}";
+transform = "{1, 0, 0, 1, 1, 0}";
 }
 );
 layerId = "5013C991-8699-46CB-BB1C-82E334DBD38B";
@@ -72486,10 +72487,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"382 1374 LINE",
-"382 1600 LINE",
-"82 1600 LINE",
-"82 1374 LINE"
+"383 1374 LINE",
+"383 1600 LINE",
+"83 1600 LINE",
+"83 1374 LINE"
 );
 }
 );
@@ -74168,7 +74169,7 @@ name = i;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 54, 0}";
+transform = "{1, 0, 0, 1, 53, 0}";
 }
 );
 layerId = "5013C991-8699-46CB-BB1C-82E334DBD38B";

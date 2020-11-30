@@ -4,17 +4,41 @@ Big Shoulders is a family of condensed American Gothic typefaces, created for th
 
 Big Shoulders [Display](https://fonts.google.com/specimen/Big+Shoulders+Display) and [Text](https://fonts.google.com/specimen/Big+Shoulders+Text) is hosted on Google Fonts.
 
+<br>
+
 ## Build Instructions
 
-The main source is `Big Shoulders.glyphs`. Any changes made there need to also be reflected in `Big Shoulders Flat.glyphs`.
+The Big Shoulders superfamily is composed by Big Shoulders, Big Shoulders Display, and Big Shoulders Inline.
 
-`Big Shoulders Flat.glyphs` is a throwaway source needed to generate correct static instances using `fontmake`, as the current stable `fontmake` (as of August 2019) can’t deal with brace layers when generating instances. 
+The source file for each subfamily can be found at `sources` directory under a folder named with the family name.
 
-To generate `Big Shoulders Flat.glyphs`, apply [this Glyphs script](https://github.com/yanone/Yanone-GlyphsApp-Scripts/blob/master/Interpolation/Expand%20Intermediate%20Masters.py) to `Big Shoulders.glyphs` and save under new name. Repeat for any change to `Big Shoulders.glyphs`.
+```
+sources
+    1-Big-Shoulders
+    2-Big-Shoulders-Stencil
+    3-Big-Shoulders-Inline
+```
 
-Once `fontmake` version 2.0 is stable and out, which can deal with brace layers, the use of `Big Shoulders Flat.glyphs` can be discarded.
+Family is built using fontmake and gftools post processing script. Tools are all python based.
 
-Build fonts using `build.sh`.
+To install all the Python tools into a virtualenv, do the following:
+
+```
+# create a virtual environment
+    python3 -m venv venv
+# activate the venv
+    source venv/bin/activate
+# install the required dependencies
+    pip install -r requirements.txt
+```
+
+Then run the build script that is on each subfamily folder in the terminal, e.g.:
+
+```
+cd sources/1-Big-Shoulders
+sh build.sh
+```
+<br>
 
 ## Change log
 

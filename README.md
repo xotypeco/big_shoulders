@@ -10,10 +10,10 @@ Big Shoulders [Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
 
 The Big Shoulders superfamily is composed by Big Shoulders, Big Shoulders Display, and Big Shoulders Inline.
 
-The source file for each subfamily can be found at `sources` directory under a folder named with the family name.
+The source file for each subfamily can be found at `source` directory under a folder named with the family name.
 
 ```
-sources
+source
     1-Big-Shoulders
     2-Big-Shoulders-Stencil
     3-Big-Shoulders-Inline
@@ -33,13 +33,13 @@ To install all the Python tools into a virtualenv, do the following:
 
 # install the required dependencies
     pip install -r requirements.txt
-    
+
 ```
 
 Then run the build script that is on each subfamily folder in the terminal, e.g.:
 
 ```
-cd sources/1-Big-Shoulders
+cd source/1-Big-Shoulders
 sh build.sh
 ```
 <br>

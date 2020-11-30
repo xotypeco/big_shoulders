@@ -44,8 +44,8 @@ UPRIGHT_AXES = [
 ]
 
 
-VARIABLE_DIR = "../fonts/variable/"
-BS_UPRIGHT = f"{VARIABLE_DIR}/BigShoulders[opsz,wght].ttf"
+VARIABLE_DIR = "../../fonts/variable/"
+BS_UPRIGHT = f"{VARIABLE_DIR}BigShoulders[opsz,wght].ttf"
 
 
 def main():

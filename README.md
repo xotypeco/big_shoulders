@@ -24,12 +24,16 @@ Family is built using fontmake and gftools post processing script. Tools are all
 To install all the Python tools into a virtualenv, do the following:
 
 ```
+
 # create a virtual environment
     python3 -m venv venv
+
 # activate the venv
     source venv/bin/activate
+
 # install the required dependencies
     pip install -r requirements.txt
+    
 ```
 
 Then run the build script that is on each subfamily folder in the terminal, e.g.:

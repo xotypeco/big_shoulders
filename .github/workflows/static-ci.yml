@@ -35,7 +35,7 @@ jobs:
           update-wheel: "true"
           update-setuptools: "true"
       - name: Build Big-Shoulders static fonts checks
-        run: cd source && cd 1-Big-Shoulders ./build.sh && cd ..
+        run: cd source && cd 1-Big-Shoulders && /build.sh && cd ..
       - name: Font Bakery CI Big-Shoulders static ttf
         uses: f-actions/font-bakery@v1
         with:
@@ -45,7 +45,7 @@ jobs:
           path: "fonts/ttf/Big-Shoulders-Stencil/*.ttf"
           
       - name: Build Big-Shoulders-Stencil static fonts
-        run: cd source && cd 2-Big-Shoulders-Stencil ./build-stencil.sh && cd ..
+        run: cd source && cd 2-Big-Shoulders-Stencil && ./build-stencil.sh && cd ..
       - name: Font Bakery CI Stencil static ttf
         uses: f-actions/font-bakery@v1
         with:
@@ -55,7 +55,7 @@ jobs:
           path: "fonts/ttf/Big-Shoulders-Stencil/*.ttf"
 
       - name: Build Big-Shoulders-Inline static fonts
-        run: cd source && cd 2-Big-Shoulders-Inline ./build-inline.sh && cd ..
+        run: cd source && cd 3-Big-Shoulders-Inline && ./build-inline.sh && cd ..
       - name: Font Bakery CI Inline static ttf
         uses: f-actions/font-bakery@v1
         with:

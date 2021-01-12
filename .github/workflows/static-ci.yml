@@ -1,13 +1,13 @@
 name: Fontbakery CI - Static Fonts
 
-#on: [push, pull_request]
-on:
-  push:
-    paths:
-    - 'sources/**'
-  pull_request:
-    paths:
-    - 'sources/**'
+on: [push, pull_request]
+# on:
+#   push:
+#     paths:
+#     - 'sources/**'
+#   pull_request:
+#     paths:
+#     - 'sources/**'
 
 jobs:
   static-font-ci-job:

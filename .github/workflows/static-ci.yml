@@ -35,7 +35,7 @@ jobs:
           update-wheel: "true"
           update-setuptools: "true"
       - name: Build Big-Shoulders static fonts checks
-        run: cd source && cd 1-Big-Shoulders && /build.sh && cd ..
+        run: cd source && cd 1-Big-Shoulders && ./build.sh && cd ..
       - name: Font Bakery CI Big-Shoulders static ttf
         uses: f-actions/font-bakery@v1
         with:

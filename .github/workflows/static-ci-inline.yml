@@ -1,4 +1,4 @@
-name: Fontbakery CI - Static Fonts
+name: Fontbakery CI - Inline Static Fonts
 
 on: [push, pull_request]
 # on:

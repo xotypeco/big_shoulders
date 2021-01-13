@@ -40,7 +40,7 @@ jobs:
         with:
           name: static-ttf-generated
           path: fonts/ttf/Big-Shoulders/*.ttf
-      - name: Font Bakery CI Big-Shoulders static ttf
+      - name: Fontbakery CI Big-Shoulders static ttf
         uses: f-actions/font-bakery@v1
         with:
           version: "latest"

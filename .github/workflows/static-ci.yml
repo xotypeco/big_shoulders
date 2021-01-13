@@ -43,6 +43,10 @@ jobs:
           subcmd: "check-googlefonts"
           args: "-C --loglevel WARN"
           path: "fonts/ttf/Big-Shoulders-Stencil/*.ttf"
+      - uses: actions/upload-artifact@v2
+        with:
+          name: static-ttf-generated
+          path: fonts/ttf/Big-Shoulders-Stencil/*.ttf
           
       # - name: Build Big-Shoulders-Stencil static fonts
       #   run: cd source && cd 2-Big-Shoulders-Stencil && ./build-stencil.sh && cd ..

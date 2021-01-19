@@ -1,4 +1,4 @@
-name: Fontbakery CI - Stencil Static Fonts
+name: Fontbakery CI - Inline Static Fonts
 
 on: [push, pull_request]
 # on:
@@ -34,13 +34,12 @@ jobs:
         with:
           update-wheel: "true"
           update-setuptools: "true"
-
-      - name: Build Big-Shoulders-Stencil static fonts
-        run: cd source && cd 2-Big-Shoulders-Stencil && ./build-stencil.sh && cd ..
-      - name: Fontbakery CI Stencil static ttf
+      - name: Build Big-Shoulders-Inline static fonts
+        run: cd source && cd 3-Big-Shoulders-Inline && ./build-inline.sh && cd ..
+      - name: Fontbakery CI Inline static ttf
         uses: f-actions/font-bakery@v1
         with:
           version: "latest"
           subcmd: "check-googlefonts"
           args: "-C --loglevel WARN"
-          path: "fonts/ttf/Big-Shoulders-Stencil/*.ttf"
+          path: "fonts/ttf/Big-Shoulders-Inline/*.ttf"

@@ -1,13 +1,16 @@
-name: Fontbakery CI - Inline Static Fonts
+name: Fontbakery CI - Big Shoulders Inline - VF Fonts
 
-on: [push, pull_request]
-# on:
-#   push:
-#     paths:
-#     - 'sources/**'
-#   pull_request:
-#     paths:
-#     - 'sources/**'
+on: 
+  push:
+    branches: 
+    - master
+    paths:
+    - sources/**
+  pull_request:
+    branches: 
+    - master
+    paths:
+    - sources/**
 
 jobs:
   static-font-ci-job:
@@ -15,7 +18,7 @@ jobs:
     strategy:
       matrix:
         python-version: [3.8]
-    name: Fontbakery CI - Static Fonts
+    name: Fontbakery CI - VF Fonts
     steps:
       - name: Check out source repository
         uses: actions/checkout@v2
@@ -34,12 +37,12 @@ jobs:
         with:
           update-wheel: "true"
           update-setuptools: "true"
-      - name: Build Big-Shoulders-Inline static fonts
+      - name: Build Big-Shoulders-Inline VF fonts
         run: cd source && cd 3-Big-Shoulders-Inline && ./build-inline.sh && cd ..
-      - name: Fontbakery CI Inline static ttf
+      - name: Fontbakery CI Inline VF
         uses: f-actions/font-bakery@v1
         with:
           version: "latest"
           subcmd: "check-googlefonts"
           args: "-C --loglevel WARN"
-          path: "fonts/ttf/Big-Shoulders-Inline/*.ttf"
+          path: "fonts/variable/Big-Shoulders-Inline/*.ttf"

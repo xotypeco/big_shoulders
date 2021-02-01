@@ -11,7 +11,9 @@ DisplayStrings = (
 "Dzisiaj/space zostanie/space oficjalnie/space wys/lslash ane/space zaproszenie/space do/space przedstawicieli/space wszystkich/space klubów/space parlamentarnych,/space do/space wszystkich/space formacji/space politycznych/space z/space KPRM,/space zaproszenie/space premiera/space Morawieckiego/space na/space spotkanie/space w/space najbli/zdotaccent sz/aogonek/space/sacute rod/eogonek ,/space którego/space tematem/space b/eogonek dzie/space sytuacja/space na/space Bia/lslash orusi/space/endash/space o/sacute wiadczy/lslash/space w/space poniedzia/lslash ek/space rano/space w/space TVN/space 24/space szef/space KPRM/space Micha/lslash/space Dworczyk./space Jego/space s/lslash owa/space szybko/space potwierdzi/lslash/space premier/space Morawiecki:/space/endash/space Teraz/space przed/space nami/space ponad/space trzy/space lata/space na/space wspó/lslash prac/eogonek ./space Wspó/lslash prac/eogonek/space mi/eogonek dzy/space rz/aogonek dz/aogonek cymi/space i/space opozycj/aogonek ./space Dlatego/space zaprosi/lslash em/space równie/zdotaccent/space przedstawicieli/space wszystkich/space obecnych/space w/space parlamencie/space partii/space opozycyjnych/space do/space dyskusji/space na/space temat/space Bia/lslash orusi./space Bo/space to/space dzisiejsze/space ognisko/space zapalne./space Tu/space musimy/space dzia/lslash a/cacute/space wspólnie/space/endash/space powiedzia/lslash/space szef/space rz/aogonek du/space w/space Gdyni.",
 i,
 j,
-"/space O/horncomb/Ohorn/Ohorntilde U/Uhorn/Uhorntilde o/ohorn/ohorntilde u/uhorn/uhorntilde/o.sc/ohorn.sc/ohorntilde.sc/u.sc/uhorn.sc/uhorntilde.sc !!¡¿/question.sc ?ij;:"
+"/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb",
+"/acircumflexacute",
+"/Acircumflexacute/Acircumflexgrave/Acircumflexhookabove/Ecircumflexacute/Ecircumflexgrave/Ecircumflexhookabove/Ocircumflexacute/Ocircumflexgrave/Ocircumflexhookabove/acircumflexacute/acircumflexgrave/acircumflexhookabove/acircumflextilde/ecircumflexacute/ecircumflexgrave/ecircumflexhookabove/circumflexcomb_tildecomb/ecircumflextilde/ocircumflexacute/ocircumflexgrave/ocircumflexhookabove/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb"
 );
 classes = (
 {
@@ -251311,8 +251313,9 @@ components = (
 name = circumflexcomb;
 },
 {
+alignment = -1;
 name = acutecomb;
-transform = "{1, 0, 0, 1, 146, 290}";
+transform = "{1, 0, 0, 1, 298, 150}";
 }
 );
 layerId = "3B122060-26E0-4730-9241-82784E6CB359";
@@ -251335,8 +251338,9 @@ components = (
 name = circumflexcomb;
 },
 {
+alignment = -1;
 name = acutecomb;
-transform = "{1, 0, 0, 1, 198, 360}";
+transform = "{1, 0, 0, 1, 468, 220}";
 }
 );
 layerId = "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1";
@@ -251348,8 +251352,9 @@ components = (
 name = circumflexcomb;
 },
 {
+alignment = -1;
 name = acutecomb;
-transform = "{1, 0, 0, 1, 178, 360}";
+transform = "{1, 0, 0, 1, 448, 260}";
 }
 );
 layerId = "5013C991-8699-46CB-BB1C-82E334DBD38B";
@@ -251372,8 +251377,9 @@ components = (
 name = circumflexcomb;
 },
 {
+alignment = -1;
 name = acutecomb;
-transform = "{1, 0, 0, 1, 108, 278}";
+transform = "{1, 0, 0, 1, 238, 120}";
 }
 );
 layerId = "3D06B89B-468F-44E0-A3D7-A5BC6911123E";
@@ -251401,7 +251407,7 @@ name = circumflexcomb;
 {
 alignment = -1;
 name = acutecomb;
-transform = "{1, 0, 0, 1, 126, 299}";
+transform = "{1, 0, 0, 1, 306, 190}";
 }
 );
 layerId = "C9EB94EC-C68D-4931-B320-068DCAB9FADA";
@@ -251429,7 +251435,7 @@ name = circumflexcomb;
 {
 alignment = -1;
 name = acutecomb;
-transform = "{1, 0, 0, 1, 159, 308}";
+transform = "{1, 0, 0, 1, 346, 180}";
 }
 );
 layerId = "6F82CFD7-79D5-473B-9D61-BE5DF154BBF2";
@@ -251461,8 +251467,9 @@ name = circumflexcomb;
 transform = "{1, 0, 0, 1, 38, 0}";
 },
 {
+alignment = -1;
 name = gravecomb;
-transform = "{1, 0, 0, 1, 18, 290}";
+transform = "{1, 0, 0, 1, 223, 160}";
 }
 );
 layerId = "3B122060-26E0-4730-9241-82784E6CB359";
@@ -251487,8 +251494,9 @@ alignment = 1;
 name = circumflexcomb;
 },
 {
+alignment = -1;
 name = gravecomb;
-transform = "{1, 0, 0, 1, -40, 360}";
+transform = "{1, 0, 0, 1, 330, 220}";
 }
 );
 layerId = "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1";
@@ -251501,8 +251509,9 @@ alignment = 1;
 name = circumflexcomb;
 },
 {
+alignment = -1;
 name = gravecomb;
-transform = "{1, 0, 0, 1, -60, 360}";
+transform = "{1, 0, 0, 1, 320, 260}";
 }
 );
 layerId = "5013C991-8699-46CB-BB1C-82E334DBD38B";
@@ -251530,7 +251539,7 @@ transform = "{1, 0, 0, 1, 2, 0}";
 {
 alignment = -1;
 name = gravecomb;
-transform = "{1, 0, 0, 1, -10, 260}";
+transform = "{1, 0, 0, 1, 150, 120}";
 }
 );
 layerId = "3D06B89B-468F-44E0-A3D7-A5BC6911123E";
@@ -251560,7 +251569,7 @@ transform = "{1, 0, 0, 1, 2, 0}";
 {
 alignment = -1;
 name = gravecomb;
-transform = "{1, 0, 0, 1, -23, 285}";
+transform = "{1, 0, 0, 1, 207, 190}";
 }
 );
 layerId = "C9EB94EC-C68D-4931-B320-068DCAB9FADA";
@@ -251590,7 +251599,7 @@ transform = "{1, 0, 0, 1, 29, 0}";
 {
 alignment = -1;
 name = gravecomb;
-transform = "{1, 0, 0, 1, 4, 308}";
+transform = "{1, 0, 0, 1, 254, 180}";
 }
 );
 layerId = "6F82CFD7-79D5-473B-9D61-BE5DF154BBF2";
@@ -251777,8 +251786,9 @@ name = circumflexcomb;
 transform = "{1, 0, 0, 1, 58, 0}";
 },
 {
+alignment = -1;
 name = tildecomb;
-transform = "{1, 0, 0, 1, 2, 290}";
+transform = "{1, 0, 0, 1, 2, 240}";
 }
 );
 layerId = "3B122060-26E0-4730-9241-82784E6CB359";
@@ -251803,8 +251813,9 @@ name = circumflexcomb;
 transform = "{1, 0, 0, 1, 30, 0}";
 },
 {
+alignment = -1;
 name = tildecomb;
-transform = "{1, 0, 0, 1, -38, 360}";
+transform = "{1, 0, 0, 1, -38, 330}";
 }
 );
 layerId = "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1";
@@ -251817,8 +251828,9 @@ alignment = 1;
 name = circumflexcomb;
 },
 {
+alignment = -1;
 name = tildecomb;
-transform = "{1, 0, 0, 1, -68, 370}";
+transform = "{1, 0, 0, 1, -8, 340}";
 }
 );
 layerId = "5013C991-8699-46CB-BB1C-82E334DBD38B";
@@ -251843,8 +251855,9 @@ name = circumflexcomb;
 transform = "{1, 0, 0, 1, 48, 0}";
 },
 {
+alignment = -1;
 name = tildecomb;
-transform = "{1, 0, 0, 1, 0, 278}";
+transform = "{1, 0, 0, 1, 0, 258}";
 }
 );
 layerId = "3D06B89B-468F-44E0-A3D7-A5BC6911123E";
@@ -251874,7 +251887,7 @@ transform = "{1, 0, 0, 1, 36, 0}";
 {
 alignment = -1;
 name = tildecomb;
-transform = "{1, 0, 0, 1, -7, 299}";
+transform = "{1, 0, 0, 1, 3, 279}";
 }
 );
 layerId = "C9EB94EC-C68D-4931-B320-068DCAB9FADA";
@@ -251904,7 +251917,7 @@ transform = "{1, 0, 0, 1, 51, 0}";
 {
 alignment = -1;
 name = tildecomb;
-transform = "{1, 0, 0, 1, -8, 308}";
+transform = "{1, 0, 0, 1, -8, 258}";
 }
 );
 layerId = "6F82CFD7-79D5-473B-9D61-BE5DF154BBF2";

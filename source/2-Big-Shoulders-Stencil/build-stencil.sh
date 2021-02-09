@@ -13,7 +13,7 @@ mkdir -p ../../fonts ../../fonts/ttf/Big-Shoulders-Stencil ../../fonts/variable/
 echo "GENERATING VF"
 VF_FILE=../../fonts/variable/Big-Shoulders-Stencil/BigShouldersStencil\[opsz,wght]\.ttf
 glyphs2ufo Big_Shoulders_Stencil.glyphs --generate-GDEF
-fontmake -m vf_stencil.designspace -o variable --output-path $VF_FILE
+fontmake -m vf_stencil.designspace -o variable -f --output-path $VF_FILE
 
 
 echo "POST PROCESSING VF"

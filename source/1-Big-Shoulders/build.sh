@@ -13,7 +13,7 @@ mkdir -p ../../fonts ../../fonts/ttf/Big-Shoulders ../../fonts/variable ../../fo
 echo "GENERATING VF"
 VF_FILE=../../fonts/variable/BigShoulders\[opsz,wght]\.ttf
 glyphs2ufo Big_Shoulders.glyphs --generate-GDEF
-fontmake -m vf.designspace -o variable --output-path $VF_FILE
+fontmake -m vf.designspace -o variable -f --output-path $VF_FILE
 
 
 echo "POST PROCESSING VF"

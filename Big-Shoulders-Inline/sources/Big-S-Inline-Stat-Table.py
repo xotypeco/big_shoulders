@@ -44,7 +44,7 @@ UPRIGHT_AXES = [
 ]
 
 
-VARIABLE_DIR = "../../fonts/variable/Big-Shoulders-Inline"
+VARIABLE_DIR = "../fonts/ttf"
 BSI_UPRIGHT = f"{VARIABLE_DIR}/BigShouldersInline[opsz,wght].ttf"
 
 

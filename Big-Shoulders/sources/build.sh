@@ -8,10 +8,10 @@ function postprocess_ttf {
     gftools fix-unwanted-tables $1 -t MVAR
 }
 
-mkdir -p ../../fonts ../../fonts/ttf/Big-Shoulders ../../fonts/variable ../../fonts/otf/Big-Shoulders ../../fonts/woff2/Big-Shoulders/
+mkdir -p ../fonts ../fonts/ttf ../fonts/ttf/static ../fonts/otf/ ../fonts/woff2/ ../fonts/woff2/static_woff2
 
 echo "GENERATING VF"
-VF_FILE=../../fonts/variable/BigShoulders\[opsz,wght]\.ttf
+VF_FILE=../fonts/ttf/BigShoulders\[opsz,wght]\.ttf
 glyphs2ufo Big_Shoulders.glyphs --generate-GDEF
 fontmake -m vf.designspace -o variable -f --output-path $VF_FILE
 
@@ -24,23 +24,23 @@ fonttools ttLib.woff2 compress $VF_FILE
 echo "SPLITTING VF"
 # Big Shoulders Display
 gftools rename-font $VF_FILE "Big Shoulders Display"
-mv ../../fonts/variable/BigShouldersDisplay\[opsz\,wght\].ttf ../../fonts/variable/BigShouldersDisplay\[wght\].ttf
-fonttools varLib.instancer ../../fonts/variable/BigShouldersDisplay\[wght\].ttf opsz=72 -o ../../fonts/variable/BigShouldersDisplay\[wght\].ttf
+mv ../fonts/ttf/BigShouldersDisplay\[opsz\,wght\].ttf ../fonts/ttf/BigShouldersDisplay\[wght\].ttf
+fonttools varLib.instancer ../fonts/ttf/BigShouldersDisplay\[wght\].ttf opsz=72 -o ../fonts/ttf/BigShouldersDisplay\[wght\].ttf
 
 # Big Shoulders Text
 gftools rename-font $VF_FILE "Big Shoulders Text"
-mv ../../fonts/variable/BigShouldersText\[opsz\,wght\].ttf ../../fonts/variable/BigShouldersText\[wght\].ttf
-python update_fvar.py ../../fonts/variable/BigShouldersText\[wght\].ttf
-fonttools varLib.instancer ../../fonts/variable/BigShouldersText\[wght\].ttf opsz=10 -o ../../fonts/variable/BigShouldersText\[wght\].ttf
+mv ../fonts/ttf/BigShouldersText\[opsz\,wght\].ttf ../fonts/ttf/BigShouldersText\[wght\].ttf
+python update_fvar.py ../fonts/ttf/BigShouldersText\[wght\].ttf
+fonttools varLib.instancer ../fonts/ttf/BigShouldersText\[wght\].ttf opsz=10 -o ../fonts/ttf/BigShouldersText\[wght\].ttf
 
 
 echo "GENERATING STATIC FONTS"
-fontmake -m text_static.designspace -i -o ttf --output-dir ../../fonts/ttf/Big-Shoulders
-fontmake -m display_static.designspace -i -o ttf --output-dir ../../fonts/ttf/Big-Shoulders
+fontmake -m text_static.designspace -i -o ttf --output-dir ../fonts/ttf/static
+fontmake -m display_static.designspace -i -o ttf --output-dir ../fonts/ttf/static
 
 
 echo "POST PROCESSING STATIC FONTS"
-ttfs=$(ls ../../fonts/ttf/Big-Shoulders/*.ttf)
+ttfs=$(ls ../fonts/ttf/static/*.ttf)
 for ttf in $ttfs
 do
     postprocess_ttf $ttf;
@@ -48,11 +48,11 @@ do
 done
 
 echo "GENERATING OTFs"
-fontmake -m text_static.designspace -i -o otf --output-dir ../../fonts/otf/Big-Shoulders -a
-fontmake -m display_static.designspace -i -o otf --output-dir ../../fonts/otf/Big-Shoulders -a
+fontmake -m text_static.designspace -i -o otf --output-dir ../fonts/otf/ -a
+fontmake -m display_static.designspace -i -o otf --output-dir ../fonts/otf/ -a
 
 echo "POST PROCESSING OTFs"
-otfs=$(ls ../../fonts/otf/Big-Shoulders/*.otf)
+otfs=$(ls ../fonts/otf/*.otf)
 for otf in $otfs
 do
     gftools fix-weightclass $otf
@@ -62,8 +62,8 @@ do
 done
 
 
-mv ../../fonts/ttf/Big-Shoulders/*.woff2 ../../fonts/woff2/Big-Shoulders/
-mv ../../fonts/variable/*.woff2 ../../fonts/woff2/Big-Shoulders/
+mv ../fonts/ttf/static/*.woff2 ../fonts/woff2/static_woff2
+mv ../fonts/ttf/*.woff2 ../fonts/woff2/
 
 # cleanup
-rm -rf ../../fonts/ttf/Big-Shoulders/*gasp*.ttf ../../fonts/ttf/*gasp*.ttf ../../fonts/variable/*gasp*.ttf ../../fonts/woff2/Big-Shoulders/*gasp*.woff2 instance_ufo *.ufo Big_Shoulders.designspace
+rm -rf ../fonts/ttf/static/*gasp*.ttf ../fonts/ttf/*gasp*.ttf ../fonts/woff2/*gasp*.woff2 instance_ufo *.ufo Big_Shoulders.designspace

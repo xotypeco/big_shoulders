@@ -1,4 +1,6 @@
-name: FB CI - Inline - VF Fonts
+name: FB CI - VF Fonts
+
+# on: [push, pull_request]
 
 on: 
   push:
@@ -37,10 +39,14 @@ jobs:
         with:
           update-wheel: "true"
           update-setuptools: "true"
-          
-      - name: Build Big-Shoulders-Inline VF fonts
-        run: cd Big-Shoulders-Inline && cd sources && ./build-inline.sh && cd ..
-      - name: Fontbakery CI Inline VF
+
+      - name: Build Big-Shoulders static fonts checks
+        run: cd Big-Shoulders && cd sources && ./build.sh && cd ..
+      # - uses: actions/upload-artifact@v2
+      #   with:
+      #     name: static-ttf-generated
+      #     path: fonts/ttf/*.ttf
+      - name: Fontbakery CI VF
         uses: f-actions/font-bakery@v1
         with:
           version: "latest"

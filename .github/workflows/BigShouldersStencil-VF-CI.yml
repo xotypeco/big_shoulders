@@ -1,13 +1,18 @@
-name: Fontbakery CI - Stencil Static Fonts
+name: FB CI - Stencil VF Fonts
 
-on: [push, pull_request]
-# on:
-#   push:
-#     paths:
-#     - 'sources/**'
-#   pull_request:
-#     paths:
-#     - 'sources/**'
+# on: [push, pull_request]
+
+on: 
+  push:
+    branches: 
+    - master
+    paths:
+    - sources/**
+  pull_request:
+    branches: 
+    - master
+    paths:
+    - sources/**
 
 jobs:
   static-font-ci-job:
@@ -15,7 +20,7 @@ jobs:
     strategy:
       matrix:
         python-version: [3.8]
-    name: Fontbakery CI - Static Fonts
+    name: Fontbakery CI - VF Fonts
     steps:
       - name: Check out source repository
         uses: actions/checkout@v2
@@ -35,12 +40,12 @@ jobs:
           update-wheel: "true"
           update-setuptools: "true"
 
-      - name: Build Big-Shoulders-Stencil static fonts
-        run: cd source && cd 2-Big-Shoulders-Stencil && ./build-stencil.sh && cd ..
-      - name: Fontbakery CI Stencil static ttf
+      - name: Build Big-Shoulders-Stencil VF fonts
+        run: cd Big-Shoulders-Stencil && cd source && ./build-stencil.sh && cd ..
+      - name: Fontbakery CI Stencil VF
         uses: f-actions/font-bakery@v1
         with:
           version: "latest"
           subcmd: "check-googlefonts"
           args: "-C --loglevel WARN"
-          path: "fonts/ttf/Big-Shoulders-Stencil/*.ttf"
+          path: "fonts/ttf/*.ttf"

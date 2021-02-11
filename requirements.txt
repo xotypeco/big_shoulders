@@ -1,6 +1,5 @@
 gftools
 fontbakery
 fontmake
-statmake
-fs
 brotli
+git+https://github.com/googlefonts/ufo2ft

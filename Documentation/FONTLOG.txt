@@ -1,0 +1,70 @@
+
+FONTLOG for Big Shoulders fonts
+
+This file provides detailed information on the Big Shoulders 
+Font Software.
+
+This information should be distributed along with the 
+Big Shoulders fonts and any derivative works.
+
+Basic Font Information
+
+Big Shoulders is a superfamily of condensed American Gothic typefaces, created for the Chicago Design System, as well as the citizens of Chicago. The family&apos;s tall, sans-serif forms are based in Chicago&apos;s multiple histories in railway transport, public political action, and dance.
+
+Big Shoulders, the primary family, is used in the Chicago Design System as the primary typeface to identify Chicago and its citizens. Big Shoulders allows to Chicagoans to speak with one consistent typographic voice.
+
+Big Shoulders Stencil explores Chicago’s histories in work and protest, and is designed to apply the Chicagoan voice to those uses.
+
+Big Shoulders Inline formalizes a local typographic vernacular for celebration, taking its hypnotic inline design from Chicago House parties, and local LGBTQ dance events, a tradition beginning in the early 1980s.
+
+Big Shoulders language support includes full covers of Vietnamese, additional to all Western, Central, and South-Eastern European languages.
+
+More specifically, this release supports the following 
+Unicode ranges: Latin-1, Latin-1 Supplement, Latin Extended-A, some of Latin Extended-B
+
+For each style there is 1 Source file:
+
+1. font_name_style.glyphs Original Source Files in glyphs format including masters for both Text and Display optical sizes
+
+for each style there are 51 font files:
+
+1. fontname_weight.otf OTF binary (16 fint files per style, 8 each for Text and Display)
+
+2. fontname_weight.ttf TrueType binary, unhinted (16 fint files per style, 8 each for Text and Display)
+
+3. fontname[wght].ttf Variable font binary, unhinted (1 each for Text and Display)
+
+4. fontname[opsz,wght].ttf Variable font binary, unhinted (this combines optical size and weight into a single variable font file)
+
+5. fontname_weight.woff2 webfont binary, unhinted (16 fint files per style, 8 each for Text and Display)
+
+To contribute to the project contact Patric King
+at info@xotype.co
+
+
+ChangeLog
+
+Big Shoulders v1.000 (September 2019)
+- Initial release of Big Shoulders style (not including Stencil or Inline) in Text and Display optical sizes
+
+Big Shoulders v1.101 (October 2020)
+- Revised Vietnamese diacritics
+- Revised Polish diacritics
+- revision of some character shapes
+- addition of Chicago Star and Chicago Rectangle
+
+Big Shoulders Stencil v1.000 (September 2020)
+- Initial release of Big Shoulders Stencil in Text and Display optical sizes
+
+Big Shoulders Inline v1.000 (September 2020)
+- Initial release of Big Shoulders Inline style in Text and Display optical sizes
+
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Patric King
+E: info@xotype.co
+W: https://xotype.co
+D: Original Type Designer

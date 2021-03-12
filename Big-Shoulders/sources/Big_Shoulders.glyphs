@@ -1,7 +1,8 @@
 {
 .appVersion = "1355";
 DisplayStrings = (
-"/Ahookabove/abrevehookabove/ahookabove/hookabovecomb"
+"/space/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde/Ainvertedbreve/Ebreve/Ecedillabreve/Einvertedbreve/Gbreve/Hbrevebelow/Ibreve/Iinvertedbreve/Obreve/Oinvertedbreve/Rinvertedbreve/Ubreve/Uinvertedbreve/Rinvertedbreve.ss01/abreve.sc/abreveacute.sc/abrevedotbelow.sc/abrevegrave.sc/abrevehookabove.sc/abrevetilde.sc/ainvertedbreve.sc/ebreve.sc/ecedillabreve.sc/einvertedbreve.sc/gbreve.sc/hbrevebelow.sc/ibreve.sc/iinvertedbreve.sc/obreve.sc/oinvertedbreve.sc/rinvertedbreve.sc/ubreve.sc/uinvertedbreve.sc/rinvertedbreve.sc.ss01",
+"y/ydotbelow Ð/dcroat/eth.sc/hookabovecomb/brevecomb_hookabovecomb/circumflexcomb_hookabovecomb \012/Ohorntilde/Uhorntilde/ohorntilde/uhorntilde/ohorntilde.sc/uhorntilde.sc"
 );
 classes = (
 {
@@ -251014,8 +251015,9 @@ components = (
 name = brevecomb;
 },
 {
+alignment = -1;
 name = hookabovecomb;
-transform = "{1, 0, 0, 1, 160, 328}";
+transform = "{1, 0, 0, 1, 80, 328}";
 }
 );
 layerId = "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1";
@@ -251027,8 +251029,9 @@ components = (
 name = brevecomb;
 },
 {
+alignment = -1;
 name = hookabovecomb;
-transform = "{1, 0, 0, 1, 140, 358}";
+transform = "{1, 0, 0, 1, 70, 358}";
 }
 );
 layerId = "5013C991-8699-46CB-BB1C-82E334DBD38B";
@@ -251080,7 +251083,7 @@ name = brevecomb;
 {
 alignment = -1;
 name = hookabovecomb;
-transform = "{1, 0, 0, 1, 140, 235}";
+transform = "{1, 0, 0, 1, 120, 235}";
 }
 );
 layerId = "C9EB94EC-C68D-4931-B320-068DCAB9FADA";
@@ -251108,7 +251111,7 @@ name = brevecomb;
 {
 alignment = -1;
 name = hookabovecomb;
-transform = "{1, 0, 0, 1, 141, 250}";
+transform = "{1, 0, 0, 1, 121, 250}";
 }
 );
 layerId = "6F82CFD7-79D5-473B-9D61-BE5DF154BBF2";

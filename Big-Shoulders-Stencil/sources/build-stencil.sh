@@ -35,8 +35,8 @@ fonttools varLib.instancer ../fonts/ttf/BigShouldersStencilText\[wght\].ttf opsz
 
 
 echo "GENERATING STATIC FONTS"
-fontmake -m text_stencil_static.designspace -i -o ttf --output-dir ../fonts/ttf/static
-fontmake -m display_stencil_static.designspace -i -o ttf --output-dir ../fonts/ttf/static
+fontmake -m text_stencil_static.designspace -i -f -o ttf --output-dir ../fonts/ttf/static
+fontmake -m display_stencil_static.designspace -i -f -o ttf --output-dir ../fonts/ttf/static
 
 
 echo "POST PROCESSING STATIC FONTS"
@@ -48,8 +48,8 @@ do
 done
 
 echo "GENERATING OTFs"
-fontmake -m text_stencil_static.designspace -i -o otf --output-dir ../fonts/otf -a
-fontmake -m display_stencil_static.designspace -i -o otf --output-dir ../fonts/otf -a
+fontmake -m text_stencil_static.designspace -i -f -o otf --output-dir ../fonts/otf -a
+fontmake -m display_stencil_static.designspace -i -f -o otf --output-dir ../fonts/otf -a
 
 echo "POST PROCESSING OTFs"
 otfs=$(ls ../fonts/otf/*.otf)

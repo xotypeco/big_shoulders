@@ -7,12 +7,12 @@ on:
     branches: 
     - master
     paths:
-    - sources/**
+    - BigShoulders/sources/**
   pull_request:
     branches: 
     - master
     paths:
-    - sources/**
+    - BigShoulders/sources/**
 
 jobs:
   static-font-ci-job:
@@ -40,16 +40,17 @@ jobs:
           update-wheel: "true"
           update-setuptools: "true"
 
-      - name: Build Big-Shoulders static fonts checks
+      - name: Build Big-Shoulders fonts
+        id: build_fonts
         run: cd Big-Shoulders && cd sources && ./build.sh && cd ..
-      # - uses: actions/upload-artifact@v2
-      #   with:
-      #     name: static-ttf-generated
-      #     path: fonts/ttf/*.ttf
+      - uses: actions/upload-artifact@v2
+        with:
+          name: static-ttf-generated
+          path: fonts/ttf/*.ttf
       - name: Fontbakery CI VF
         uses: f-actions/font-bakery@v1
         with:
           version: "latest"
           subcmd: "check-googlefonts"
-          args: "-C --loglevel WARN"
+          args: "-C --succinct --loglevel WARN --ghmarkdown fonts/report.md"
           path: "fonts/ttf/*.ttf"

@@ -1,5 +1,5 @@
 {
-.appVersion = "1356";
+.appVersion = "1342";
 DisplayStrings = (
 "/space/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde/Ainvertedbreve/Ebreve/Ecedillabreve/Einvertedbreve/Gbreve/Hbrevebelow/Ibreve/Iinvertedbreve/Obreve/Oinvertedbreve/Rinvertedbreve/Ubreve/Uinvertedbreve/Rinvertedbreve.ss01/abreve.sc/abreveacute.sc/abrevedotbelow.sc/abrevegrave.sc/abrevehookabove.sc/abrevetilde.sc/ainvertedbreve.sc/ebreve.sc/ecedillabreve.sc/einvertedbreve.sc/gbreve.sc/hbrevebelow.sc/ibreve.sc/iinvertedbreve.sc/obreve.sc/oinvertedbreve.sc/rinvertedbreve.sc/ubreve.sc/uinvertedbreve.sc/rinvertedbreve.sc.ss01",
 "W/w.sc w\012Y/y.sc y\012V/v.sc v\012X/x.sc x"
@@ -51,7 +51,8 @@ name = glyphOrder;
 value = (
 .notdef,
 .null,
-CR
+CR,
+nbspace
 );
 },
 {
@@ -68,7 +69,7 @@ Tag = opsz;
 );
 }
 );
-date = "2020-04-16 17:21:00 +0000";
+date = "2021-05-07 01:07:23 +0000";
 designer = "Patric King";
 designerURL = "http://houseofpretty.com";
 familyName = "Big Shoulders";
@@ -2067,6 +2068,39 @@ nodes = (
 width = 1233;
 }
 );
+},
+{
+glyphname = nbspace;
+layers = (
+{
+layerId = "3B122060-26E0-4730-9241-82784E6CB359";
+width = 400;
+},
+{
+layerId = "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1";
+width = 440;
+},
+{
+layerId = "5013C991-8699-46CB-BB1C-82E334DBD38B";
+width = 440;
+},
+{
+layerId = "3D06B89B-468F-44E0-A3D7-A5BC6911123E";
+width = 400;
+},
+{
+layerId = "C9EB94EC-C68D-4931-B320-068DCAB9FADA";
+width = 410;
+},
+{
+layerId = "6F82CFD7-79D5-473B-9D61-BE5DF154BBF2";
+width = 410;
+}
+);
+leftKerningGroup = nbspace;
+widthMetricsKey = space;
+rightKerningGroup = nbspace;
+unicode = 00A0;
 },
 {
 glyphname = A;
@@ -199769,39 +199803,6 @@ rightKerningGroup = space;
 unicode = 0020;
 },
 {
-glyphname = nbspace;
-layers = (
-{
-layerId = "3B122060-26E0-4730-9241-82784E6CB359";
-width = 400;
-},
-{
-layerId = "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1";
-width = 440;
-},
-{
-layerId = "5013C991-8699-46CB-BB1C-82E334DBD38B";
-width = 440;
-},
-{
-layerId = "3D06B89B-468F-44E0-A3D7-A5BC6911123E";
-width = 400;
-},
-{
-layerId = "C9EB94EC-C68D-4931-B320-068DCAB9FADA";
-width = 410;
-},
-{
-layerId = "6F82CFD7-79D5-473B-9D61-BE5DF154BBF2";
-width = 410;
-}
-);
-leftKerningGroup = nbspace;
-widthMetricsKey = space;
-rightKerningGroup = nbspace;
-unicode = 00A0;
-},
-{
 glyphname = thinspace;
 layers = (
 {
@@ -256049,6 +256050,6 @@ tH = "86";
 };
 };
 };
-versionMajor = 1;
-versionMinor = 101;
+versionMajor = 2;
+versionMinor = 0;
 }

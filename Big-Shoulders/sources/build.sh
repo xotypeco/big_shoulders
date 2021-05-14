@@ -35,8 +35,8 @@ fonttools varLib.instancer ../fonts/ttf/BigShouldersText\[wght\].ttf opsz=10 -o 
 
 
 echo "GENERATING STATIC FONTS"
-fontmake -m text_static.designspace -i -o ttf --output-dir ../fonts/ttf/static
-fontmake -m display_static.designspace -i -o ttf --output-dir ../fonts/ttf/static
+fontmake -m text_static.designspace -i -f -o ttf --output-dir ../fonts/ttf/static
+fontmake -m display_static.designspace -i -f -o ttf --output-dir ../fonts/ttf/static
 
 
 echo "POST PROCESSING STATIC FONTS"

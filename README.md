@@ -1,8 +1,8 @@
-Big Shoulders is a family of condensed American Gothic typefaces, created for the city and citizens of Chicago. The family’s tall, sans-serif forms honor Chicago’s multiple histories as railway transport hub, public political action center, and the birthplace of House music.
+Big Shoulders is a superfamily of condensed American Gothic variable fonts, created for the Chicago Design System, as well as the citizens of Chicago. The family&apos;s tall, sans-serif forms are based in Chicago&apos;s multiple histories in railway transport, public political action, and dance.
 
 ![Big Shoulders sample slide](big-shoulders-sample-slide.png)
 
-Big Shoulders [Display](https://fonts.google.com/specimen/Big+Shoulders+Display) and [Text](https://fonts.google.com/specimen/Big+Shoulders+Text) is hosted on Google Fonts.
+The entire family is hosted on Google Fonts.
 
 <br>
 
@@ -10,18 +10,17 @@ Big Shoulders [Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
 
 The Big Shoulders superfamily is composed by Big Shoulders, Big Shoulders Display, and Big Shoulders Inline.
 
-The source file for each subfamily can be found at `source` directory under a folder named with the family name.
+The source files can be found in the `sources` folder under the directory for each subfamily
 
 ```
-source
-    1-Big-Shoulders
-    2-Big-Shoulders-Stencil
-    3-Big-Shoulders-Inline
+    Big-Shoulders/sources
+    Big-Shoulders-Stencil/sources
+    Big-Shoulders-Inline/sources
 ```
 
-Family is built using fontmake and gftools post processing script. Tools are all python based.
+The families are built using fontmake and gftools post processing script. Tools are all python based.
 
-To install all the Python tools into a virtualenv, do the following:
+To install all the Python tools, first create a virtualenv. This step should be done only once:
 
 ```
 
@@ -36,10 +35,11 @@ To install all the Python tools into a virtualenv, do the following:
 
 ```
 
-Then run the build script that is on each subfamily folder in the terminal, e.g.:
+Once the virtual environment is activated, run the build script that is on each subfamily folder in the terminal, e.g.:
 
 ```
-cd source/1-Big-Shoulders
+cd Big-Shoulders
+cd sources
 sh build.sh
 ```
 <br>

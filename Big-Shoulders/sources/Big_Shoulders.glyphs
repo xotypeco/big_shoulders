@@ -1,9 +1,9 @@
 {
 .appVersion = "1342";
 DisplayStrings = (
-"/space/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde/Ainvertedbreve/Ebreve/Ecedillabreve/Einvertedbreve/Gbreve/Hbrevebelow/Ibreve/Iinvertedbreve/Obreve/Oinvertedbreve/Rinvertedbreve/Ubreve/Uinvertedbreve/Rinvertedbreve.ss01/abreve.sc/abreveacute.sc/abrevedotbelow.sc/abrevegrave.sc/abrevehookabove.sc/abrevetilde.sc/ainvertedbreve.sc/ebreve.sc/ecedillabreve.sc/einvertedbreve.sc/gbreve.sc/hbrevebelow.sc/ibreve.sc/iinvertedbreve.sc/obreve.sc/oinvertedbreve.sc/rinvertedbreve.sc/ubreve.sc/uinvertedbreve.sc/rinvertedbreve.sc.ss01",
-"W/w.sc w\012Y/y.sc y\012V/v.sc v\012X/x.sc x",
-"/R.ss01 R"
+"/space/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde/Ainvertedbreve/Ebreve/Ecedillabreve/Einvertedbreve/Gbreve/Hbrevebelow/Ibreve/Iinvertedbreve/Obreve/Oinvertedbreve/Rinvertedbreve/Ubreve/Uinvertedbreve",
+"Ww\012Yy\012Vv\012Xx",
+R
 );
 classes = (
 {
@@ -904,6 +904,7 @@ sub rinvertedbreve.sc by rinvertedbreve.sc.ss01;
 sub rlinebelow.sc by rlinebelow.sc.ss01;
 ";
 name = ss01;
+notes = "Name: a y g open loops";
 }
 );
 fontMaster = (

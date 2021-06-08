@@ -28,4 +28,4 @@ mv ../fonts/variable/BigShouldersText\[opsz\,wght\].ttf ../fonts/variable/BigSho
 python update_fvar.py ../fonts/variable/BigShouldersText\[wght\].ttf
 fonttools varLib.instancer ../fonts/variable/BigShouldersText\[wght\].ttf opsz=10 -o ../fonts/variable/BigShouldersText\[wght\].ttf
 
-echo "Done"
+echo "DONE!"

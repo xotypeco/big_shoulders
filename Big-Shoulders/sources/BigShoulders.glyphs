@@ -1,5 +1,5 @@
 {
-.appVersion = "1342";
+.appVersion = "1356";
 DisplayStrings = (
 "/space/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde/Ainvertedbreve/Ebreve/Ecedillabreve/Einvertedbreve/Gbreve/Hbrevebelow/Ibreve/Iinvertedbreve/Obreve/Oinvertedbreve/Rinvertedbreve/Ubreve/Uinvertedbreve",
 "Ww\012Yy\012Vv\012Xx",
@@ -251956,11 +251956,11 @@ name = Thin;
 weightClass = Thin;
 },
 {
-interpolationWeight = 178;
+interpolationWeight = 165;
 interpolationWidth = 72;
 instanceInterpolations = {
-"3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 0.61;
-"C9EB94EC-C68D-4931-B320-068DCAB9FADA" = 0.39;
+"3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 0.675;
+"C9EB94EC-C68D-4931-B320-068DCAB9FADA" = 0.325;
 };
 name = ExtraLight;
 weightClass = ExtraLight;
@@ -252062,11 +252062,11 @@ name = familyName;
 value = "Big Shoulders Text";
 }
 );
-interpolationWeight = 178;
+interpolationWeight = 165;
 interpolationWidth = 10;
 instanceInterpolations = {
-"3B122060-26E0-4730-9241-82784E6CB359" = 0.61;
-"6F82CFD7-79D5-473B-9D61-BE5DF154BBF2" = 0.39;
+"3B122060-26E0-4730-9241-82784E6CB359" = 0.675;
+"6F82CFD7-79D5-473B-9D61-BE5DF154BBF2" = 0.325;
 };
 name = ExtraLight;
 weightClass = ExtraLight;
@@ -252203,11 +252203,11 @@ name = familyName;
 value = "Big Shoulders Display";
 }
 );
-interpolationWeight = 178;
+interpolationWeight = 165;
 interpolationWidth = 72;
 instanceInterpolations = {
-"3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 0.61;
-"C9EB94EC-C68D-4931-B320-068DCAB9FADA" = 0.39;
+"3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 0.675;
+"C9EB94EC-C68D-4931-B320-068DCAB9FADA" = 0.325;
 };
 name = ExtraLight;
 weightClass = ExtraLight;

@@ -159105,6 +159105,288 @@ instanceInterpolations = {
 };
 name = Black;
 weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Big Shoulders Stencil Text";
+}
+);
+interpolationWidth = 10;
+instanceInterpolations = {
+"3B122060-26E0-4730-9241-82784E6CB359" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Big Shoulders Stencil Text";
+}
+);
+interpolationWeight = 165;
+interpolationWidth = 10;
+instanceInterpolations = {
+"3B122060-26E0-4730-9241-82784E6CB359" = 0.675;
+"EB6D3A46-95FC-4F29-8169-EF2A3FEDBD5C" = 0.325;
+};
+name = ExtraLight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Big Shoulders Stencil Text";
+}
+);
+interpolationWeight = 257;
+interpolationWidth = 10;
+instanceInterpolations = {
+"3B122060-26E0-4730-9241-82784E6CB359" = 0.215;
+"EB6D3A46-95FC-4F29-8169-EF2A3FEDBD5C" = 0.785;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Big Shoulders Stencil Text";
+}
+);
+interpolationWeight = 385;
+interpolationWidth = 10;
+instanceInterpolations = {
+"1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 0.14167;
+"EB6D3A46-95FC-4F29-8169-EF2A3FEDBD5C" = 0.85833;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Big Shoulders Stencil Text";
+}
+);
+interpolationWeight = 450;
+interpolationWidth = 10;
+instanceInterpolations = {
+"1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 0.25;
+"EB6D3A46-95FC-4F29-8169-EF2A3FEDBD5C" = 0.75;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Big Shoulders Stencil Text";
+}
+);
+interpolationWeight = 514;
+interpolationWidth = 10;
+instanceInterpolations = {
+"1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 0.35667;
+"EB6D3A46-95FC-4F29-8169-EF2A3FEDBD5C" = 0.64333;
+};
+name = SemiBold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Big Shoulders Stencil Text";
+}
+);
+interpolationWeight = 642;
+interpolationWidth = 10;
+instanceInterpolations = {
+"1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 0.57;
+"EB6D3A46-95FC-4F29-8169-EF2A3FEDBD5C" = 0.43;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Big Shoulders Stencil Text";
+}
+);
+interpolationWeight = 771;
+interpolationWidth = 10;
+instanceInterpolations = {
+"1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 0.785;
+"EB6D3A46-95FC-4F29-8169-EF2A3FEDBD5C" = 0.215;
+};
+name = ExtraBold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Big Shoulders Stencil Text";
+}
+);
+interpolationWeight = 900;
+interpolationWidth = 10;
+instanceInterpolations = {
+"1DFA7D5B-2E97-4B89-827F-FB43F8066DC1" = 1;
+};
+name = Black;
+weightClass = Black;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Big Shoulders Stencil Display";
+}
+);
+interpolationWidth = 72;
+instanceInterpolations = {
+"3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Big Shoulders Stencil Display";
+}
+);
+interpolationWeight = 165;
+interpolationWidth = 72;
+instanceInterpolations = {
+"3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 0.675;
+"C388322D-F001-4130-A10A-708FB59AF746" = 0.325;
+};
+name = ExtraLight;
+weightClass = ExtraLight;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Big Shoulders Stencil Display";
+}
+);
+interpolationWeight = 257;
+interpolationWidth = 72;
+instanceInterpolations = {
+"3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 0.215;
+"C388322D-F001-4130-A10A-708FB59AF746" = 0.785;
+};
+name = Light;
+weightClass = Light;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Big Shoulders Stencil Display";
+}
+);
+interpolationWeight = 385;
+interpolationWidth = 72;
+instanceInterpolations = {
+"5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.14167;
+"C388322D-F001-4130-A10A-708FB59AF746" = 0.85833;
+};
+name = Regular;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Big Shoulders Stencil Display";
+}
+);
+interpolationWeight = 450;
+interpolationWidth = 72;
+instanceInterpolations = {
+"5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.25;
+"C388322D-F001-4130-A10A-708FB59AF746" = 0.75;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Big Shoulders Stencil Display";
+}
+);
+interpolationWeight = 514;
+interpolationWidth = 72;
+instanceInterpolations = {
+"5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.35667;
+"C388322D-F001-4130-A10A-708FB59AF746" = 0.64333;
+};
+name = SemiBold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Big Shoulders Stencil Display";
+}
+);
+interpolationWeight = 642;
+interpolationWidth = 72;
+instanceInterpolations = {
+"5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.57;
+"C388322D-F001-4130-A10A-708FB59AF746" = 0.43;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Big Shoulders Stencil Display";
+}
+);
+interpolationWeight = 771;
+interpolationWidth = 72;
+instanceInterpolations = {
+"5013C991-8699-46CB-BB1C-82E334DBD38B" = 0.785;
+"C388322D-F001-4130-A10A-708FB59AF746" = 0.215;
+};
+name = ExtraBold;
+weightClass = ExtraBold;
+},
+{
+customParameters = (
+{
+name = familyName;
+value = "Big Shoulders Stencil Display";
+}
+);
+interpolationWeight = 900;
+interpolationWidth = 72;
+instanceInterpolations = {
+"5013C991-8699-46CB-BB1C-82E334DBD38B" = 1;
+};
+name = Black;
+weightClass = Black;
 }
 );
 kerning = {

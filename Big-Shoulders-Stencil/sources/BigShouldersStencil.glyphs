@@ -59,8 +59,10 @@ value = 1;
 name = glyphOrder;
 value = (
 .notdef,
-.null,
-CR
+NULL,
+CR,
+space,
+nbspace
 );
 },
 {
@@ -80,6 +82,30 @@ Tag = opsz;
 {
 name = "Enforce Compatibility Check";
 value = 1;
+},
+{
+name = "Axis Mappings";
+value = {
+opsz = {
+10 = 10;
+72 = 72;
+};
+wght = {
+100 = 100;
+200 = 165;
+300 = 257;
+400 = 385;
+500 = 450;
+600 = 514;
+700 = 642;
+800 = 771;
+900 = 900;
+};
+};
+},
+{
+name = "Variable Font Origin";
+value = "3D06B89B-468F-44E0-A3D7-A5BC6911123E";
 }
 );
 date = "2020-08-05 23:37:54 +0000";
@@ -1988,6 +2014,71 @@ width = 1233;
 );
 leftMetricsKey = H;
 rightMetricsKey = H;
+},
+{
+glyphname = space;
+layers = (
+{
+layerId = "3B122060-26E0-4730-9241-82784E6CB359";
+width = 400;
+},
+{
+layerId = "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1";
+width = 440;
+},
+{
+layerId = "5013C991-8699-46CB-BB1C-82E334DBD38B";
+width = 440;
+},
+{
+layerId = "3D06B89B-468F-44E0-A3D7-A5BC6911123E";
+width = 400;
+},
+{
+layerId = "EB6D3A46-95FC-4F29-8169-EF2A3FEDBD5C";
+width = 410;
+},
+{
+layerId = "C388322D-F001-4130-A10A-708FB59AF746";
+width = 410;
+}
+);
+leftKerningGroup = space;
+rightKerningGroup = space;
+unicode = 0020;
+},
+{
+glyphname = nbspace;
+layers = (
+{
+layerId = "3B122060-26E0-4730-9241-82784E6CB359";
+width = 400;
+},
+{
+layerId = "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1";
+width = 440;
+},
+{
+layerId = "5013C991-8699-46CB-BB1C-82E334DBD38B";
+width = 440;
+},
+{
+layerId = "3D06B89B-468F-44E0-A3D7-A5BC6911123E";
+width = 400;
+},
+{
+layerId = "EB6D3A46-95FC-4F29-8169-EF2A3FEDBD5C";
+width = 410;
+},
+{
+layerId = "C388322D-F001-4130-A10A-708FB59AF746";
+width = 410;
+}
+);
+leftKerningGroup = nbspace;
+widthMetricsKey = space;
+rightKerningGroup = nbspace;
+unicode = 00A0;
 },
 {
 glyphname = A;
@@ -127663,71 +127754,6 @@ widthMetricsKey = period;
 unicode = 2008;
 },
 {
-glyphname = space;
-layers = (
-{
-layerId = "3B122060-26E0-4730-9241-82784E6CB359";
-width = 400;
-},
-{
-layerId = "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1";
-width = 440;
-},
-{
-layerId = "5013C991-8699-46CB-BB1C-82E334DBD38B";
-width = 440;
-},
-{
-layerId = "3D06B89B-468F-44E0-A3D7-A5BC6911123E";
-width = 400;
-},
-{
-layerId = "EB6D3A46-95FC-4F29-8169-EF2A3FEDBD5C";
-width = 410;
-},
-{
-layerId = "C388322D-F001-4130-A10A-708FB59AF746";
-width = 410;
-}
-);
-leftKerningGroup = space;
-rightKerningGroup = space;
-unicode = 0020;
-},
-{
-glyphname = nbspace;
-layers = (
-{
-layerId = "3B122060-26E0-4730-9241-82784E6CB359";
-width = 400;
-},
-{
-layerId = "1DFA7D5B-2E97-4B89-827F-FB43F8066DC1";
-width = 440;
-},
-{
-layerId = "5013C991-8699-46CB-BB1C-82E334DBD38B";
-width = 440;
-},
-{
-layerId = "3D06B89B-468F-44E0-A3D7-A5BC6911123E";
-width = 400;
-},
-{
-layerId = "EB6D3A46-95FC-4F29-8169-EF2A3FEDBD5C";
-width = 410;
-},
-{
-layerId = "C388322D-F001-4130-A10A-708FB59AF746";
-width = 410;
-}
-);
-leftKerningGroup = nbspace;
-widthMetricsKey = space;
-rightKerningGroup = nbspace;
-unicode = 00A0;
-},
-{
 glyphname = thinspace;
 layers = (
 {
@@ -158959,12 +158985,6 @@ rightKerningGroup = circumflexcomb;
 );
 instances = (
 {
-customParameters = (
-{
-name = weightClass;
-value = 100;
-}
-);
 interpolationWidth = 72;
 instanceInterpolations = {
 "3D06B89B-468F-44E0-A3D7-A5BC6911123E" = 1;
@@ -158973,12 +158993,6 @@ name = Thin;
 weightClass = Thin;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 200;
-}
-);
 interpolationWeight = 165;
 interpolationWidth = 72;
 instanceInterpolations = {
@@ -158989,12 +159003,6 @@ name = ExtraLight;
 weightClass = ExtraLight;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 300;
-}
-);
 interpolationCustom = 1;
 interpolationWeight = 257;
 interpolationWidth = 72;
@@ -159006,12 +159014,6 @@ name = Light;
 weightClass = Light;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 400;
-}
-);
 interpolationCustom = 4;
 interpolationWeight = 385;
 interpolationWidth = 72;
@@ -159022,12 +159024,6 @@ instanceInterpolations = {
 name = Regular;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 500;
-}
-);
 interpolationCustom = 5;
 interpolationWeight = 450;
 interpolationWidth = 72;
@@ -159039,12 +159035,6 @@ name = Medium;
 weightClass = Medium;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 600;
-}
-);
 interpolationCustom = 6;
 interpolationWeight = 514;
 interpolationWidth = 72;
@@ -159056,12 +159046,6 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 700;
-}
-);
 interpolationCustom = 7;
 interpolationWeight = 642;
 interpolationWidth = 72;
@@ -159074,12 +159058,6 @@ name = Bold;
 weightClass = Bold;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 800;
-}
-);
 interpolationCustom = 8;
 interpolationWeight = 771;
 interpolationWidth = 72;
@@ -159091,12 +159069,6 @@ name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
-customParameters = (
-{
-name = weightClass;
-value = 900;
-}
-);
 interpolationCustom = 9;
 interpolationWeight = 900;
 interpolationWidth = 72;
@@ -163737,5 +163709,5 @@ HV = "40";
 };
 };
 versionMajor = 2;
-versionMinor = 0;
+versionMinor = 1;
 }

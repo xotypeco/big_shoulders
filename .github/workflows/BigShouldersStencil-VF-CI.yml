@@ -39,7 +39,10 @@ jobs:
         with:
           update-wheel: "true"
           update-setuptools: "true"
-
+      - name: Install ttfautohint
+        run: |
+          sudo apt-get update
+          sudo apt-get install ttfautohint
       - name: Build Big-Shoulders-Stencil VF fonts
         run: cd Big-Shoulders-Stencil && cd source && ./build-stencil.sh && cd ..
       - name: Fontbakery CI Stencil VF
@@ -47,5 +50,5 @@ jobs:
         with:
           version: "latest"
           subcmd: "check-googlefonts"
-          args: "-C --loglevel WARN"
-          path: "fonts/ttf/*.ttf"
+          args: "-C --succinct --loglevel WARN --ghmarkdown fonts/report.md"
+          path: "fonts/variable/*.ttf"

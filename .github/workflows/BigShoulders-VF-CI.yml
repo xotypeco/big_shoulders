@@ -39,18 +39,21 @@ jobs:
         with:
           update-wheel: "true"
           update-setuptools: "true"
-
+      - name: Install ttfautohint
+        run: |
+          sudo apt-get update
+          sudo apt-get install ttfautohint
       - name: Build Big-Shoulders fonts
         id: build_fonts
-        run: cd Big-Shoulders && cd sources && ./build.sh && cd ..
+        run: cd Big-Shoulders && cd sources && ./build-B.sh && cd ..
       - uses: actions/upload-artifact@v2
         with:
-          name: static-ttf-generated
-          path: fonts/ttf/*.ttf
+          name: vf-ttf-generated
+          path: fonts/variable/*.ttf
       - name: Fontbakery CI VF
         uses: f-actions/font-bakery@v1
         with:
           version: "latest"
           subcmd: "check-googlefonts"
           args: "-C --succinct --loglevel WARN --ghmarkdown fonts/report.md"
-          path: "fonts/ttf/*.ttf"
+          path: "fonts/variable/*.ttf"

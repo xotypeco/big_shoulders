@@ -18,7 +18,7 @@ jobs:
     strategy:
       matrix:
         python-version: [3.8]
-    name: Fontbakery CI - VF Fonts
+    name: Fontbakery Inline CI - VF Fonts
     steps:
       - name: Check out source repository
         uses: actions/checkout@v2
@@ -37,13 +37,16 @@ jobs:
         with:
           update-wheel: "true"
           update-setuptools: "true"
-          
+      - name: Install ttfautohint
+        run: |
+          sudo apt-get update
+          sudo apt-get install ttfautohint        
       - name: Build Big-Shoulders-Inline VF fonts
-        run: cd Big-Shoulders-Inline && cd sources && ./build-inline.sh && cd ..
+        run: cd Big-Shoulders-Inline && cd sources && ./build-B-Inline.sh && cd ..
       - name: Fontbakery CI Inline VF
         uses: f-actions/font-bakery@v1
         with:
           version: "latest"
           subcmd: "check-googlefonts"
-          args: "-C --loglevel WARN"
-          path: "fonts/ttf/*.ttf"
+          args: "-C --succinct --loglevel WARN --ghmarkdown fonts/report.md"
+          path: "fonts/variable/*.ttf"

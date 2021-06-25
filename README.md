@@ -40,7 +40,7 @@ Once the virtual environment is activated, run the build script that is on each 
 ```
 cd Big-Shoulders
 cd sources
-sh build.sh
+sh build-B.sh
 ```
 <br>
 

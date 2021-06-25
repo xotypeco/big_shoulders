@@ -20,7 +20,7 @@ jobs:
     strategy:
       matrix:
         python-version: [3.8]
-    name: Fontbakery CI - VF Fonts
+    name: Fontbakery Stencil CI - VF Fonts
     steps:
       - name: Check out source repository
         uses: actions/checkout@v2
@@ -44,7 +44,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install ttfautohint
       - name: Build Big-Shoulders-Stencil VF fonts
-        run: cd Big-Shoulders-Stencil && cd source && ./build-stencil.sh && cd ..
+        run: cd Big-Shoulders-Stencil && cd source && ./build-B-Stencil.sh && cd ..
       - name: Fontbakery CI Stencil VF
         uses: f-actions/font-bakery@v1
         with:

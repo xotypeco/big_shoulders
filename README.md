@@ -1,3 +1,5 @@
+# Big Shoulders
+
 Big Shoulders is a superfamily of condensed American Gothic variable fonts, created for the Chicago Design System, as well as the citizens of Chicago. The family&apos;s tall, sans-serif forms are based in Chicago&apos;s multiple histories in railway transport, public political action, and dance.
 
 ![Big Shoulders sample slide](Documentation/big-shoulders-sample-slide.png)
@@ -9,14 +11,6 @@ The entire family is hosted on Google Fonts.
 ## Build Instructions
 
 The Big Shoulders superfamily is composed by Big Shoulders, Big Shoulders Display, and Big Shoulders Inline.
-
-The source files can be found in the `sources` folder under the directory for each subfamily
-
-```
-    Big-Shoulders/sources
-    Big-Shoulders-Stencil/sources
-    Big-Shoulders-Inline/sources
-```
 
 The families are built using fontmake and gftools post processing script. Tools are all python based.
 
@@ -45,6 +39,17 @@ sh build-B.sh
 <br>
 
 ## Change log
+
+updated as of 08/27/2020
+
+Big Shoulders VF Text and Display version 2.002
+Stat table fix for publishing into Google Fonts
+
+Big Shoulders Inline VF Text and Display version 2.002
+Stat table fix for publishing into Google Fonts
+
+Big Shoulders Stencil VF Text and Display version 2.001
+Stat table fix for publishing into Google Fonts
 
 updated as of 04/17/2020
 

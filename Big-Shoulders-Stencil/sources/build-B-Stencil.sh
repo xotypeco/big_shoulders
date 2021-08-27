@@ -3,29 +3,34 @@ set -e
 #source ../venv/bin/activate
 
 
-echo "GENERATING VF"
-VF_FILE=../fonts/variable/BigShouldersStencil\[opsz,wght]\.ttf
+VF_FILE=BigShouldersStencil\[opsz,wght]\.ttf
+
+echo "BUILD BIG SHOULDERS STENCIL vf"
 gftools builder config.yml
 
-echo "Deleting unnecessary static fonts"
+
+echo "BUILD STENCIL TEXT vf"
+gftools builder BigS-St-vf-Text.yml
+fonttools varLib.instancer ../fonts/variable/text/$VF_FILE opsz=10 -o ../fonts/variable/text/BigShouldersStencilText\[wght\].ttf
+rm ../fonts/variable/text/$VF_FILE
+
+
+echo "BUILD STENCIL DISPLAY vf"
+gftools builder BigS-St-vf-Display.yml
+fonttools varLib.instancer ../fonts/variable/display/$VF_FILE opsz=72 -o ../fonts/variable/display/BigShouldersStencilDisplay\[wght\].ttf
+rm ../fonts/variable/display/$VF_FILE
+
+
+echo "Deleting unnecessary static ttf"
 mkdir -p ../fonts/ttf/delete-ttf
 mv ../fonts/ttf/BigShouldersStencil-*.ttf ../fonts/ttf/delete-ttf
-rm -rf ../fonts/ttf/delete-ttf
+rm ../fonts/ttf/delete-ttf
 
-mkdir -p ../fonts/otf/delete-otf
-mv ../fonts/otf/BigShouldersStencil-*.otf ../fonts/otf/delete-otf
-rm -rf ../fonts/otf/delete-otf
 
-echo "SPLITTING VF"
-echo "Big Shoulders Stencil Display"
-gftools rename-font $VF_FILE "Big Shoulders Stencil Display"
-mv ../fonts/variable/BigShouldersStencilDisplay\[opsz\,wght\].ttf ../fonts/variable/BigShouldersStencilDisplay\[wght\].ttf
-fonttools varLib.instancer ../fonts/variable/BigShouldersStencilDisplay\[wght\].ttf opsz=72 -o ../fonts/variable/BigShouldersStencilDisplay\[wght\].ttf
+echo "Deleting unnecessary static otf"
+mkdir -p ../fonts/ttf/delete-otf
+mv ../fonts/ttf/BigShouldersStencil-*.otf ../fonts/ttf/delete-otf
+rm ../fonts/ttf/delete-ttf
 
-Echo "Big Shoulders Stencil Text"
-gftools rename-font $VF_FILE "Big Shoulders Stencil Text"
-mv ../fonts/variable/BigShouldersStencilText\[opsz\,wght\].ttf ../fonts/variable/BigShouldersStencilText\[wght\].ttf
-python update_fvar.py ../fonts/variable/BigShouldersStencilText\[wght\].ttf
-fonttools varLib.instancer ../fonts/variable/BigShouldersStencilText\[wght\].ttf opsz=10 -o ../fonts/variable/BigShouldersStencilText\[wght\].ttf
 
 echo "DONE!"

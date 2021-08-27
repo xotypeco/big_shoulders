@@ -1,22 +1,12 @@
     sources:
       - BigShouldersStencil.glyphs
-    familyName: Big Shoulders Stencil
-    # buildOTF: False
-    # buildTTF: False
-    # buildWebfont: False
+    familyName: Big Shoulders Stencil Text
+    vfDir: ../fonts/variable/text
+    buildStatic: False
+    buildWebfont: False
     axisOrder:
-      - opsz
       - wght
     stat:
-      BigShouldersStencil[opsz,wght].ttf:
-      - name: Optical size
-        tag: opsz
-        values:
-        - name: Text
-          value: 10
-        - name: Display
-          value: 72
-          flags: 2
       - name: Weight
         tag: wght
         values:

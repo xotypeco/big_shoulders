@@ -1,5 +1,1 @@
 gftools
-fontbakery
-fontmake
-brotli
-git+https://github.com/googlefonts/ufo2ft

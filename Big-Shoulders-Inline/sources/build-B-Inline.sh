@@ -3,29 +3,34 @@ set -e
 #source ../venv/bin/activate
 
 
-echo "GENERATING VF"
-VF_FILE=../fonts/variable/BigShouldersInline\[opsz,wght]\.ttf
+VF_FILE=BigShouldersInline\[opsz,wght]\.ttf
+
+echo "BUILD BIG SHOULDERS INLINE vf"
 gftools builder config.yml
 
-echo "Deleting unnecessary static fonts"
+
+echo "BUILD INLINE TEXT vf"
+gftools builder BigS-In-vf-Text.yml
+fonttools varLib.instancer ../fonts/variable/text/$VF_FILE opsz=10 -o ../fonts/variable/text/BigShouldersInlineText\[wght\].ttf
+rm ../fonts/variable/text/$VF_FILE
+
+
+echo "BUILD INLINE DISPLAY vf"
+gftools builder BigS-In-vf-Display.yml
+fonttools varLib.instancer ../fonts/variable/display/$VF_FILE opsz=72 -o ../fonts/variable/display/BigShouldersInlineDisplay\[wght\].ttf
+rm ../fonts/variable/display/$VF_FILE
+
+
+echo "Deleting unnecessary static ttf"
 mkdir -p ../fonts/ttf/delete-ttf
 mv ../fonts/ttf/BigShouldersInline-*.ttf ../fonts/ttf/delete-ttf
-rm -rf ../fonts/ttf/delete-ttf
+rm ../fonts/ttf/delete-ttf
 
-mkdir -p ../fonts/otf/delete-otf
-mv ../fonts/otf/BigShouldersInline-*.otf ../fonts/otf/delete-otf
-rm -rf ../fonts/otf/delete-otf
 
-echo "SPLITTING VF"
-echo "Big Shoulders Display"
-gftools rename-font $VF_FILE "Big Shoulders Inline Display"
-mv ../fonts/variable/BigShouldersInlineDisplay\[opsz\,wght\].ttf ../fonts/variable/BigShouldersInlineDisplay\[wght\].ttf
-fonttools varLib.instancer ../fonts/variable/BigShouldersInlineDisplay\[wght\].ttf opsz=72 -o ../fonts/variable/BigShouldersInlineDisplay\[wght\].ttf
+echo "Deleting unnecessary static otf"
+mkdir -p ../fonts/ttf/delete-ttf
+mv ../fonts/ttf/BigShouldersInline-*.ttf ../fonts/ttf/delete-ttf
+rm ../fonts/ttf/delete-ttf
 
-Echo "Big Shoulders Text"
-gftools rename-font $VF_FILE "Big Shoulders Inline Text"
-mv ../fonts/variable/BigShouldersInlineText\[opsz\,wght\].ttf ../fonts/variable/BigShouldersInlineText\[wght\].ttf
-python update_fvar.py ../fonts/variable/BigShouldersInlineText\[wght\].ttf
-fonttools varLib.instancer ../fonts/variable/BigShouldersInlineText\[wght\].ttf opsz=10 -o ../fonts/variable/BigShouldersInlineText\[wght\].ttf
 
 echo "DONE!"

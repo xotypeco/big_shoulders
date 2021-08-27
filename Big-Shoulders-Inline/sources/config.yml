@@ -1,6 +1,9 @@
     sources:
       - BigShouldersInline.glyphs
     familyName: Big Shoulders Inline
+    # buildOTF: False
+    # buildTTF: False
+    # buildWebfont: False
     axisOrder:
       - opsz
       - wght

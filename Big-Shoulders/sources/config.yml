@@ -3,6 +3,7 @@
     familyName: Big Shoulders
     # buildOTF: False
     # buildTTF: False
+    # buildWebfont: False
     axisOrder:
       - opsz
       - wght

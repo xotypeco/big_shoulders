@@ -3,6 +3,7 @@
     familyName: Big Shoulders Stencil
     # buildOTF: False
     # buildTTF: False
+    # buildWebfont: False
     axisOrder:
       - opsz
       - wght

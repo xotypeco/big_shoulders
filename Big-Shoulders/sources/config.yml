@@ -1,6 +1,7 @@
     sources:
       - BigShoulders.glyphs
     familyName: Big Shoulders
+    autohintOTF: false
     # buildOTF: False
     # buildTTF: False
     # buildWebfont: False

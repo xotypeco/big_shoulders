@@ -1,6 +1,7 @@
     sources:
       - BigShouldersStencil.glyphs
     familyName: Big Shoulders Stencil
+    autohintOTF: false
     # buildOTF: False
     # buildTTF: False
     # buildWebfont: False

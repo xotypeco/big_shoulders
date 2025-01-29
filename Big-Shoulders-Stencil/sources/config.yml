@@ -13,9 +13,9 @@
       - name: Optical size
         tag: opsz
         values:
-        - name: Text
+        - name: 10pt
           value: 10
-        - name: Display
+        - name: 72pt
           value: 72
           flags: 2
       - name: Weight

@@ -4,7 +4,7 @@ Big Shoulders is a superfamily of condensed American Gothic variable fonts, crea
 
 ![Big Shoulders sample slide](Documentation/big-shoulders-sample-slide.png)
 
-The entire family is hosted on Google Fonts.
+The entire family is hosted on Google Fonts. It can also be found at xotype.co, or in Adobe Creative Cloud.
 
 <br>
 

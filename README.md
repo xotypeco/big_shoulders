@@ -10,7 +10,7 @@ The entire family is hosted on Google Fonts.
 
 ## Build Instructions
 
-The Big Shoulders superfamily is composed by Big Shoulders, Big Shoulders Display, and Big Shoulders Inline.
+The Big Shoulders superfamily is composed of Big Shoulders, Big Shoulders Stencil, and Big Shoulders Inline.
 
 The families are built using fontmake and gftools post processing script. Tools are all python based.
 

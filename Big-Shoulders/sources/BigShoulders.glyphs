@@ -900,7 +900,7 @@ sub rlinebelow.sc by rlinebelow.sc.ss01;
 labels = (
 {
 language = dflt;
-value = "a y g open loops";
+value = "a y g open loops, R leg";
 }
 );
 tag = ss01;

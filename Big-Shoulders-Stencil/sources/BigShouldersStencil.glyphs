@@ -903,6 +903,12 @@ sub rdotbelow.sc by rdotbelow.sc.ss01;
 sub rinvertedbreve.sc by rinvertedbreve.sc.ss01;
 sub rlinebelow.sc by rlinebelow.sc.ss01;
 ";
+labels = (
+{
+language = dflt;
+value = "a y g open loops, R leg";
+}
+);
 tag = ss01;
 }
 );
